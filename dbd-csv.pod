@@ -1,0 +1,294 @@
+
+=head1 DBD::CSV and DBD::File
+
+=begin docbook
+<!-- The following blank =head1 is to allow us to use purely =head2 headings -->
+<!-- This keeps the POD fairly simple with regards to Pod::DocBook -->
+
+=end docbook
+
+=head1
+
+=head2 Version
+
+Version 0.1019.
+
+C<DBD::File> is an abstract general purpose driver for treating files as
+database tables and designed to be subclassed rather than used directly.
+C<DBD::CSV> is a subclass of C<DBD::File> for working with files that
+typically store one row per text line with fields separated with a
+comma, semicolon or tab character, typically called CSV files.
+
+=head2 Author and Contact Details
+
+The driver author is Jochen Wiedmann.  He can be contacted via the
+I<dbi-users> mailing list.
+
+
+=head2 Supported Database Versions and Options
+
+The C<DBD::File> driver works with the C<SQL::Statement> module, version 0.1011
+or later. This module is a simple SQL parser and evaluator. In
+particular it is restricted to single table queries. Table joins are not
+supported.
+
+The C<DBD::CSV> driver internally uses the C<Text::CSV_XS> module, version 0.16
+or later, for reading and writing CSV files.
+
+It's important to note that while just about everyone thinks they know
+what the CSV file format is, there is actually no formal definition of
+the format and there are many subtle differences.
+
+=head2 Connect Syntax
+
+The C<DBI-E<gt>connect()> Data Source Name, or I<DSN>, can be one of the following:
+
+  dbi:CSV:
+  dbi:CSV:attrs
+
+where C<attrs> is an optional semicolon-separated list of I<key=value>
+pairs. Note that you must not use C<dbi:File:>, as the C<DBD::File> driver
+is an abstract superclass and not usable by itself.
+
+Known attributes include:
+
+=over 8
+
+=item I<f_dir=E<lt>directoryE<gt>>
+
+By default files in the current directory are treated as tables.
+The attribute I<f_dir> makes the module open files in the given
+directory.
+
+=item I<csv_eol>
+
+=item I<csv_sep_char>
+
+=item I<csv_quote_char>
+
+=item I<csv_escape_char>
+
+These attributes are used for describing the CSV file format in use. For
+example, to open F</etc/passwd>, which is colon-separated and line-feed 
+terminated, as a table, one would use:
+
+  csv_eol=\n;csv_sep_char=:
+
+The defaults are C<\r\n>, comma (C<,>), double-quote (C<">), and double-quote (C<">)
+respectively.
+All of these attributes and defaults are inherited from the
+C<Text::CSV_XS> module.
+
+=back
+
+
+=head2 Numeric Data Handling
+
+Without question, the main disadvantage of the C<DBD::CSV> module is the
+lack of appropriate type handling. While reading a CSV table you have
+no way to reliably determine the correct data type of the fields. All
+fields look like strings and are treated as such by default.
+
+The C<SQL::Statement> module, and hence the C<DBD::CSV> driver, accepts
+the numeric types INTEGER and REAL in C<CREATE TABLE> statements, but
+they are always stored as strings and, by default, retrieved as strings.
+
+It is possible to read individual columns as integers or doubles, in which
+case they are converted to Perl's internal data types IV and NV,
+integer and numeric value respectively.  Unsigned values are not supported.
+
+To assign certain data types to columns, you have to create I<metadata
+definitions>. The following example reads a table F<table_name> with columns
+I<I>, I<N>, and I<P> of type integer, double, and string, respectively:
+
+  my $dbh = DBI->connect("DBI:CSV:");
+  $dbh->{csv_tables}->{table_name}->{types} =
+      [ C<Text::CSV_XS>::IV(), C<Text::CSV_XS>::NV(),
+        C<Text::CSV_XS>::PV() ];
+  # Note, we assume a certain order of I, N and P!
+  my $sth = $dbh->prepare("SELECT * FROM foo");
+
+
+=head2 String Data Handling
+
+Similar to numeric values, C<DBD::CSV> accepts more data types in
+C<CREATE TABLE> statements than it really supports.  You can use CHAR(I<n>)
+and VARCHAR(I<n>) with arbitrary numbers I<n>, BLOB, or TEXT, but in fact
+these are always BLOBs, in a loose kind of way.
+
+The one underlying string type can store any binary data including
+embedded NUL characters.  However, many other CSV tools may choke if given
+such data.
+
+=head2 Date Data Handling
+
+No date or time types are directly supported.
+
+=head2 LONG/BLOB Data Handling
+
+BLOBs are equivalent to strings. They are only limited in size by
+available memory.
+
+=head2 Other Data Handling issues
+
+The C<type_info_all()> method is supported and returns the types VARCHAR,
+CHAR, INTEGER, REAL, BLOB and TEXT.
+
+=head2 Transactions, Isolation and Locking
+
+The driver doesn't support transactions.
+
+No explicit locks are supported. Tables are locked while statements
+are executed, but the lock is immediately released once the statement
+is completed.
+
+=head2 No-Table Expression Select Syntax
+
+You can only retrieve table data. It is not possible to select constants.
+
+=head2 Table Join Syntax
+
+Table joins are not supported.
+
+=head2 Table and Column Names
+
+Table and column names are case sensitive. However, you should consider
+that table names are in fact file names, so tables F<Foo> and F<foo>
+may both be present with the same data. However, they may be subject
+to different metadata definitions in C<$dbh-E<gt>{'csv_tables'}>.
+
+See L</Table Metadata> for more details on table and column names.
+
+=head2 Case Sensitivity of LIKE Operator
+
+Two different LIKE operators are supported.  LIKE is case sensitive,
+whereas CLIKE is not.
+
+=head2 Row ID
+
+Row IDs are not supported.
+
+=head2 Automatic Key or Sequence Generation
+
+Neither automatic keys nor sequences are supported.
+
+=head2 Automatic Row Numbering and Row Count Limiting
+
+Neither automatic row numbering nor row count limitations are
+supported.
+
+=head2 Parameter Binding
+
+Question marks are supported as placeholders, as in:
+
+  $dbh->do("INSERT INTO A VALUES (?, ?)", undef, $id, $name);
+
+The C<:1> placeholder style is not supported.
+
+=head2 Stored Procedures
+
+Stored procedures are not supported.
+
+=head2 Table Metadata
+
+By default the driver expects the column names being stored in the
+tables first row, as in:
+
+	login:password:uid:gid:comment:shell:homedir
+	root:s34hj34n34jh:0:0:Superuser:/bin/bash:/root
+
+If column names are not present, you may specifiy column names via:
+
+	$dbh->{csv_tables}->{$table}->{skip_rows} = 0;
+	$dbh->{csv_tables}->{$table}->{col_names} =
+	    [qw(login password uid gid comment shell homedir)];
+
+in which case the first row is handled as a data row.
+
+If column names are not supplied and not read from the first row,
+the names I<col0>, I<col1>, ... are generated automatically. Column
+names can be retrieved via the standard C<$sth-E<gt>{NAME}> attribute.
+
+The I<NULLABLE> attribute returns an array of all ones. Other
+metadata attributes are not supported.
+
+The table names, or file names, can be read via C<$dbh-E<gt>table_info()>
+or C<$dbh-E<gt>tables()> as usual.
+
+=head2 Driver-specific Attributes and Methods
+
+Besides the attributes I<f_dir>, I<csv_eol>, I<csv_sep_char>,
+I<csv_quote_char> and I<csv_sep_char> that have already been
+discussed above, the most important database handle attribute is:
+
+  $dbh->{csv_tables}
+
+C<csv_tables> is used for specifying table metadata. It is an hash ref with
+table names as keys, the values being hash refs with the following
+attributes:
+
+=over 8
+
+=item I<file>
+
+The file name being associated to the table.  By default, the
+file name is
+C<$dbh-E<gt>{f_dir}/$table>.
+
+=item I<col_names>
+
+An array ref of column names.
+
+=item I<skip_rows>
+
+This number of rows will be read from the top of the file before
+reading the table data, and the first of those will be treated as an
+array of column names. However, the I<col_names> attribute takes precedence.
+
+=item I<types>
+
+This is an array ref of the C<Text::CSV_XS> type values for the
+corresponding columns. Three types are supported and their values are
+defined by the C<IV()>, C<NV()>, and C<PV()> functions in the C<Text::CSV_XS>
+package.
+
+=back
+
+
+There are no driver specific statement handle attributes and no
+private methods for either type of handle.
+
+
+=head2 Positioned updates and deletes
+
+Positioned updates and deletes are not supported.
+
+
+=head2 Differences from the DBI Specification
+
+The statement handle attributes I<PRECISION>, I<SCALE>, and I<TYPE> are not
+supported.
+
+Also note that many statement attributes cease to be available after
+fetching all the result rows or calling the C<finish()> method.
+
+
+=head2 URLs to More Database/Driver Specific Information
+
+  http://www.whatis.com/csvfile.htm
+
+=head2 Concurrent use of Multiple Handles
+
+The number of database handles is limited by memory only. It is
+recommended to use multiple database handles for different table
+formats.
+
+There are no limitations on the use of multiple statement handles from
+the same C<$dbh>.
+
+The driver is believed to be completely thread safe.
+
+=cut
+# This driver summary for C<DBD::CSV> is Copyright (c) 1999 Tim Bunce.
+# (With many thanks to Jochen Wiedmann.)
+# $Id: dbd-csv.pod,v 1.5 1999/05/16 13:09:17 timbo Exp timbo $

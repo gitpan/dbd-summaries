@@ -1,0 +1,893 @@
+%PDF-1.1
+%‚„œ”
+2 0 obj
+<<
+/Length 3018
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+54.03 706.95 m
+79.23 706.95 l
+90.03 717.75 m
+90.03 742.95 l
+522.03 742.95 m
+522.03 717.75 l
+532.83 706.95 m
+558.03 706.95 l
+S
+BT
+/F8 1 Tf
+96 0 0 96 438 589.55 Tm
+/CS1 cs 0 sc
+0 Tc
+0 Tw
+(1)Tj
+/F6 1 Tf
+24 0 0 24 368.688 535.55 Tm
+(DBD::ADO)Tj
+14 0 0 14 126 483.25 Tm
+[(V)111(ersion)]TJ
+/F8 1 Tf
+10 0 0 10 126 465.25 Tm
+[(V)111(ersion 0.03.)]TJ
+0 -1.9 TD
+0.208 Tw
+(At the time of this writing, the)Tj
+/F4 1 Tf
+9 0 0 9 264.132 446.25 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 307.037 446.25 Tm
+0 Tc
+[(dri)25(v)15(e)0(r)-458(e)25(v)15(e)0(n)-458(ADO itself are relati)25(v)15(ely ne)25(w)65(.)]TJ
+-18.1037 -1.3 TD
+0 Tw
+(Things are bound to change, so be sure to read the latest documentation.)Tj
+/F6 1 Tf
+14 0 0 14 126 404.45 Tm
+[(A)30(uthor and Contact Details)]TJ
+/F8 1 Tf
+10 0 0 10 126 386.45 Tm
+0.132 Tw
+[(The dri)25(v)15(e)0(r)-382(maintainer is Phlip Plumlee. He can be contacted via the)]TJ
+/F2 1 Tf
+28.848 0 TD
+[(dbi-user)10(s)]TJ
+/F8 1 Tf
+4.0942 0 TD
+(mailing)Tj
+-32.9421 -1.3 TD
+(list.)Tj
+/F6 1 Tf
+14 0 0 14 126 344.65 Tm
+0 Tw
+[(Supported Database V)111(ersions and Options)]TJ
+/F8 1 Tf
+10 0 0 10 126 326.65 Tm
+(The)Tj
+/F4 1 Tf
+9 0 0 9 145.776 326.65 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 188.651 326.65 Tm
+0 Tc
+0.205 Tw
+[(module requires Microsoft ADO v)15(ersion 2.1 or later to w)10(ork reliably)65(.)]TJ
+-6.2651 -1.3 TD
+0.048 Tw
+[(Using NT with Service P)15(ack 4 is recommended. The module is pure Perl, making use of)]TJ
+T*
+(the)Tj
+/F4 1 Tf
+9 0 0 9 140.394 300.65 Tm
+-0.072 Tc
+(Win32::OLE)Tj
+/F8 1 Tf
+10 0 0 10 190.717 300.65 Tm
+0 Tc
+0 Tw
+(module to handle the ADO requests.)Tj
+-6.4717 -1.9 TD
+(The)Tj
+/F4 1 Tf
+9 0 0 9 144.844 281.65 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 186.787 281.65 Tm
+0 Tc
+0.112 Tw
+[(module supports SQL statements into an)15(ything your ra)15(w)-362(ADO supports.)]TJ
+-6.0787 -1.3 TD
+0.137 Tw
+[(This can include the Jet data dri)25(v)15(ers for the v)25(arious Microsoft Of)25(\214ce \214le formats, an)15(y)]TJ
+T*
+0.158 Tw
+[(number of ODBC data dri)25(v)15(ers, or e)15(xperimental data pro)15(viders that e)15(xpose \214le system)]TJ
+T*
+0 Tw
+(folder heirarchies or Internet directory services as data sources.)Tj
+0 -1.9 TD
+0.158 Tw
+[(Each pro)15(vider system v)25(ariously supports SQL, either in a nati)25(v)15(e)15( )-15(format lik)10(e)-408(MS-SQL)]TJ
+0 -1.3 TD
+0.106 Tw
+[(Serv)15(er')55(s)-356(T)35(ransact SQL or as an emulation layer in the data pro)15(vider)40(,)-356(such as a Jet data)]TJ
+T*
+0 Tw
+[(dri)25(v)15(e)0(r)-250(reading an Excel spreadsheet.)]TJ
+/F6 1 Tf
+14 0 0 14 126 134.002 Tm
+(Connect Syntax)Tj
+9 0 0 9 481.5 79.25 Tm
+(1)Tj
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+9 0 obj
+[/CalGray <<
+/Gamma 1.8
+/WhitePoint [0.951 1 1.089]
+>>
+]
+endobj
+12 0 obj
+<<
+/Length 4637
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+0 Tw
+(2)Tj
+34.862 0 TD
+(DBD::ADO)Tj
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+(The)Tj
+/F4 1 Tf
+9 0 0 9 143.724 643.622 Tm
+-0.072 Tc
+(DBI->connect\(\))Tj
+/F8 1 Tf
+10 0 0 10 213.046 643.622 Tm
+0 Tc
+(Data Source Name, or)Tj
+/F2 1 Tf
+9.1355 0 TD
+(DSN)Tj
+/F8 1 Tf
+2.1389 0 TD
+[(has the follo)25(wing format:)]TJ
+/F4 1 Tf
+8 0 0 8 152.155 624.622 Tm
+-0.072 Tc
+(dbi:ADO:DSN)Tj
+/F8 1 Tf
+10 0 0 10 126 605.622 Tm
+0 Tc
+0.171 Tw
+[(Where DSN must be an ODBC Data Source Name re)15(gistered with the Control P)15(anel)]TJ
+0 -1.3 TD
+0.125 Tw
+(ODBC Data Sources applet. If your DBI application runs as a service, or daemon, the)Tj
+T*
+0 Tw
+[(DSN must appear on the `)74(`System DSN')74(')-250(tab)40(.)-250(A)-250(CGI application is the ob)15(vious e)15(xample.)]TJ
+0 -1.9 TD
+[(There are no dri)25(v)15(e)0(r)-250(speci\214c attrib)20(utes for the)]TJ
+/F4 1 Tf
+9 0 0 9 306.124 560.622 Tm
+-0.072 Tc
+(DBI->connect\(\))Tj
+/F8 1 Tf
+10 0 0 10 375.446 560.622 Tm
+0 Tc
+(method.)Tj
+/F6 1 Tf
+14 0 0 14 126 531.822 Tm
+(Numeric Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 513.822 Tm
+0.036 Tw
+(The numeric, string, and date data types depend on the interaction of four forces: What a)Tj
+0 -1.3 TD
+0.049 Tw
+[(Perl `)74(`scalar')74(')-299(supports, ho)25(w)-299(the)]TJ
+/F4 1 Tf
+9 0 0 9 257.459 500.822 Tm
+-0.072 Tc
+(Win32::OLE)Tj
+/F8 1 Tf
+10 0 0 10 308.27 500.822 Tm
+0 Tc
+[(layer translates V)135(ARIANTs into scalars, the)]TJ
+-18.227 -1.3 TD
+0 Tw
+[(types that V)135(ARIANT itself permits, and the types your tar)18(get pro)15(vider emits.)]TJ
+0 -1.9 TD
+0.227 Tw
+[(A)-477(user)20(-programmer must research those forces in their rele)25(v)25(ant documentation. Rest)]TJ
+0 -1.3 TD
+0 Tw
+(assured that)Tj
+/F4 1 Tf
+9 0 0 9 175.662 455.822 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 216.485 455.822 Tm
+0 Tc
+[(will then transmit the type correctly)65(.)]TJ
+/F6 1 Tf
+14 0 0 14 126 427.022 Tm
+(String Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 409.022 Tm
+0.25 Tw
+[(See abo)15(v)15(e)0(.)]TJ
+/F6 1 Tf
+14 0 0 14 126 380.222 Tm
+0 Tw
+(Date Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 362.222 Tm
+0.25 Tw
+[(See abo)15(v)15(e)0(.)]TJ
+/F6 1 Tf
+14 0 0 14 126 333.422 Tm
+0 Tw
+(LONG/BLOB Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 315.422 Tm
+0.25 Tw
+[(See abo)15(v)15(e)0(.)]TJ
+/F6 1 Tf
+14 0 0 14 126 286.622 Tm
+0 Tw
+(Other Data Handling issues)Tj
+/F8 1 Tf
+10 0 0 10 126 268.622 Tm
+(The)Tj
+/F4 1 Tf
+9 0 0 9 143.724 268.622 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 184.547 268.622 Tm
+0 Tc
+[(dri)25(v)15(e)0(r)-250(does not yet support the)]TJ
+/F4 1 Tf
+9 0 0 9 308.245 268.622 Tm
+-0.072 Tc
+(type_info\(\))Tj
+/F8 1 Tf
+10 0 0 10 363.318 268.622 Tm
+0 Tc
+(method.)Tj
+/F6 1 Tf
+14 0 0 14 126 239.822 Tm
+[(T)37(ransactions, Isolation and Loc)10(king)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 221.822 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 167.248 221.822 Tm
+0 Tc
+0.075 Tw
+[(re\215ects the capabilities of the nati)25(v)15(e)]TJ
+/F2 1 Tf
+15.0725 0 TD
+(Connection)Tj
+/F8 1 Tf
+4.9356 0 TD
+[(to the user)55(.)-325(T)35(ransactions, if a)]TJ
+-24.133 -1.3 TD
+0.068 Tw
+[(pro)15(vider supports them, are per connection - all statements deri)25(v)15(e)0(d)-318(from one connection)]TJ
+T*
+0.15 Tw
+[(will `)74(`see')74(')-400(updates to that data that a)15(w)10(ait a)]TJ
+/F4 1 Tf
+9 0 0 9 312.72 195.822 Tm
+-0.072 Tc
+(COMMIT)Tj
+/F8 1 Tf
+10 0 0 10 345.548 195.822 Tm
+0 Tc
+(statement. Other connections, if a)Tj
+-21.9548 -1.3 TD
+0 Tw
+[(pro)15(vider supports them, will not see these updates.)]TJ
+0 -1.9 TD
+0.032 Tw
+[(ADO supports 4 locking le)25(v)15(els. Databases can be v)15(ery sensiti)25(v)15(e)15( )-15(to)-282(the lock typed pick)10(ed.)]TJ
+0 -1.3 TD
+0.09 Tw
+[(If you pick the wrong type and then BEGIN a lar)18(ge TRANSA)40(CTION, the locking type)]TJ
+T*
+0.015 Tw
+[(can escalate up to lock nearly e)25(v)15(erything.)]TJ
+/F4 1 Tf
+9 0 0 9 294.641 137.822 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 335.62 137.822 Tm
+0 Tc
+0.016 Tw
+[(should e)15(xpose these le)25(v)15(els to the user)]TJ
+-20.962 -1.3 TD
+0 Tw
+[(for tuning, b)20(ut currently doesn')18(t.)]TJ
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+15 0 obj
+<<
+/Length 3075
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F6 1 Tf
+14 0 0 14 126 640.622 Tm
+/CS1 cs 0 sc
+0 Tc
+0 Tw
+[(No-T)92(able Expression Select Syntax)]TJ
+/F8 1 Tf
+10 0 0 10 126 622.622 Tm
+[(Dependent on the data pro)15(vider associated with the database handle.)]TJ
+/F6 1 Tf
+14 0 0 14 126 593.822 Tm
+[(T)92(able J)40(oin Syntax)]TJ
+/F8 1 Tf
+10 0 0 10 126 575.822 Tm
+[(Dependent on the data pro)15(vider associated with the database handle.)]TJ
+/F6 1 Tf
+14 0 0 14 126 547.022 Tm
+[(T)92(able and Column Names)]TJ
+/F8 1 Tf
+10 0 0 10 126 529.022 Tm
+[(Dependent on the data pro)15(vider associated with the database handle.)]TJ
+/F6 1 Tf
+14 0 0 14 126 500.222 Tm
+(Case Sensitivity of LIKE Operator)Tj
+/F8 1 Tf
+10 0 0 10 126 482.222 Tm
+[(Dependent on the data pro)15(vider associated with the database handle.)]TJ
+/F6 1 Tf
+14 0 0 14 126 453.422 Tm
+[(Ro)25(w)-250(I)0(D)]TJ
+/F8 1 Tf
+10 0 0 10 126 435.422 Tm
+[(Dependent on the data pro)15(vider associated with the database handle.)]TJ
+/F6 1 Tf
+14 0 0 14 126 406.622 Tm
+[(A)30(utomatic K)25(ey or Sequence Generation)]TJ
+/F8 1 Tf
+10 0 0 10 126 388.622 Tm
+[(Dependent on the data pro)15(vider associated with the database handle.)]TJ
+/F6 1 Tf
+14 0 0 14 126 359.822 Tm
+[(A)30(utomatic Ro)25(w)-250(Numbering and Ro)25(w)-250(Count Limiting)]TJ
+/F8 1 Tf
+10 0 0 10 126 341.822 Tm
+[(Dependent on the data pro)15(vider associated with the database handle.)]TJ
+/F6 1 Tf
+14 0 0 14 126 313.022 Tm
+[(P)40(arameter Binding)]TJ
+/F8 1 Tf
+10 0 0 10 126 295.022 Tm
+[(P)15(arameter binding is not yet supported by)]TJ
+/F4 1 Tf
+9 0 0 9 295.225 295.022 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 333.548 295.022 Tm
+0 Tc
+(.)Tj
+-20.7548 -1.9 TD
+[(Unsupported v)25(alues of the TYPE attrib)20(ute do not currently generate a w)10(arning.)]TJ
+/F6 1 Tf
+14 0 0 14 126 247.222 Tm
+(Stored Procedures)Tj
+/F8 1 Tf
+10 0 0 10 126 229.222 Tm
+(Calling stored procedures is not yet supported by)Tj
+/F4 1 Tf
+9 0 0 9 324.533 229.222 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 362.856 229.222 Tm
+0 Tc
+(.)Tj
+/F6 1 Tf
+14 0 0 14 126 200.422 Tm
+[(T)92(able Metadata)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 182.422 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 166.546 182.422 Tm
+0 Tc
+0.005 Tw
+(does not currently support the)Tj
+/F4 1 Tf
+9 0 0 9 288.384 182.422 Tm
+-0.072 Tc
+(table_info\(\))Tj
+/F8 1 Tf
+10 0 0 10 348.253 182.422 Tm
+0 Tc
+[(method. It a)15(w)10(aits the needed slack)]TJ
+-22.2253 -1.3 TD
+0 Tw
+[(time and/or other v)20(olunteers.)]TJ
+/F6 1 Tf
+14 0 0 14 126 134.002 Tm
+[(Driv)15(er-specific Attrib)20(utes and Methods)]TJ
+9 0 0 9 126 672.75 Tm
+(DBD::ADO )Tj
+39.4998 0 TD
+(3)Tj
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+16 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+18 0 obj
+<<
+/Length 2555
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+0 Tw
+(4)Tj
+34.862 0 TD
+(DBD::ADO)Tj
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F4 1 Tf
+9 0 0 9 125.675 643.622 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 166.498 643.622 Tm
+0 Tc
+[(has no signi\214cant dri)25(v)15(e)0(r)20(-speci\214c handle attrib)20(utes or pri)25(v)25(ate methods.)]TJ
+/F6 1 Tf
+14 0 0 14 126 614.822 Tm
+[(P)55(ositioned updates and deletes)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 596.822 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 166.498 596.822 Tm
+0 Tc
+(does not support positioned updates or deletes.)Tj
+/F6 1 Tf
+14 0 0 14 126 568.022 Tm
+[(Dif)18(f)10(erences from the DBI Specification)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 550.022 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 166.574 550.022 Tm
+0 Tc
+0.008 Tw
+[(is a v)15(ery ne)25(w)-258(and currently incomplete dri)25(v)15(e)0(r)55(.)55( )-55(It)-258(is)-258(e)25(v)20(olving rapidly though, and)]TJ
+-4.0574 -1.3 TD
+0 Tw
+[(since it')55(s)-250(written in pure Perl using)]TJ
+/F4 1 Tf
+9 0 0 9 267.607 537.022 Tm
+-0.072 Tc
+(Win32::OLE)Tj
+/F8 1 Tf
+10 0 0 10 315.429 537.022 Tm
+0 Tc
+[(,)-250(it')55(s)-250(easy for people to enhance.)]TJ
+/F6 1 Tf
+14 0 0 14 126 508.222 Tm
+[(URLs to More Database/Driv)15(er Specific Inf)10(ormation)]TJ
+/F8 1 Tf
+10 0 0 10 126 490.222 Tm
+(Information about ADO can be found at)Tj
+/F2 1 Tf
+16.301 0 TD
+[(http://www)74(.micr)45(osoft.com/data/ado/)]TJ
+/F8 1 Tf
+14.3821 0 TD
+(.)Tj
+/F6 1 Tf
+14 0 0 14 126 461.422 Tm
+(Concurrent use of Multiple Handles)Tj
+/F4 1 Tf
+9 0 0 9 125.675 443.422 Tm
+-0.072 Tc
+(DBD::ADO)Tj
+/F8 1 Tf
+10 0 0 10 167.133 443.422 Tm
+0 Tc
+0.063 Tw
+(supports an unlimited number of concurrent data source connections to one or)Tj
+-4.1133 -1.3 TD
+0 Tw
+(more data sources subject to the limitations of those data sources.)Tj
+0 -1.9 TD
+0.024 Tw
+[(It also supports the preparation and e)15(x)15(ecution of a ne)25(w)-274(statement handle while still fetch-)]TJ
+0 -1.3 TD
+0.03 Tw
+(ing data from another statement handle associated with the same database handle. This is)Tj
+T*
+0 Tw
+(also subject to the limitations of the data source.)Tj
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+19 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+20 0 obj
+<<
+/Type /Halftone
+/HalftoneType 1
+/HalftoneName (Default)
+/Frequency 60
+/Angle 45
+/SpotFunction /Round
+>>
+endobj
+8 0 obj
+<<
+/Type /ExtGState
+/SA false
+/OP false
+/BG /Identity
+/UCR /Identity
+/HT /Default
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F2
+/Encoding 21 0 R
+/BaseFont /Times-Italic
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F4
+/Encoding 21 0 R
+/BaseFont /Courier
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F6
+/Encoding 21 0 R
+/BaseFont /Times-BoldItalic
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F8
+/Encoding 21 0 R
+/BaseFont /Times-Roman
+>>
+endobj
+21 0 obj
+<<
+/Type /Encoding
+/Differences [ 0/asciicircum/asciitilde/Scaron/Zcaron/scaron/zcaron/Ydieresis/trademark
+/quotesingle 94/circumflex 126/tilde 128/quotesinglbase/guillemotleft/guillemotright/bullet/florin
+/fraction/perthousand/dagger/daggerdbl/endash/emdash/ff/fi
+/fl/ffi/ffl/dotlessi/dotlessj/grave/hungarumlaut/dotaccent
+/breve/caron/ring/ogonek/quotedblleft/quotedblright/oe/lslash
+/quotedblbase/OE/Lslash 164/currency 166/brokenbar 168/dieresis/copyright/ordfeminine
+/guilsinglleft/logicalnot/minus/registered/macron/degree/plusminus/twosuperior
+/threesuperior/acute/mu 183/periodcentered/cedilla/onesuperior/ordmasculine/guilsinglright
+/onequarter/onehalf/threequarters 192/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave
+/Iacute/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex
+/Otilde/Odieresis/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis
+/Yacute/Thorn/germandbls/agrave/aacute/acircumflex/atilde/adieresis
+/aring/ae/ccedilla/egrave/eacute/ecircumflex/edieresis/igrave
+/iacute/icircumflex/idieresis/eth/ntilde/ograve/oacute/ocircumflex
+/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex/udieresis
+/yacute/thorn/ydieresis
+]
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 16 0 R
+/Contents 15 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 19 0 R
+/Contents 18 0 R
+>>
+endobj
+10 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 11 0 R 14 0 R 17 0 R]
+/Count 4
+/MediaBox [0 0 595 841]
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 10 0 R
+>>
+endobj
+23 0 obj
+<<
+/CreationDate (D:19990519120131)
+/Producer (\376\377\000A\000c\000r\000o\000b\000a\000t\000 \000D\000i\000s\000t\000i\000l\000l\000e\000r\000 \0003\000.\0000\0001\000 \000f\000o\000r\000 \000W\000i\000n\000d\000o\000w\000s)
+/Creator (groff version 1.11)
+>>
+endobj
+xref
+0 24
+0000000000 65535 f
+0000016220 00000 n
+0000000017 00000 n
+0000003093 00000 n
+0000014531 00000 n
+0000014640 00000 n
+0000014744 00000 n
+0000014857 00000 n
+0000014421 00000 n
+0000003263 00000 n
+0000016585 00000 n
+0000016309 00000 n
+0000003342 00000 n
+0000008038 00000 n
+0000016401 00000 n
+0000008209 00000 n
+0000011343 00000 n
+0000016493 00000 n
+0000011503 00000 n
+0000014117 00000 n
+0000014288 00000 n
+0000014965 00000 n
+0000016696 00000 n
+0000016753 00000 n
+trailer
+<<
+/Size 24
+/Root 22 0 R
+/Info 23 0 R
+/ID [<50b98f52e90e159e9a6faba6ea09c33a><50b98f52e90e159e9a6faba6ea09c33a>]
+>>
+startxref
+17036
+%%EOF

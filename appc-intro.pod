@@ -1,0 +1,106 @@
+
+=begin docbook
+<!DOCTYPE book PUBLIC "-//Davenport//DTD DocBook V2.4.1//EN" "/opt/texmf/gmat/sgml/Davenport/dtds/2.4.1/docbook.dtd">
+<!-- -->
+<!-- $Id$ -->
+<!-- Copyright (c)1997-1999 Tim Bunce <Tim.Bunce@pobox.com> -->
+<!-- $Log$ -->
+<!-- -->
+<!-- General reminders: -->
+<book>
+
+=end docbook
+
+=head1 Driver and Database Characteristics
+
+In this appendix we hope to give you a flavour of the functionality and
+quirks of the different DBI drivers and their databases.
+
+The line between the functionality and quirks of a given driver and the
+functionality and quirks of its corresponding database is rather blurred.
+In some cases the database has functionality that the driver can't or
+doesn't access, in others the driver may emulate functionality that the
+database doesn't support, like placeholders. So when you see the terms
+driver or database below, take them with a pinch of salt.
+
+Our primary goals are to:
+
+=over 4
+
+=item provide a simple overview of each driver and database.
+
+=item help you initially select a suitable DBI driver and database
+for your new applications.
+
+=item help you identify potential issues if you need to port an
+existing application from one driver and database combination to
+another.
+
+=back
+
+We don't attempt to describe the drivers and database in detail here,
+we're only interested in the key features that are most commonly used
+or relevant to our goals.  And for those features we're just providing
+an outline guide. Sometimes little more than signposts. Consult the
+database documentation for full details.
+
+With the cooperation of the driver authors we have produced descriptions
+for the following drivers and databases:
+
+=over 4
+
+=item DBD::ADO - Microsoft 'Active Data Objects' Middleware
+
+=item DBD::CSV - General 'Comma Seperated Value' ASCII files
+
+=item DBD::DB2 - IBM DB2
+
+=item DBD::Empress - Empress
+
+=item DBD::FreeTDS - For Sybase and SQLServer
+
+=item DBD::Illustra - Illustra
+
+=item DBD::Informix - Informix
+
+=item DBD::Ingres - Ingres
+
+=item DBD::mysql & DBD::mSQL - MySQL and mSQL lightweight databases
+
+=item DBD::ODBC - For any ODBC data source
+
+=item DBD::Oracle - Oracle
+
+=item DBD::Pg - Postgresql
+
+=item DBD::SearchServer - Fulcrum Search Server
+
+=item DBD::Sybase - Sybase
+
+=item DBD::XBase - For XBase files ( dBase I<etc.> )
+
+=back
+
+For each of these drivers we've tried to cover the same range of topics
+in the same order. The topics include:
+
+=over 4
+
+=item Supported databases and versions along with driver version and author
+
+=item How to connect
+
+=item Supported Data Types, their ranges and functionality
+
+=item Variations in SQL dialect and default behaviours
+
+=item Advanced database features
+
+=item How to access database metadata
+
+=item Driver capabilities and conformance
+
+=back
+
+Reading straight through is not for the faint hearted. We recommend
+dipping in on an I<as-needed> basis.

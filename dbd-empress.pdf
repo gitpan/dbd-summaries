@@ -1,0 +1,1602 @@
+%PDF-1.1
+%‚„œ”
+2 0 obj
+<<
+/Length 2885
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+54.03 706.95 m
+79.23 706.95 l
+90.03 717.75 m
+90.03 742.95 l
+522.03 742.95 m
+522.03 717.75 l
+532.83 706.95 m
+558.03 706.95 l
+S
+BT
+/F8 1 Tf
+96 0 0 96 438 589.55 Tm
+/CS1 cs 0 sc
+0 Tc
+0 Tw
+(1)Tj
+/F6 1 Tf
+24 0 0 24 126 535.55 Tm
+(DBD::Empress and DBD::EmpressNet)Tj
+14 0 0 14 126 483.25 Tm
+[(V)111(ersion)]TJ
+/F8 1 Tf
+10 0 0 10 126 465.25 Tm
+[(V)111(ersion 0.51.)]TJ
+0 -1.9 TD
+0.118 Tw
+[(These dri)25(v)15(ers use the same Perl interf)10(ace b)20(ut use a dif)25(ferent underlying database inter)20(-)]TJ
+0 -1.3 TD
+[(f)10(ace.)]TJ
+/F4 1 Tf
+9 0 0 9 147.984 433.25 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 208.566 433.25 Tm
+0 Tc
+0.076 Tw
+(is for direct access of databases, whilst)Tj
+/F4 1 Tf
+9 0 0 9 371.299 433.25 Tm
+-0.072 Tc
+(DBD::EmpressNet)Tj
+/F8 1 Tf
+10 0 0 10 446.131 433.25 Tm
+0 Tc
+(is for dis-)Tj
+-32.0131 -1.3 TD
+0.052 Tw
+[(tib)20(uted database connected)]TJ
+/F2 1 Tf
+11.1602 0 TD
+(via)Tj
+/F8 1 Tf
+1.5238 0 TD
+[(the Empress Connecti)25(vity Serv)15(er \( referred to in Empress)]TJ
+-12.6841 -1.3 TD
+0 Tw
+[(v8.10 and earlier as the Empress ODBC serv)15(er \).)]TJ
+/F6 1 Tf
+14 0 0 14 126 378.45 Tm
+[(A)30(uthor and Contact Details)]TJ
+/F8 1 Tf
+10 0 0 10 126 360.45 Tm
+0.896 Tw
+[(The dri)25(v)15(e)0(r)-1146(w)10(as written by Ste)25(v)15(e)15( )-15(W)40(illiams. He can be contacted at)]TJ
+/F2 1 Tf
+T*
+[(swilliam@empr)37(ess.com)]TJ
+/F8 1 Tf
+9.4654 0 TD
+0 Tw
+(.)Tj
+/F6 1 Tf
+14 0 0 14 126 318.65 Tm
+[(Supported Database V)111(ersions and Options)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 300.65 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 185.497 300.65 Tm
+0 Tc
+[(supports Empress V6.10 and later)55(.)]TJ
+/F6 1 Tf
+14 0 0 14 126 271.85 Tm
+(Connect Syntax)Tj
+/F8 1 Tf
+10 0 0 10 126 253.85 Tm
+(The)Tj
+/F4 1 Tf
+9 0 0 9 143.724 253.85 Tm
+-0.072 Tc
+(DBI->connect\(\))Tj
+/F8 1 Tf
+10 0 0 10 213.046 253.85 Tm
+0 Tc
+(Data Source Name, or)Tj
+/F2 1 Tf
+9.1355 0 TD
+(DSN)Tj
+/F8 1 Tf
+2.1389 0 TD
+[(can be one of the follo)25(wing:)]TJ
+/F4 1 Tf
+8 0 0 8 152.155 234.85 Tm
+-0.072 Tc
+(dbi:Empress:physical_database)Tj
+0 -1.25 TD
+(dbi:EmpressNet:logical_database)Tj
+T*
+(dbi:EmpressNet:SERVER=server_name;DATABASE=physical_database;PORT=port_number)Tj
+/F8 1 Tf
+10 0 0 10 126 195.85 Tm
+0 Tc
+[(There are no dri)25(v)15(e)0(r)-250(speci\214c attrib)20(utes for the)]TJ
+/F4 1 Tf
+9 0 0 9 306.124 195.85 Tm
+-0.072 Tc
+(DBI->connect\(\))Tj
+/F8 1 Tf
+10 0 0 10 375.446 195.85 Tm
+0 Tc
+(method.)Tj
+/F6 1 Tf
+14 0 0 14 126 134.002 Tm
+(Numeric Data Handling)Tj
+9 0 0 9 481.5 79.25 Tm
+(1)Tj
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+9 0 obj
+[/CalGray <<
+/Gamma 1.8
+/WhitePoint [0.951 1 1.089]
+>>
+]
+endobj
+12 0 obj
+<<
+/Length 3670
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+0 Tw
+[(2)-23084(DBD::Empress and DBD::EmpressNet)]TJ
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+[(Empress RDBMS supports the follo)25(wing numeric data types:)]TJ
+/F4 1 Tf
+8 0 0 8 152.155 624.622 Tm
+-0.072 Tc
+[(DECIMAL\(p,s\) )-2638(1)-527(to 15 digits)]TJ
+0 -1.25 TD
+[(DOLLAR\(p,type\) )-1583(1)-527(to 13 digits)]TJ
+T*
+[(REAL )-6860(Typically)-527(4-byte single precision float)]TJ
+T*
+[(FLOAT\(p\) )-4749(Typically)-527(4)-527(o)0(r)-527(8-byte float as required)]TJ
+T*
+[(LONGFLOAT )-4222(Typically)-527(8-byte double precision float)]TJ
+T*
+6.333 Tw
+[(SHORTINTEGER -127)-527(to )6333(127)]TJ
+T*
+7.916 Tw
+[(INTEGER -32767)-527(to )7916(32767)]TJ
+T*
+3.166 Tw
+[(LONGINTEGER -2147483647)-527(to )3166(2147483647)]TJ
+/F8 1 Tf
+10 0 0 10 126 535.622 Tm
+0 Tc
+0.098 Tw
+[(The the DBD dri)25(v)15(e)0(r)-348(supports Empress Generic datatypes only)65(.)-348(This means that all data)]TJ
+0 -1.3 TD
+0.065 Tw
+[(for a speci\214c group will be retrie)25(v)15(e)0(d)-315(a)0(s)-315(the same data type. F)15(or e)15(xample, SHOR)60(TINTE-)]TJ
+T*
+0 Tw
+[(GER, INTEGER, and LONGINTEGER will all be retrie)25(v)15(e)0(d)-250(a)0(s)-250(LONGINTEGER.)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 490.622 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 185.497 490.622 Tm
+0 Tc
+[(al)10(w)10(ays returns all numbers as strings.)]TJ
+/F6 1 Tf
+14 0 0 14 126 461.822 Tm
+(String Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 443.822 Tm
+[(Empress RDBMS supports the follo)25(wing string data types:)]TJ
+/F4 1 Tf
+8 0 0 8 152.155 424.822 Tm
+-0.072 Tc
+(CHAR \(length, type\))Tj
+0 -1.25 TD
+(NLSCHAR \(length, type\))Tj
+T*
+(TEXT \(display_length, primary, overflow, extent\))Tj
+T*
+(NLSTEXT \(display_length, primary, overflow, extent\))Tj
+/F8 1 Tf
+10 0 0 10 126 375.822 Tm
+0 Tc
+0.156 Tw
+[(All ar)18(guments ha)20(v)15(e)15( )-15(def)10(ault v)25(alues. See Empress SQL Reference \(A4\) for details. The)]TJ
+0 -1.3 TD
+0.101 Tw
+(maximum size for all string types is typically 2**31-1 bytes \(2GB\). None of the string)Tj
+T*
+0 Tw
+(types are blank padded.)Tj
+0 -1.9 TD
+0.056 Tw
+(NLSCHAR and NLSTEXT are can be used for storage of 8 bit and multibyte characters)Tj
+0 -1.3 TD
+0 Tw
+[(b)20(u)0(t)-250(UTF-8 is not currently supported.)]TJ
+0 -1.9 TD
+(Strings can be concatenated using the)Tj
+/F4 1 Tf
+9 0 0 9 278.416 298.822 Tm
+-0.072 Tc
+(s1 CONCAT\(s2\))Tj
+/F8 1 Tf
+10 0 0 10 342.988 298.822 Tm
+0 Tc
+(SQL function.)Tj
+/F6 1 Tf
+14 0 0 14 126 270.022 Tm
+(Date Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 252.022 Tm
+[(Empress RDBMS supports the follo)25(wing date time data types:)]TJ
+/F4 1 Tf
+8 0 0 8 152.155 233.022 Tm
+-0.072 Tc
+[(DATE\(t\) )-5805(=)-527(0000-01-01 to 9999-12-31 at 1 day resolution)]TJ
+0 -1.25 TD
+[(TIME\(t\) )-5805(=)-527(1970-01-01 to 2035-12-31 at 1 second resolution)]TJ
+T*
+[(MICROTIMESTAMP\(t\) )-527(=)-527(0000-01-01 to 9999-12-31 at 1 microsecond resolution)]TJ
+/F8 1 Tf
+10 0 0 10 126 194.022 Tm
+0 Tc
+0.07 Tw
+[(The \(t\) is the format type for def)10(ault output. This is one of the nine types de\214ned in the)]TJ
+0 -1.3 TD
+0 Tw
+(section on date/time formats.)Tj
+0 -3.122 TD
+(Empress supports 9 formats for date/time types:)Tj
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+15 0 obj
+<<
+/Length 5337
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F4 1 Tf
+8 0 0 8 152.155 646.622 Tm
+/CS1 cs 0 sc
+-0.072 Tc
+0.527 Tw
+[(Type Date)-8444(Time )-12666(MicroTimestamp)]TJ
+0 -1.25 TD
+5.805 Tw
+[(0)-2638(yyyymmdd yyyymmddhhmmss)-8444(yyyymmddhhmmssffffff)]TJ
+T*
+0 Tw
+[(1)-2638(d)0(d)-527(aaaaaaaaa yyyy)-1583(dd aaaaaaaaa yyyy hh:mm:ss)-2111(dd aaaaaaaaa yyyy hh:mm:ss.fffff)]TJ
+T*
+[(2)-2638(aaaaaaaaa dd, yyyy)-1055(aaaaaaaaa dd, yyyy hh:mm:ss)-1583(aaaaaaaaa dd, yyyy hh:mm:ss.fffff)]TJ
+T*
+5.805 Tw
+[(3)-2638(mm/dd/yy mm/dd/yy)-527(hh:mm:ss )-528(mm/dd/yy)-527(hh:mm:ss.ffffff)]TJ
+T*
+[(4)-2638(dd/mm/yy dd/mm/yy)-527(hh:mm:ss )-528(dd/mm/yy)-527(hh:mm:ss.ffffff)]TJ
+T*
+0 Tw
+[(5)-2638(d)0(d)-527(aaa yy)-5805(dd aaa yy hh:mm:ss)-6333(dd aaa yy hh:mm:ss.ffffff)]TJ
+T*
+[(6)-2638(aaa dd, yy)-5277(aaa dd, yy hh:mm:ss)-5805(aaa dd, yy hh:mm:ss.fffff)]TJ
+T*
+4.749 Tw
+[(7)-2638(mm/dd/yyyy mm/dd/yyyy)-527(hh:mm:ss )-528(mm/dd/yyyy)-527(hh:mm:ss.ffffff)]TJ
+T*
+[(8)-2638(dd/mm/yyyy dd/mm/yyyy)-527(hh:mm:ss )-528(dd/mm/yyyy)-527(hh:mm:ss.ffffff)]TJ
+/F8 1 Tf
+10 0 0 10 126 537.622 Tm
+0 Tc
+0 Tw
+[(F)15(o)0(r)-250(input, the DBD dri)25(v)15(ers recognize all formats.)]TJ
+0 -1.9 TD
+0.074 Tw
+[(The date part for all types is not optional. If you specify a v)25(alue without a time compo-)]TJ
+0 -1.3 TD
+0.036 Tw
+[(nent, the def)10(ault time is 00:00:00 \(midnight\). If only tw)10(o)-286(digits of the year are input then)]TJ
+T*
+0.223 Tw
+[(the century pi)25(v)20(ots on the Empress v)25(ariable MSD)40(A)111(TELIMIT)74(.)-473(F)15(or Empress v8.)]TJ
+/F2 1 Tf
+33.1931 0 TD
+(xx)Tj
+/F8 1 Tf
+1.3609 0 TD
+(and)Tj
+-34.5541 -1.3 TD
+-0.015 Tc
+[(a)-15(b)-15(ove )]TJ
+2.6078 0 TD
+0 Tc
+0 Tw
+[(the def)10(ault for this is 1950. Earlier v)15(ersions of Empress def)10(aulted to 1900.)]TJ
+-2.6078 -1.9 TD
+0.013 Tw
+[(Empress accepts an)15(y)-263(o)0(f)-263(the 9 speci\214ed types as input. The only limitation is that you can-)]TJ
+0 -1.3 TD
+0.108 Tw
+[(not insert a four digit year into a date type that uses a tw)10(o)-358(digit format. It al)10(w)10(ays uses)]TJ
+T*
+0 Tw
+[(MSD)40(A)111(TELIMIT for input dates.)]TJ
+0 -1.9 TD
+[(F)15(o)0(r)-395(output,)]TJ
+/F4 1 Tf
+9 0 0 9 175.376 415.622 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 236.651 415.622 Tm
+0 Tc
+0.145 Tw
+(uses just)Tj
+/F4 1 Tf
+9 0 0 9 275.899 415.622 Tm
+-0.072 Tc
+(yyyymmddhhmmssffffff)Tj
+/F8 1 Tf
+10 0 0 10 375.172 415.622 Tm
+0 Tc
+(and)Tj
+/F4 1 Tf
+9 0 0 9 393.239 415.622 Tm
+-0.072 Tc
+(DBD::EmpressNet)Tj
+/F8 1 Tf
+10 0 0 10 468.764 415.622 Tm
+0 Tc
+(uses)Tj
+-34.2764 -1.3 TD
+(just)Tj
+/F4 1 Tf
+9 0 0 9 144.286 402.622 Tm
+-0.072 Tc
+0.184 Tw
+(yyyy-mm-dd hh:mm:ss.ffffff)Tj
+/F8 1 Tf
+10 0 0 10 269.767 402.622 Tm
+0 Tc
+0.166 Tw
+[(.)-416(Empress does not support changing of the def)10(ault)]TJ
+-14.3767 -1.3 TD
+0.088 Tw
+[(display formats. It is not possible to format a date time v)25(alue in other styles for output.)]TJ
+T*
+0.042 Tw
+[(The best approach is to select the components of the date time, using SQL functions lik)10(e)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 363.622 Tm
+-0.072 Tc
+(DAYOF\(d\))Tj
+/F8 1 Tf
+10 0 0 10 166.498 363.622 Tm
+0 Tc
+(and)Tj
+/F4 1 Tf
+9 0 0 9 183.112 363.622 Tm
+-0.072 Tc
+(MONTHOF\(d\))Tj
+/F8 1 Tf
+10 0 0 10 230.935 363.622 Tm
+0 Tc
+0 Tw
+[(,)-250(and format them using Perl.)]TJ
+-10.4935 -1.9 TD
+0.092 Tw
+[(The current date/time at the serv)15(er)40(,)-342(can be obtained using the NO)35(W)-342(o)0(r)-342(T)18(OD)40(A)105(Y)105( )-105(pseudo)]TJ
+0 -1.3 TD
+0 Tw
+[(constants. NO)35(W)-250(returns the current date and time. T)18(O)0(D)40(A)105(Y)105( )-105(returns the date portion only)65(.)]TJ
+0 -1.9 TD
+0.071 Tw
+[(Date and time arithmetic can be done using the Empress date/time operators. F)15(or e)15(xam-)]TJ
+0 -1.3 TD
+(ple:)Tj
+/F4 1 Tf
+8 0 0 8 177.487 280.622 Tm
+-0.072 Tc
+0 Tw
+(NOW + 2 MINUTES + 5 SECONDS)Tj
+0 -1.25 TD
+(TODAY - 3 DAYS)Tj
+/F8 1 Tf
+10 0 0 10 126 251.622 Tm
+0 Tc
+0.347 Tw
+[(Empress pro)15(vides a wide range of date functions including D)40(A)105(Y)105( )522(OF)80(,)80( )-80(MONTHOF)80(,)]TJ
+0 -1.3 TD
+0.661 Tw
+[(YEAR)40(OF)80(,)-911(HOUR)40(OF)80(,)-911(MINUTEOF)80(,)-911(SECONDOF)80(,)-911(WEEK)30(OFYEAR, D)40(A)105(YN)35(AME,)]TJ
+T*
+0 Tw
+[(D)40(A)105(Y)30(OFWEEK, D)40(A)105(Y)105( )175(OFYEAR, and D)40(A)111(TENEXT)74(.)]TJ
+0 -1.9 TD
+[(The follo)25(wing SQL e)15(xpression:)]TJ
+/F4 1 Tf
+8 0 0 8 152.155 187.622 Tm
+-0.072 Tc
+('1 jan 1970' + unix_time_field SECONDS)Tj
+/F8 1 Tf
+10 0 0 10 126 168.622 Tm
+0 Tc
+0.101 Tw
+[(w)10(ould con)40(v)15(ert to a local time from 1 Jan 1970, b)20(ut the GMT base cannot be generated)]TJ
+0 -1.3 TD
+[(directly)65(.)]TJ
+0 -1.9 TD
+0.011 Tw
+(The number of seconds since 1 Jan 1970 for date granularity can be obtained for the local)Tj
+0 -1.3 TD
+0 Tw
+(time zone \(not GMT\) using:)Tj
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+[(DBD::Empress and DBD::EmpressNet)-23334(3)]TJ
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+16 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+18 0 obj
+<<
+/Length 4345
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+0 Tw
+[(4)-23084(DBD::Empress and DBD::EmpressNet)]TJ
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F4 1 Tf
+8 0 0 8 152.155 646.622 Tm
+-0.072 Tc
+(\(date_field - '1 jan 1970'\) * 86400)Tj
+/F8 1 Tf
+10 0 0 10 126 627.622 Tm
+0 Tc
+(Empress does no automatic time zone adjustments.)Tj
+/F6 1 Tf
+14 0 0 14 126 598.822 Tm
+(LONG/BLOB Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 580.822 Tm
+[(Empress RDBMS supports the follo)25(wing LONG data types:)]TJ
+/F4 1 Tf
+8 0 0 8 152.155 561.822 Tm
+-0.072 Tc
+[(TEXT )-2638(Variable)-527(length 7-bit character data)]TJ
+0 -1.25 TD
+[(NLSTEXT )-1055(As)-527(TEXT but allows 8-bit characters)]TJ
+T*
+[(BULK )-2638(User)-527(Interpreted \(Byte Stream\))]TJ
+/F8 1 Tf
+10 0 0 10 126 522.822 Tm
+0 Tc
+(The maximum size for all these types is typically 2**31-1 bytes \(2GB\). None of the types)Tj
+0 -1.3 TD
+[(are passed to and from the database as pairs of he)15(x)-250(digits.)]TJ
+/F2 1 Tf
+0 -1.9 TD
+(LongReadLen)Tj
+/F8 1 Tf
+5.9898 0 TD
+0.129 Tw
+[(w)10(orks as de\214ned for)]TJ
+/F4 1 Tf
+9 0 0 9 274.502 490.822 Tm
+-0.072 Tc
+(DBD::EmpressNet)Tj
+/F8 1 Tf
+10 0 0 10 349.864 490.822 Tm
+0 Tc
+[(b)20(u)0(t)-379(i)0(s)-379(ignored for)]TJ
+/F4 1 Tf
+9 0 0 9 426.159 490.822 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 483.482 490.822 Tm
+0 Tc
+0 Tw
+(.)Tj
+-35.7482 -1.3 TD
+0.187 Tw
+(The maximum)Tj
+/F2 1 Tf
+6.4856 0 TD
+(LongReadLen)Tj
+/F8 1 Tf
+6.0482 0 TD
+[(is limited to 2GB typically)65(.)]TJ
+/F2 1 Tf
+12.0399 0 TD
+[(LongT)55(runcOk)]TJ
+/F8 1 Tf
+5.9933 0 TD
+0.188 Tw
+(is not imple-)Tj
+-30.567 -1.3 TD
+(mented.)Tj
+0 -1.9 TD
+0.014 Tw
+[(No special handling is required for binding LONG/BLOB data types. The TYPE attrib)20(ute)]TJ
+0 -1.3 TD
+0.123 Tw
+(is currently not used when binding parameters. The maximum length of)Tj
+/F4 1 Tf
+9 0 0 9 428.654 432.822 Tm
+-0.072 Tc
+(bind_param\(\))Tj
+/F8 1 Tf
+10 0 0 10 126 419.822 Tm
+0 Tc
+0.117 Tw
+(parameters is limited by the capabilities of the OS or the size of the C)Tj
+/F4 1 Tf
+9 0 0 9 423.992 419.822 Tm
+-0.072 Tc
+(int)Tj
+/F8 1 Tf
+10 0 0 10 438.566 419.822 Tm
+0 Tc
+[(,)-367(whiche)25(v)15(e)0(r)]TJ
+-31.2566 -1.3 TD
+0 Tw
+(comes \214rst.)Tj
+/F6 1 Tf
+14 0 0 14 126 378.022 Tm
+(Other Data Handling issues)Tj
+/F8 1 Tf
+10 0 0 10 126 360.022 Tm
+(The)Tj
+/F4 1 Tf
+9 0 0 9 143.724 360.022 Tm
+-0.072 Tc
+(type_info\(\))Tj
+/F8 1 Tf
+10 0 0 10 198.797 360.022 Tm
+0 Tc
+(method is not supported.)Tj
+-7.2797 -1.9 TD
+0.081 Tw
+[(Empress automatically con)40(v)15(erts strings to numbers and dates, and numbers and dates to)]TJ
+0 -1.3 TD
+0 Tw
+(strings, as needed.)Tj
+/F6 1 Tf
+14 0 0 14 126 299.222 Tm
+[(T)37(ransactions, Isolation and Loc)10(king)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 281.222 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 185.497 281.222 Tm
+0 Tc
+[(support transactions. The def)10(ault isolation le)25(v)15(e)0(l)-250(i)0(s)-250(Serializable.)]TJ
+-5.9497 -1.9 TD
+0.171 Tw
+[(Other transaction isolation le)25(v)15(els are not e)15(xplicitly supported. Ho)25(we)25(v)15(e)0(r)-421(Read Uncom-)]TJ
+0 -1.3 TD
+0.187 Tw
+[(mited is supported on a single query basis. This is acti)25(v)25(ated by adding the BYP)92(ASS)]TJ
+T*
+0 Tw
+[(option into each SQL statement; for e)15(xample:)]TJ
+/F4 1 Tf
+8 0 0 8 160.599 217.222 Tm
+-0.072 Tc
+(SELECT BYPASS * FROM table_name)Tj
+/F8 1 Tf
+10 0 0 10 126 198.222 Tm
+0 Tc
+0.118 Tw
+[(Record le)25(v)15(e)0(l)-368(locking is the def)10(ault. Read locks do not block other read locks, b)20(ut read)]TJ
+T*
+0.27 Tw
+(locks block write locks, and write locks block all other locks. Write locks can be)Tj
+T*
+0 Tw
+[(bypassed for read using the BYP)92(ASS option.)]TJ
+0 -2.242 TD
+0.193 Tw
+[(When in transaction mode \(AutoCommit of)25(f\), selected ro)25(ws are automatically lock)10(ed)]TJ
+0 -1.3 TD
+0 Tw
+[(against update unless the BYP)92(ASS option is used in the SELECT statement.)]TJ
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+19 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+21 0 obj
+<<
+/Length 4306
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+/CS1 cs 0 sc
+0 Tc
+(The)Tj
+/F4 1 Tf
+9 0 0 9 144.584 643.622 Tm
+-0.072 Tc
+0.095 Tw
+(LOCK TABLE table_name IN lock_mode)Tj
+/F8 1 Tf
+10 0 0 10 313.202 643.622 Tm
+0 Tc
+0.086 Tw
+[(statement can be used to apply an e)15(xplicit)]TJ
+-18.7202 -1.3 TD
+0.013 Tw
+(lock on a table. Lock mode can be EXCLUSIVE or SHARE. SHARE requires the user to)Tj
+T*
+0.174 Tw
+[(ha)20(v)15(e)15( )-15(SELECT or UPD)40(A)111(T)0(E)-424(pri)25(vile)15(ges on the table. EXCLUSIVE requires the user to)]TJ
+T*
+0.039 Tw
+[(ha)20(v)15(e)15( )-15(UPD)40(A)111(TE, INSER)60(T)74(,)74( )-74(or)-289(DELETE pri)25(vile)15(ges. Locks are only v)25(alid for the duration of)]TJ
+T*
+[(a)-250(transaction.)]TJ
+/F6 1 Tf
+14 0 0 14 126 562.822 Tm
+0 Tw
+[(No-T)92(able Expression Select Syntax)]TJ
+/F8 1 Tf
+10 0 0 10 126 544.822 Tm
+0.117 Tw
+[(T)80(o)80( )-80(select a constant e)15(xpression )284(\212 )284(that)-367(is, one that doesn')18(t)-367(i)0(n)40(v)40( )347(olv)15(e)-367(data from a database)]TJ
+T*
+0.071 Tw
+[(table or vie)25(w)-83(\212)-83(you need to select from a real table. Use the DISTINCT k)10(e)15(yw)10(ord in the)]TJ
+T*
+0.135 Tw
+[(query to pre)25(v)15(ent multiple v)25(alues being returned; or)40(,)-385(better yet, write the query to only)]TJ
+T*
+0 Tw
+[(match one ro)25(w)-250(i)0(n)-250(a)-250(table you kno)25(w)-250(e)15(xists, such as a system catalog.)]TJ
+/F6 1 Tf
+14 0 0 14 126 477.022 Tm
+[(T)92(able J)40(oin Syntax)]TJ
+/F8 1 Tf
+10 0 0 10 126 459.022 Tm
+0.028 Tw
+[(F)15(o)0(r)-278(outer joins, the Empress k)10(e)15(yw)10(ord OUTER should be placed before the)]TJ
+/F4 1 Tf
+9 0 0 9 429.874 459.022 Tm
+-0.072 Tc
+(table\(s\))Tj
+/F8 1 Tf
+10 0 0 10 470.978 459.022 Tm
+0 Tc
+(that)Tj
+-34.4978 -1.3 TD
+0 Tw
+[(should dri)25(v)15(e)15( )-15(the outer join. F)15(or e)15(xample:)]TJ
+/F4 1 Tf
+8 0 0 8 152.155 427.022 Tm
+-0.072 Tc
+(SELECT customer_name, order_date)Tj
+0 -1.25 TD
+(FROM OUTER customers, orders)Tj
+T*
+(WHERE customers.cust_id = orders.cust_id;)Tj
+/F8 1 Tf
+10 0 0 10 126 388.022 Tm
+0 Tc
+0.051 Tw
+[(This returns all the ro)25(ws in the customers table that ha)20(v)15(e)15( )-15(no)-301(matching ro)25(ws in the orders)]TJ
+0 -1.3 TD
+0.027 Tw
+[(table. Empress returns c<NULL> for an)15(y)-277(select list e)15(xpressions containing columns from)]TJ
+T*
+0 Tw
+(the orders table.)Tj
+/F6 1 Tf
+14 0 0 14 126 333.222 Tm
+[(T)92(able and Column Names)]TJ
+/F8 1 Tf
+10 0 0 10 126 315.222 Tm
+0.051 Tw
+[(The names of Empress identi\214ers, such as tables and columns, cannot e)15(xceed 32 charac-)]TJ
+T*
+[(ters in length. The \214rst character must be a letter)40(,)-302(b)20(ut the rest can be an)15(y)-302(combination of)]TJ
+T*
+0.008 Tw
+(letters, numerals, and underscores \(_\). Empress table/column names are stored as de\214ned.)Tj
+T*
+0 Tw
+[(The)15(y)-250(are case sensiti)25(v)15(e)0(.)]TJ
+0 -1.9 TD
+0.048 Tw
+[(Empress tables and \214elds can contain most ASCII characters \(e)15(xcept)]TJ
+/F4 1 Tf
+9 0 0 9 408.078 257.222 Tm
+0 Tw
+($)Tj
+/F8 1 Tf
+10 0 0 10 416.137 257.222 Tm
+(and)Tj
+/F4 1 Tf
+9 0 0 9 433.235 257.222 Tm
+(?)Tj
+/F8 1 Tf
+10 0 0 10 438.31 257.222 Tm
+[(\))-298(i)0(f)-298(the)15(y)-298(are)]TJ
+-31.231 -1.3 TD
+[(quoted. F)15(or e)15(xample:)]TJ
+/F4 1 Tf
+8 0 0 8 152.155 225.222 Tm
+-0.072 Tc
+(SELECT field_name "a simple *&" FROM table_name "what a dumb ^")Tj
+/F8 1 Tf
+10 0 0 10 126 206.222 Tm
+0 Tc
+[(Ho)25(we)25(v)15(e)0(r)40(,)40( )-40(this practice is not recommended.)]TJ
+0 -1.9 TD
+0.138 Tw
+[(An)15(y)-388(ISO-Latin characters can be used in the base product. Speci\214c products for other)]TJ
+0 -1.3 TD
+0 Tw
+(languages, such as Japanese, can handle those character sets.)Tj
+/F6 1 Tf
+14 0 0 14 126 134.002 Tm
+(Case Sensitivity of LIKE Operator)Tj
+9 0 0 9 126 672.75 Tm
+[(DBD::Empress and DBD::EmpressNet)-23334(5)]TJ
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+22 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+24 0 obj
+<<
+/Length 4022
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+0 Tw
+[(6)-23084(DBD::Empress and DBD::EmpressNet)]TJ
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+[(The LIKE operator is case sensiti)25(v)15(e)0(.)-250(The MA)111(TCH operator is case insensiti)25(v)15(e)0(.)]TJ
+/F6 1 Tf
+14 0 0 14 126 614.822 Tm
+[(Ro)25(w)-250(I)0(D)]TJ
+/F8 1 Tf
+10 0 0 10 126 596.822 Tm
+0.002 Tw
+[(A)-253(table ro)25(w)-253(identi\214er can be referenced as MS_RECORD_NUMBER. It can be treated as)]TJ
+0 -1.3 TD
+0.029 Tw
+[(a)-279(string during fetch. But it must be treated as an inte)15(ger when used in a WHERE clause.)]TJ
+T*
+0 Tw
+[(It is only useful for e)15(xplicit fetch; inequalities are not allo)25(wed.)]TJ
+/F4 1 Tf
+8 0 0 8 152.155 551.822 Tm
+-0.072 Tc
+(SELECT * FROM table_name WHERE MS_RECORD_NUMBER = ?)Tj
+/F6 1 Tf
+14 0 0 14 126 523.022 Tm
+0 Tc
+[(A)30(utomatic K)25(ey or Sequence Generation)]TJ
+/F8 1 Tf
+10 0 0 10 126 505.022 Tm
+0.071 Tw
+[(Empress has no `)74(`auto increment')74(')-321(o)0(r)-321(`)74(`system generated')74(')-321(k)10(e)15(y)15( )-15(mechanism, and does not)]TJ
+T*
+0 Tw
+(support sequence generators.)Tj
+/F6 1 Tf
+14 0 0 14 126 463.222 Tm
+[(A)30(utomatic Ro)25(w)-250(Numbering and Ro)25(w)-250(Count Limiting)]TJ
+/F8 1 Tf
+10 0 0 10 126 445.222 Tm
+0.09 Tw
+[(There is no pseudocolumn that sequentially numbers the ro)25(ws fetched by a select state-)]TJ
+T*
+(ment.)Tj
+/F6 1 Tf
+14 0 0 14 126 403.422 Tm
+0 Tw
+[(P)40(arameter Binding)]TJ
+/F8 1 Tf
+10 0 0 10 126 385.422 Tm
+0.03 Tw
+[(P)15(arameter binding is directly suported by Empress. Only the def)10(ault)]TJ
+/F4 1 Tf
+9 0 0 9 403.087 385.422 Tm
+0 Tw
+(?)Tj
+/F8 1 Tf
+10 0 0 10 410.96 385.422 Tm
+0.03 Tw
+(style of placehold-)Tj
+-28.496 -1.3 TD
+0 Tw
+(ers is supported.)Tj
+/F4 1 Tf
+9 0 0 9 125.675 353.422 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 187.638 353.422 Tm
+0 Tc
+0.214 Tw
+(recognizes the)Tj
+/F4 1 Tf
+9 0 0 9 251.572 353.422 Tm
+-0.072 Tc
+(bind_param\(\))Tj
+/F8 1 Tf
+10 0 0 10 313.535 353.422 Tm
+0 Tc
+[(TYPE attrib)20(ute SQL_BIN)35(AR)65(Y)129(.)129( )-129(All other)]TJ
+-18.7535 -1.3 TD
+0.005 Tw
+(types are automatically bound correctly without TYPE being used. Unsupported types are)Tj
+T*
+0 Tw
+[(ignored without w)10(arning.)]TJ
+/F6 1 Tf
+14 0 0 14 126 298.622 Tm
+(Stored Procedures)Tj
+/F4 1 Tf
+9 0 0 9 125.675 280.622 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 185.943 280.622 Tm
+0 Tc
+0.045 Tw
+[(does not e)15(xplicitly support stored procedures. Implicit support is a)20(v)25(ailable)]TJ
+-5.9943 -1.3 TD
+0 Tw
+(for stored procedures in SQL statements, e.g.:)Tj
+/F4 1 Tf
+8 0 0 8 152.155 248.622 Tm
+-0.072 Tc
+($sth->prepare\("SELECT func\(attribute\) FROM table_name"\);)Tj
+/F6 1 Tf
+14 0 0 14 126 219.822 Tm
+0 Tc
+[(T)92(able Metadata)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 201.822 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 185.497 201.822 Tm
+0 Tc
+(does not support the)Tj
+/F4 1 Tf
+9 0 0 9 268.497 201.822 Tm
+-0.072 Tc
+(table_info)Tj
+/F8 1 Tf
+10 0 0 10 318.82 201.822 Tm
+0 Tc
+(method.)Tj
+-19.282 -1.9 TD
+0.051 Tw
+[(The SYS_A)111(TTRS and SYS_T)93(ABLES system tables can be used to obtain detailed infor)20(-)]TJ
+0 -1.3 TD
+0 Tw
+[(mation about the columns of a table. F)15(or e)15(xample:)]TJ
+/F4 1 Tf
+8 0 0 8 152.155 149.802 Tm
+-0.072 Tc
+(SELECT * FROM sys_attrs)Tj
+0 -1.25 TD
+(WHERE attr_tabnum = \(SELECT tab_number FROM sys_tables WHERE tab_name='x'\))Tj
+/F8 1 Tf
+10 0 0 10 126 120.802 Tm
+0 Tc
+[(Ho)25(we)25(v)15(e)0(r)40(,)40( )-40(this requires SELECT pri)25(vile)15(ges on these system tables.)]TJ
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+25 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+27 0 obj
+<<
+/Length 4032
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+/CS1 cs 0 sc
+0 Tc
+0.145 Tw
+[(Detailed information about indices or k)10(e)15(ys)-395(cannot currently be easily retrie)25(v)15(e)0(d)-395(though)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 630.622 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 182.997 630.622 Tm
+0 Tc
+0.21 Tw
+[(.)-460(I)0(t)-460(i)0(s)-460(possible, though dif)25(\214cult, to interpret the contents of the system)]TJ
+-5.6997 -1.3 TD
+0 Tw
+(tables to obtain this information.)Tj
+/F6 1 Tf
+14 0 0 14 126 588.822 Tm
+[(Driv)15(er-specific Attrib)20(utes and Methods)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 570.822 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 185.497 570.822 Tm
+0 Tc
+[(has no signi\214cant dri)25(v)15(e)0(r)20(-speci\214c handle attrib)20(utes or pri)25(v)25(ate methods.)]TJ
+/F6 1 Tf
+14 0 0 14 126 542.022 Tm
+[(P)55(ositioned updates and deletes)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 524.022 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 185.497 524.022 Tm
+0 Tc
+(does not currently support positioned updates and deletes.)Tj
+/F6 1 Tf
+14 0 0 14 126 495.222 Tm
+[(Dif)18(f)10(erences from the DBI Specification)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 477.222 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 185.732 477.222 Tm
+0 Tc
+0.023 Tw
+[(w)10(a)0(s)-273(written against DBI 0.89 and has not been updated yet. The DBD w)10(a)0(s)]TJ
+-5.9732 -1.3 TD
+0.259 Tw
+[(conformant to the beha)20(vior at that time. Ne)25(wer features of DBI that require dri)25(v)15(e)0(r)]TJ
+T*
+0 Tw
+[(changes may not beha)20(v)15(e)15( )-15(as)-250(speci\214ed.)]TJ
+0 -1.9 TD
+0.118 Tw
+(Note the transaction limitation of)Tj
+/F4 1 Tf
+9 0 0 9 266.817 432.222 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 327.815 432.222 Tm
+0 Tc
+(\(not)Tj
+/F4 1 Tf
+9 0 0 9 347.275 432.222 Tm
+-0.072 Tc
+(DBD::EmpressNet)Tj
+/F8 1 Tf
+10 0 0 10 418.847 432.222 Tm
+0 Tc
+[(\))-368(outlined in the)]TJ
+-29.2847 -1.3 TD
+0 Tw
+[(section on)-500(belo)25(w)65(.)]TJ
+/F6 1 Tf
+14 0 0 14 126 390.422 Tm
+[(URLs to More Database/Driv)15(er Specific Inf)10(ormation)]TJ
+/F4 1 Tf
+8 0 0 8 152.155 375.422 Tm
+-0.072 Tc
+(http://www.empress.com)Tj
+/F6 1 Tf
+14 0 0 14 126 346.622 Tm
+0 Tc
+(Concurrent use of Multiple Handles)Tj
+/F4 1 Tf
+9 0 0 9 125.675 328.622 Tm
+-0.072 Tc
+(DBD::EmpressNet)Tj
+/F8 1 Tf
+10 0 0 10 201.187 328.622 Tm
+0 Tc
+0.144 Tw
+(supports an unlimited number of concurrent database connections to)Tj
+-7.5187 -1.3 TD
+0 Tw
+(one or more databases.)Tj
+/F4 1 Tf
+9 0 0 9 125.675 296.622 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 187.19 296.622 Tm
+0 Tc
+0.169 Tw
+(also supports multiple concurrent database connections to one or mode)Tj
+-6.119 -1.3 TD
+0.026 Tw
+[(databases. Ho)25(we)25(v)15(e)0(r)40(,)40( )-40(these connections are simulated, and there are therefore a number of)]TJ
+T*
+0.025 Tw
+(limitations. Most of these limitations are associated with transaction processing: 1\) Auto-)Tj
+T*
+0.169 Tw
+[(commit must be on or of)25(f)-419(for all connections; and 2\) Switching processing from one)]TJ
+T*
+0 Tw
+[(database to another automatically commits an)15(y)-250(transactions on the \214rst database.)]TJ
+/F4 1 Tf
+9 0 0 9 125.675 225.622 Tm
+-0.072 Tc
+(DBD::Empress)Tj
+/F8 1 Tf
+10 0 0 10 186.809 225.622 Tm
+0 Tc
+0.131 Tw
+[(supports the preparation and e)15(x)15(ecution of a ne)25(w)-381(statement handle while)]TJ
+-6.0809 -1.3 TD
+0.003 Tw
+(still fetching data from another statment handle associated with the same database handle.)Tj
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+0 Tw
+[(DBD::Empress and DBD::EmpressNet)-23334(7)]TJ
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+29 0 obj
+<<
+/Type /Halftone
+/HalftoneType 1
+/HalftoneName (Default)
+/Frequency 60
+/Angle 45
+/SpotFunction /Round
+>>
+endobj
+8 0 obj
+<<
+/Type /ExtGState
+/SA false
+/OP false
+/BG /Identity
+/UCR /Identity
+/HT /Default
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F2
+/Encoding 30 0 R
+/BaseFont /Times-Italic
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F4
+/Encoding 30 0 R
+/BaseFont /Courier
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F6
+/Encoding 30 0 R
+/BaseFont /Times-BoldItalic
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F8
+/Encoding 30 0 R
+/BaseFont /Times-Roman
+>>
+endobj
+30 0 obj
+<<
+/Type /Encoding
+/Differences [ 0/asciicircum/asciitilde/Scaron/Zcaron/scaron/zcaron/Ydieresis/trademark
+/quotesingle 94/circumflex 126/tilde 128/quotesinglbase/guillemotleft/guillemotright/bullet/florin
+/fraction/perthousand/dagger/daggerdbl/endash/emdash/ff/fi
+/fl/ffi/ffl/dotlessi/dotlessj/grave/hungarumlaut/dotaccent
+/breve/caron/ring/ogonek/quotedblleft/quotedblright/oe/lslash
+/quotedblbase/OE/Lslash 164/currency 166/brokenbar 168/dieresis/copyright/ordfeminine
+/guilsinglleft/logicalnot/minus/registered/macron/degree/plusminus/twosuperior
+/threesuperior/acute/mu 183/periodcentered/cedilla/onesuperior/ordmasculine/guilsinglright
+/onequarter/onehalf/threequarters 192/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave
+/Iacute/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex
+/Otilde/Odieresis/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis
+/Yacute/Thorn/germandbls/agrave/aacute/acircumflex/atilde/adieresis
+/aring/ae/ccedilla/egrave/eacute/ecircumflex/edieresis/igrave
+/iacute/icircumflex/idieresis/eth/ntilde/ograve/oacute/ocircumflex
+/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex/udieresis
+/yacute/thorn/ydieresis
+]
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 16 0 R
+/Contents 15 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 19 0 R
+/Contents 18 0 R
+>>
+endobj
+20 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 22 0 R
+/Contents 21 0 R
+>>
+endobj
+23 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 25 0 R
+/Contents 24 0 R
+>>
+endobj
+26 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 28 0 R
+/Contents 27 0 R
+>>
+endobj
+10 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 11 0 R 14 0 R 17 0 R 20 0 R 23 0 R 26 0 R]
+/Count 7
+/MediaBox [0 0 595 841]
+>>
+endobj
+31 0 obj
+<<
+/Type /Catalog
+/Pages 10 0 R
+>>
+endobj
+32 0 obj
+<<
+/CreationDate (D:19990519120140)
+/Producer (\376\377\000A\000c\000r\000o\000b\000a\000t\000 \000D\000i\000s\000t\000i\000l\000l\000e\000r\000 \0003\000.\0000\0001\000 \000f\000o\000r\000 \000W\000i\000n\000d\000o\000w\000s)
+/Creator (groff version 1.11)
+>>
+endobj
+xref
+0 33
+0000000000 65535 f
+0000032189 00000 n
+0000000017 00000 n
+0000002960 00000 n
+0000030500 00000 n
+0000030609 00000 n
+0000030713 00000 n
+0000030826 00000 n
+0000030390 00000 n
+0000003130 00000 n
+0000032830 00000 n
+0000032278 00000 n
+0000003209 00000 n
+0000006938 00000 n
+0000032370 00000 n
+0000007098 00000 n
+0000012494 00000 n
+0000032462 00000 n
+0000012665 00000 n
+0000017069 00000 n
+0000032554 00000 n
+0000017240 00000 n
+0000021605 00000 n
+0000032646 00000 n
+0000021765 00000 n
+0000025846 00000 n
+0000032738 00000 n
+0000026006 00000 n
+0000030097 00000 n
+0000030257 00000 n
+0000030934 00000 n
+0000032962 00000 n
+0000033019 00000 n
+trailer
+<<
+/Size 33
+/Root 31 0 R
+/Info 32 0 R
+/ID [<036859c52979775f0cd5dabff1fa302b><036859c52979775f0cd5dabff1fa302b>]
+>>
+startxref
+33302
+%%EOF

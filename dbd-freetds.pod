@@ -1,0 +1,360 @@
+
+=head1 DBD::FreeTDS
+
+=begin docbook
+<!-- The following blank =head1 is to allow us to use purely =head2 headings -->
+<!-- This keeps the POD fairly simple with regards to Pod::DocBook -->
+
+=end docbook
+
+=head1
+
+=head2 Version
+
+Version 0.02.
+
+=head2 Author and Contact Details
+
+The driver author is Craig Spannring.  He can be contacted via the
+FreeTDS mailing list.   You can subscribe to the mailing list at:
+
+    http://metalab.unc.edu/freetds/
+
+
+=head2 Supported Database Versions and Options
+
+The C<DBD::FreeTDS> driver supports Microsoft SQLServer 6.5 and Sybase
+11.I<x>  It has not been tested for Sybase 10 or SQLServer 7.0.
+
+
+=head2 Connect Syntax
+
+The C<DBI-E<gt>connect()> Data Source Name (DSN) is one of the following:
+
+  dbi:FreeTDS:database=$DATABASE;host=$DBHOST
+  dbi:FreeTDS:database=$DATABASE;host=$DBHOST;port=$PORT
+
+MS SQLServer generally uses port 1433 (the default).  Sybase does not
+have a standard port number so you will have to check with your local DBA.
+
+There are no driver specific attributes for the C<DBI-E<gt>connect()> method.
+
+
+=head2 Numeric Data Handling
+
+The C<DBD::FreeTDS> will support all numerical types supported by Sybase
+and SQLServer.  However, only BIT, FLOAT, INT, REAL, SMALLINT,
+and TINYINT are currently implemented.
+
+
+=head2 String Data Handling
+
+SQLServer and Sybase support the following string data types:
+
+  VARCHAR(size)
+  CHAR(size)
+
+CHAR and VARCHAR types and the RAW type have a limit of 255 bytes.
+C<DBD::FreeTDS> has full support for both of these types.
+
+The CHAR type is fixed length and blank padded.  Trailing blanks are not
+significant for string comparisons.
+
+See the documentation for SQL Server and Sybase for handling of 8 bit
+characters.
+
+
+=head2 Date Data Handling
+
+SQLServer supports the DATETIME and SMALLDATETIME values. A DATETIME can
+have a value from Jan 1 1753 to Dec 31 9999 with a 300th of a second
+resolution. A SMALLDATETIME has a range of Jan 1 1900 to Jun 6 2079
+with a 1 minute resolution.
+
+Sybase and SQLServer recognize a wide range of date input formats.
+Use the C<CONVERT()> SQL function to convert date and time values from
+other formats. For example:
+
+   UPDATE a_table
+      SET date_field = CONVERT(datetime_field, '1999-02-21', 105)
+
+C<CONVERT()> is a generic conversion function that can convert to/from
+most datatypes.  See the C<CONVERT()> function in Chapter 2 of the Sybase
+Reference Manual.
+
+If you specify a DATE value without a time component, the default time
+is 00:00:00 (midnight). If you specify a DATE value without a date, the
+default date is January 1, 1900.  If the century is omitted it is
+assumed to be 1900 if the year < 50 and 2000 if year >= 50.
+
+The current date and time is returned by the C<GETDATE()> function.
+
+The default output format for date types is C<Day dd yyyy hh:mmAM>, e.g.
+C<Mar 1 1999 8:02PM>.  The default date format for a database session
+can be changed with the Transact-SQL statement C<SET DATEFORMAT format>.  
+The allowed values for format are C<mdy>, C<dmy>, C<ymd>, C<ydm>, C<myd>,
+and C<dym>.
+
+Sybase and SQLServer can operate on date-time values with the functions
+C<DATEADD()>, C<DATEDIFF()>, and C<DATENAME()>.  You can also use the LIKE
+operator on date-time values.
+
+Sybase and SQLServer do not understand time zones at all, except that
+the C<getdate()> SQL function returns the date in the time zone that the
+server is running in (via C<localtime>).
+
+The following SQL expression can be used to convert an integer "seconds
+since 1-jan-1970" value ("unix time") to the corresponding database
+date time:
+
+  DATEADD(ss, unixtime_field, '1970-01-01')
+
+Note however that the server does not understand time zones, and will
+therefore give the value for local time and not the correct value
+for the GMT time zone.
+
+If you know that the server runs in the same timezone as the client,
+you can use:
+
+  use Time::Local;
+  $time_to_database = timegm(localtime($unixtime));
+
+to convert the unixtime value before sending it to Sybase.
+
+To do the reverse, I<i.e.>, convert from a database date time value to "unix
+time," you can use:
+
+  DATEDIFF(ss, '1970-01-01'', datetime_field)
+
+The same GMT I<vs.> localtime caveat applies in this case. If you know that
+the server runs in the same timezone as the client, you can convert the
+returned value to the correct GMT based value with this Perl
+expression:
+
+  use Time::Local;
+  $time = timelocal(gmtime($time_from_database));
+
+
+=head2 LONG/BLOB Data Handling
+
+SQLServer and Sybase support an IMAGE and a TEXT type for LONG/BLOB
+data.  Each type can hold up to 2GB of binary data, including nul
+characters. The main difference between an IMAGE and a TEXT column lies
+in how the client libraries treat the data on input and output. TEXT
+data is entered and returned "as is". IMAGE data is returned as a long
+hex string, and should be entered in the same way.
+
+Having said all that, C<DBD::FreeTDS> does not yet support these types.
+
+
+=head2 Other Data Handling issues
+
+The C<DBD::FreeTDS> driver does not support the C<type_info()> method yet.
+
+
+=head2 Transactions, Isolation and Locking
+
+SQLServer and Sybase support transactions, but C<DBD::FreeTDS> does not
+yet support access to them.
+
+SQLServer uses shared locks for read operations and exclusive page
+locks for writes.  Initially, SQLServer attempts to use page locking,
+but will quickly escalate the lock to a table level lock.  Both
+readers and writers can be blocked waiting to acquire a lock.
+SQLServer can detect mutually blocked connections and will rollback
+the transaction of the one of the connections.  Please see the server
+documentation for more information about how SQLServer chooses the
+deadlock victim.
+
+SQLServer supports several extensions to the SELECT statement that
+affect locking.  See the SQLServer documentation for more details.
+
+
+=head2 No-Table Expression Select Syntax
+
+To select a constant expression (one that doesn't involve data from a
+database table or view), you can select it without naming a table:
+
+  SELECT getdate()
+
+
+=head2 Table Join Syntax
+
+Outer joins are supported in Sybase using the C<=*> (right outer join) and
+C<*=> (left outer join) operators:
+
+  SELECT customer_name, order_date FROM customers, orders WHERE
+  customers.cust_id =* orders.cust_id
+
+For all rows in the customers table that have no matching rows in the
+orders table, Sybase returns NULL for any select list expressions
+containing columns from the orders table.
+
+SQLServer uses ANSI standard syntax for outer joins.
+
+  SELECT publishers.pub_id, titles.title, titles.title_id
+  FROM titles RIGHT OUTER JOIN publishers 
+  ON publishers.pub_id = titles.pub_id
+
+
+
+=head2 Table and Column Names
+
+The names of SQLServer identifiers, such as tables and columns, cannot
+exceed 30 characters in length.
+
+The first character must be a letter, or one of the symbols C<_>, C<@>,
+or C<#>.  The remaining characters con be any combination of letters,
+digits, or the symbols C<_>, C<@>, or C<#>.  Identifiers that start with
+the pound sign (C<#>) symbol are temporary objects; objects starting with
+a double pound sign (C<##>) are global temporary objects.  Identifiers for
+temporary objects should be less than 14 characters including the pound
+sign.
+
+Identifiers can be enclosed in double quote marks (C<">).  Quoted
+identifiers may contain any combination of characters in the current
+code page except for double quote marks.
+
+SQLServer stores identifiers as entered but does not otherwise
+distinguish between case.  Two identifiers are considered equivalent
+if they differ only in case.
+
+National characters can be used in identifier names without quoting.
+
+
+=head2 Case Sensitivity of LIKE Operator
+
+The Sybase and SQLServer LIKE operator is case sensitive.
+
+The C<UPPER> function can be used to force a case insensitive match, I<e.g.>,
+C<UPPER(name) LIKE 'TOM%'>. However, this prevents the server from making
+use of any index on the name column to speed up the query.
+
+
+=head2 Row ID
+
+SQLServer does not have an implicit table row ID column.
+
+A table can be created with an explicit identity column using the
+IDENTITY keyword.  Please refer to the server documentation for more
+details.  The column with the IDENTITY property can be accessed either
+through the name given in the C<CREATE> statement or with the alias
+IDENTITYCOL.
+
+To fetch the value generated and used by the last insert, you can
+
+  SELECT @@IDENTITY
+
+
+=head2 Automatic Key or Sequence Generation
+
+SQLServer has two types of automatically generated columns: IDENTITY
+and TIMESTAMP.
+
+Columns with the IDENTITY property are automatically and uniquely set
+when a row is inserted.  The value of the IDENTITY column can not be
+changed for a row after it's been inserted.  To fetch the value
+generated and used by the last insert, you can:
+
+  SELECT @@IDENTITY
+
+TIMESTAMP columns are set to a unique value when a row is first
+inserted and automatically updated with a new and unique value each
+time the row is modified.
+
+SQLServer does not support sequence generators other than the IDENTITY
+and TIMESTAMP columns.
+
+
+=head2 Automatic Row Numbering and Row Count Limiting
+
+SQLServer does not provide any pseudo-columns for sequentially
+numbering the rows in a result set.
+
+
+=head2 Parameter Binding
+
+Parameter binding is not yet supported by the C<DBD::FreeTDS> driver.
+Both the C<?> and C<:1> style of placeholders will be supported in the future.
+
+
+=head2 Stored Procedures
+
+C<DBD::FreeTDS> can execute stored procedures with the EXEC Transact-SQL
+keyword.  For example, if you want to call a stored procedure named
+"foo" that takes two parameters, you would write:
+
+  $sth = $dbh->prepare("exec foo 1, 2");
+  $sth->execute;
+
+SQLServer and Sybase stored procedures are implemented in the
+Transact-SQL language (a procedural extension to SQL that supports
+variables, control flow, packages, exceptions, etc).
+
+Stored procedures often return multiple result sets.  This can be
+handled using the I<syb_more_results> statement handle attribute.
+For example:
+
+  do {
+      while (@rs = $sth->fetchrow_array) {
+          ...process the data...;
+      }
+  } while ($sth->{syb_more_results});
+
+
+
+=head2 Table Metadata
+
+C<DBD::FreeTDS> does not support the C<table_info()> method yet.
+
+The I<syscolumns> table has one row per column per table. See the
+definitions of the Sybase system tables for details. However, the
+easiest method is to use the C<sp_help> stored procedure.
+
+The easiest way to get detailed information about the indexes of a
+table is to use the C<sp_helpindex> (or C<sp_helpkey>) stored procedure.
+
+
+=head2 Driver-specific Attributes and Methods
+
+C<DBD::FreeTDS> has no significant driver-specific handle attributes
+or private methods.
+
+
+=head2 Positioned updates and deletes
+
+SQLServer supports updatable cursors but C<DBD::FreeTDS> does not
+implement those yet.
+
+
+=head2 Differences from the DBI Specification
+
+C<DBD::FreeTDS> is a work in progress.  Significant sections of the DBI
+specification have not been implemented yet.
+
+
+=head2 URLs to More Database/Driver Specific Information
+
+  http://www.microsoft.com/sql
+  http://techinfo.sybase.com
+  http://sybooks.sybase.com
+
+=head2 Concurrent use of Multiple Handles
+
+C<DBD::FreeTDS> supports an unlimited number of concurrent database
+connections to one or more databases.
+
+C<DBD::FreeTDS> allows multiple outstanding statements for each database
+handle.  The driver maintains one connection for every active
+statement.  
+
+Note: SQLServer will count each active statement as one
+user connection.  You should be careful to close statement handles so
+that you don't run out of licensed connections.
+
+
+=cut
+
+# This driver summary for DBD::FreeTDS is Copyright (c) 1999 Tim Bunce
+# and Craig Spannring.
+# $Id: dbd-freetds.pod,v 2.3 1999/05/16 13:09:17 timbo Exp timbo $

@@ -1,0 +1,255 @@
+
+=head1 DBD::XBase
+
+=begin docbook
+<!-- The following blank =head1 is to allow us to use purely =head2 headings -->
+<!-- This keeps the POD fairly simple with regards to Pod::DocBook -->
+
+=end docbook
+
+=head1
+
+=head2 Version
+
+Version 0.130.
+
+=head2 Author and Contact Details
+
+The driver author is Jan Pazdziora.  He can be contacted at
+I<adelton@fi.muni.cz> or I<via> the I<dbi-users> mailing list.
+
+=head2 Supported Database Versions and Options
+
+The C<DBD::XBase> module supports dBaseIII and IV and Fox* flavors of
+I<dbf> files, including their I<dbt> and I<fpt> memo files.
+
+
+=head2 Connect Syntax
+
+The C<DBI-E<gt>connect()> Data Source Name, or I<DSN>, should include the
+directory where the I<dbf> files are located as the third part.
+
+  dbi:XBase:/path/to/directory
+
+It defaults to current directory.
+
+There are no driver specific attributes for the C<DBI-E<gt>connect()> method.
+
+=head2 Numeric Data Handling
+
+C<DBD::XBase> supports generic NUMBER(p,s), FLOAT(p,s) and INTEGER(l)
+types. The maximum scale and precision is limited by Perl's handling
+of numbers. In the I<dbf> files, the numbers are stored as ASCII strings,
+binary integers, or floats.
+
+Existing I<dbf> files come with the field types defined in the I<dbf> file
+header. Numeric types can be either stored as ASCII string or in some
+binary format. C<DBD::XBase> (via C<XBase.pm>) parses this information and reads and
+writes the fields in that format.
+
+When you create a new I<dbf> file ( I<via> C<CREATE TABLE> ), the numeric
+fields are always created in the traditional XBase way, as an ASCII
+string.  (The C<XBase.pm> module offer more control over this.)
+
+Numeric fields are always returned as Perl numeric values, not strings.
+Consequently, numbers outside of Perl's valid range are not possible. This
+restriction might be withdrawn in the future.
+
+
+=head2 String Data Handling
+
+C<DBD::XBase> has CHAR(length) and VARCHAR(length) data types.
+
+The maximum length is 65535 characters for both types*.
+
+    * This limit if effective even though the older dBase's only allowed
+      254 characters. Therefore, created dbf files might not be portable
+      to other XBase compatible software.
+
+Both CHAR I<and> VARCHAR are blank padded so I<ChopBlanks> applies to both.
+
+Data with the 8th bit set are handled transparently. No national
+language character set conversions are done.  Since the string types
+can store binary data, Unicode strings can be stored.
+
+
+=head2 Date Data Handling
+
+C<DBD::XBase> supports these date and time types:
+
+  DATE
+  DATETIME
+  TIME
+
+The DATE type holds an eight character string in the format
+C<YYYYMMDD>.  Only that format can be used for input and output.
+C<DBD::XBase> doesn't check for validity of the values.
+
+The DATETIME and TIME types internally store a 4 byte integer day
+value and a 4 byte integer seconds value ( counting 1/1000's of a
+second ).  C<DBD::XBase> inputs and outputs these types using a floating
+point unix-style "seconds-since-epoch" value ( possibly with decimal part ).
+This might change in the future.
+
+There is no way to get the current date/time, and no SQL date time
+functions are supported.  There is also no concept of time zones.
+
+=head2 LONG/BLOB Data Handling
+
+C<DBD::XBase> supports a MEMO data type. BLOB can be used as an alias for
+MEMO.  Strings up to 2 GB can be stored in MEMO fields ( for all types
+of XBase memo files ).
+
+With dBaseIII I<dbt> files, the memo field cannot contain a C<0x1A> byte. 
+With dBaseIV and Fox* C<dbt>/C<fpt>s, any character values can be stored.
+
+No special handling is required for fetching or inserting MEMO fields.
+The I<LongReadLen> and I<LongTruncOk> attributes are currently ignored.
+
+
+=head2 Other Data Handling issues
+
+The C<DBD::XBase> driver supports the C<type_info()> method.
+
+C<DBD::XBase> supports automatic conversions between data types wherever it's
+reasonable.
+
+=head2 Transactions, Isolation and Locking
+
+C<DBD::XBase> currently does not support transactions and does not lock 
+the tables it is working on.
+
+
+=head2 No-Table Expression Select Syntax
+
+You can't select a constant expression using C<DBD::XBase>. Only
+table field names or C<*>, for all columns, can be selected.
+
+
+=head2 Table Join Syntax
+
+C<DBD::XBase> does not support table joins.
+
+
+=head2 Table and Column Names
+
+The XBase format stores each table as a distinct file. Memo fields are
+stored in an additional file. The table names are limited by the
+filesystem's maximum filename length. They are stored and treated as entered.
+The case sensitivity depends on the filesystem that the file is stored on.
+
+Column names are limited to 11 characters. They are stored as uppercase,
+but are not case sensitive.
+
+Table and field names have to start with letter. Any combination of
+letters, digits, and underscores may follow.  National character sets
+can be used.
+
+C<DBD::XBase> does not support putting quotes around table or column names.
+
+
+=head2 Case Sensitivity of LIKE Operator
+
+The LIKE operator is not case sensitive. There is currently no case
+sensitivity operator.
+
+
+=head2 Row ID
+
+C<DBD::XBase> does not support a "row ID" pseudocolumn.
+
+
+=head2 Automatic Key or Sequence Generation
+
+C<DBD::XBase> does not support automatic key generation or sequence
+generators owing to the limitations of the XBase format.
+
+
+=head2 Automatic Row Numbering and Row Count Limiting
+
+C<DBD::XBase> does not support a row-numbering pseudocolumn.
+
+
+=head2 Parameter Binding
+
+Parameter binding is implemented in the driver and supports the C<?>
+style of placeholder.  The C<:1> placeholder style is not (yet)
+supported.
+
+The TYPE attribute to C<bind_param()> is ignored. Consequently, 
+unsupported values of the TYPE attribute do not currently generate a warning.
+
+
+=head2 Stored Procedures
+
+Stored procedures are not applicable in the XBase format.
+
+
+=head2 Table Metadata
+
+C<DBD::XBase> supports the C<table_info> method.
+
+There is no way to get detailed information about the columns of a
+table (at the moment) other than doing a C<SELECT * FROM table> and
+using the I<NAME> and I<TYPE> attributes of the statement handle.
+
+Keys and Indexes are not supported.
+
+
+=head2 Driver-specific Attributes and Methods
+
+C<DBD::XBase> has just one driver-specific attribute and that is
+valid for both database and statement handles.
+
+=over 8
+
+=item I<xbase_ignorememo>
+
+Ignore memo files and thus don't fail to read a table where the
+memo file is missing or corrupt.
+
+=back
+
+C<DBD::XBase> has no generally useful private methods.
+
+
+=head2 Positioned updates and deletes
+
+C<DBD::XBase> does not support positioned updates or deletes.
+
+
+=head2 Differences from the DBI Specification
+
+C<DBD::XBase> has no known significant differences in behavior from the
+current DBI specification.
+
+Note that C<DBD::XBase> does not fully parse the statement until
+it is executed. Thus attributes like I<$sth-E<gt>{NUM_OF_FIELDS}> are not
+available until after C<$sth-E<gt>execute()> has been called. This is valid
+behavior but is important to note when porting applications written
+originally for other drivers.
+
+
+=head2 URLs to More Database/Driver Specific Information
+
+Very comprehensive information about the XBase format, along with many
+references, can be found at:
+
+  http://www.e-bachmann.dk/docs/xbase.htm
+
+
+=head2 Concurrent use of Multiple Handles
+
+C<DBD::XBase> supports an unlimited number of concurrent database
+connections to one or more databases.
+
+It also supports the preparation and execution of a new statement
+handle while still fetching data from another statment handle
+associated with the same database handle.
+
+
+=cut
+
+# This driver summary for DBD::XBase is Copyright (c) 1999 Tim Bunce and
+# Jan Pazdziora.
+# $Id: dbd-xbase.pod,v 2.2 1999/05/16 13:09:17 timbo Exp timbo $

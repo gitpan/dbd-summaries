@@ -1,0 +1,192 @@
+
+=head1 DBD::ADO
+
+=begin docbook
+<!-- The following blank =head1 is to allow us to use purely =head2 headings -->
+<!-- This keeps the POD fairly simple with regards to Pod::DocBook -->
+
+=end docbook
+
+=head1
+
+=head2 Version
+
+Version 0.03.
+
+At the time of this
+writing, the C<DBD::ADO> driver even ADO itself are relatively new.
+Things are bound to change, so be sure to read the latest documentation.
+
+=head2 Author and Contact Details
+
+The driver maintainer is Phlip Plumlee.  He can be contacted via the
+I<dbi-users> mailing list.
+
+=head2 Supported Database Versions and Options
+
+The C<DBD::ADO> module requires Microsoft ADO version 2.1 or later to work
+reliably. Using NT with Service Pack 4 is recommended. The module is
+pure Perl, making use of the C<Win32::OLE> module to handle the ADO
+requests.
+
+The C<DBD::ADO> module supports SQL statements into anything your raw ADO
+supports. This can include the Jet data drivers for the various
+Microsoft Office file formats, any number of ODBC data drivers, or
+experimental data providers that expose file system folder heirarchies
+or Internet directory services as data sources.
+
+Each provider system variously supports SQL, either in a native format
+like MS-SQL Server's Transact SQL or as an emulation layer in the data
+provider, such as a Jet data driver reading an Excel spreadsheet.
+
+
+=head2 Connect Syntax
+
+The C<DBI-E<gt>connect()> Data Source Name, or I<DSN> has the following format:
+
+  dbi:ADO:DSN
+
+Where DSN must be an ODBC Data Source Name registered with the Control Panel
+ODBC Data Sources applet. If your DBI application runs as a service, or daemon,
+the DSN must appear on the "System DSN" tab. A CGI application is the obvious
+example.
+
+There are no driver specific attributes for the C<DBI-E<gt>connect()> method.
+
+
+=head2 Numeric Data Handling
+
+The numeric, string, and date data types depend on the interaction of
+four forces: What a Perl "scalar" supports, how the C<Win32::OLE> layer
+translates VARIANTs into scalars, the types that VARIANT itself
+permits, and the types your target provider emits.
+
+A user-programmer must research those forces in their relevant
+documentation.  Rest assured that C<DBD::ADO> will then transmit the type
+correctly.
+
+=head2 String Data Handling
+
+See L</Numeric Data Handling> above.
+
+=head2 Date Data Handling
+
+See L</Numeric Data Handling> above.
+
+=head2 LONG/BLOB Data Handling
+
+See L</Numeric Data Handling> above.
+
+
+=head2 Other Data Handling issues
+
+The C<DBD::ADO> driver does not yet support the C<type_info()> method.
+
+
+=head2 Transactions, Isolation and Locking
+
+C<DBD::ADO> reflects the capabilities of the native I<Connection> to the
+user. Transactions, if a provider supports them, are per connection -
+all statements derived from one connection will ``see'' updates to that
+data that await a C<COMMIT> statement. Other connections, if a provider
+supports them, will not see these updates.
+
+ADO supports 4 locking levels. Databases can be very sensitive to the lock
+typed picked. If you pick the wrong type and then BEGIN a large TRANSACTION,
+the locking type can escalate up to lock nearly everything. C<DBD::ADO> should
+expose these levels to the user for tuning, but currently doesn't.
+
+
+=head2 No-Table Expression Select Syntax
+
+Dependent on the data provider associated with the database handle.
+
+
+=head2 Table Join Syntax
+
+Dependent on the data provider associated with the database handle.
+
+
+=head2 Table and Column Names
+
+Dependent on the data provider associated with the database handle.
+
+
+=head2 Case Sensitivity of LIKE Operator
+
+Dependent on the data provider associated with the database handle.
+
+
+=head2 Row ID
+
+Dependent on the data provider associated with the database handle.
+
+
+=head2 Automatic Key or Sequence Generation
+
+Dependent on the data provider associated with the database handle.
+
+
+=head2 Automatic Row Numbering and Row Count Limiting
+
+Dependent on the data provider associated with the database handle.
+
+
+=head2 Parameter Binding
+
+Parameter binding is not yet supported by C<DBD::ADO>.
+
+Unsupported values of the TYPE attribute do not currently generate a
+warning.
+
+
+=head2 Stored Procedures
+
+Calling stored procedures is not yet supported by C<DBD::ADO>.
+
+
+=head2 Table Metadata
+
+C<DBD::ADO> does not currently support the C<table_info()> method.  It awaits
+the needed slack time and/or other volunteers.
+
+
+=head2 Driver-specific Attributes and Methods
+
+C<DBD::ADO> has no significant driver-specific handle attributes
+or private methods.
+
+
+=head2 Positioned updates and deletes
+
+C<DBD::ADO> does not support positioned updates or deletes.
+
+
+=head2 Differences from the DBI Specification
+
+C<DBD::ADO> is a very new and currently incomplete driver. It is evolving
+rapidly though, and since it's written in pure Perl using C<Win32::OLE>,
+it's easy for people to enhance.
+
+
+=head2 URLs to More Database/Driver Specific Information
+
+Information about ADO can be found at I<http://www.microsoft.com/data/ado/>.
+
+
+=head2 Concurrent use of Multiple Handles
+
+C<DBD::ADO> supports an unlimited number of concurrent data source
+connections to one or more data sources subject to the limitations of
+those data sources.
+
+It also supports the preparation and execution of a new statement
+handle while still fetching data from another statement handle
+associated with the same database handle. This is also subject 
+to the limitations of the data source.
+
+=cut
+
+# This driver summary for DBD::ADO is Copyright (c) 1999 Tim Bunce
+# and Phlip Plumlee.
+# $Id: dbd-ado.pod,v 2.2 1999/05/16 13:09:17 timbo Exp timbo $

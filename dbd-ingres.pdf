@@ -1,0 +1,1661 @@
+%PDF-1.1
+%‚„œ”
+2 0 obj
+<<
+/Length 2715
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+54.03 706.95 m
+79.23 706.95 l
+90.03 717.75 m
+90.03 742.95 l
+522.03 742.95 m
+522.03 717.75 l
+532.83 706.95 m
+558.03 706.95 l
+S
+BT
+/F8 1 Tf
+96 0 0 96 438 589.55 Tm
+/CS1 cs 0 sc
+0 Tc
+0 Tw
+(1)Tj
+/F6 1 Tf
+24 0 0 24 355.344 535.55 Tm
+(DBD::Ingres)Tj
+14 0 0 14 126 483.25 Tm
+[(V)111(ersion)]TJ
+/F8 1 Tf
+10 0 0 10 126 465.25 Tm
+[(V)111(ersion 0.16 and, where noted, the forthcoming 0.20 release.)]TJ
+/F6 1 Tf
+14 0 0 14 126 436.45 Tm
+[(A)30(uthor and Contact Details)]TJ
+/F8 1 Tf
+10 0 0 10 126 418.45 Tm
+[(The dri)25(v)15(e)0(r)-250(author is Henrik T)80(ougaard. He can be contacted via the)]TJ
+/F4 1 Tf
+26.6714 0 TD
+[(dbi-user)10(s)]TJ
+/F8 1 Tf
+3.9618 0 TD
+(mailing list.)Tj
+/F6 1 Tf
+14 0 0 14 126 389.65 Tm
+[(Supported Database V)111(ersions and Options)]TJ
+/F8 1 Tf
+10 0 0 10 126 371.65 Tm
+(The)Tj
+/F2 1 Tf
+9 0 0 9 143.724 371.65 Tm
+-0.072 Tc
+(DBD::Ingres)Tj
+/F8 1 Tf
+10 0 0 10 198.797 371.65 Tm
+0 Tc
+(module supports both Ingres 6.4 and OpenIngres \(1.x & II\).)Tj
+/F6 1 Tf
+14 0 0 14 126 342.85 Tm
+(Connect Syntax)Tj
+/F8 1 Tf
+10 0 0 10 126 324.85 Tm
+(The)Tj
+/F2 1 Tf
+9 0 0 9 143.724 324.85 Tm
+-0.072 Tc
+(DBI->connect\(\))Tj
+/F8 1 Tf
+10 0 0 10 213.046 324.85 Tm
+0 Tc
+(Data Source Name, or)Tj
+/F4 1 Tf
+9.1355 0 TD
+(DSN)Tj
+/F8 1 Tf
+1.8889 0 TD
+[(,)-250(can be one of the follo)25(wing:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 305.85 Tm
+-0.072 Tc
+(dbi:Ingres:dbname)Tj
+0 -1.25 TD
+(dbi:Ingres:vnode::dbname)Tj
+T*
+(dbi:Ingres:dbname;options)Tj
+/F8 1 Tf
+10 0 0 10 126 266.85 Tm
+0 Tc
+(Where)Tj
+/F4 1 Tf
+2.9318 0 TD
+(options)Tj
+/F8 1 Tf
+3.2118 0 TD
+0.017 Tw
+[(are the SQL Option Flags as de\214ned in the CA-OpenIngres System Refer)20(-)]TJ
+-6.1437 -1.3 TD
+0 Tw
+(ence Guide.)Tj
+0 -1.9 TD
+[(There are no dri)25(v)15(e)0(r)-250(speci\214c attrib)20(utes for the)]TJ
+/F2 1 Tf
+9 0 0 9 306.124 234.85 Tm
+-0.072 Tc
+(DBI->connect\(\))Tj
+/F8 1 Tf
+10 0 0 10 375.446 234.85 Tm
+0 Tc
+(method.)Tj
+/F6 1 Tf
+14 0 0 14 126 206.05 Tm
+(Numeric Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 188.05 Tm
+0.014 Tw
+[(The database and dri)25(v)15(e)0(r)-264(supports 1 byte, 2 byte and 4 byte INTEGERS, 4 byte and 8 byte)]TJ
+0 -1.3 TD
+0.064 Tw
+[(FLO)35(A)111(TS, and a currenc)15(y)-314(type. The database and the dri)25(v)15(e)0(r)-314(\(from v)15(ersion 0.20\) supports)]TJ
+T*
+0 Tw
+(the DECIMAL-number type.)Tj
+/F6 1 Tf
+9 0 0 9 481.5 79.25 Tm
+(1)Tj
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+9 0 obj
+[/CalGray <<
+/Gamma 1.8
+/WhitePoint [0.951 1 1.089]
+>>
+]
+endobj
+12 0 obj
+<<
+/Length 5630
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+0 Tw
+(2)Tj
+34.306 0 TD
+(DBD::Ingres)Tj
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F2 1 Tf
+8 0 0 8 152.155 646.622 Tm
+-0.072 Tc
+3.166 Tw
+[(Type Description)-5805(Range)]TJ
+0 -1.25 TD
+[(---- -----------)-5805(-----)]TJ
+T*
+1.055 Tw
+[(INTEGER1 1-byte)-527(integer )-2639(-128)-527(to )1055(+127)]TJ
+T*
+[(SMALLINT 2-byte)-527(integer )-2639(-32,678)-527(to )1055(+32,767)]TJ
+T*
+1.583 Tw
+[(INTEGER 4-byte)-527(integer )-2111(-2,147,483,648)-527(to )1583(+2,147,483,647)]TJ
+T*
+0 Tw
+[(FLOAT4 )-2111(4-byte)-527(floating )-3166(-1.0e+38)-527(to 1.0e+38 \(7 digits\))]TJ
+T*
+[(FLOAT )-2638(8-byte)-527(floating )-3166(-1.0e+38)-527(to 1.0e+38 \(16 digits\))]TJ
+T*
+2.638 Tw
+[(MONEY 8-byte)-527(money )-2111($-999,999,999,999.99)-527(to )2638($999,999,999,999.99)]TJ
+T*
+0 Tw
+[(DECIMAL )-1583(fixed)-527(point numeric)-1583(Depends on precision \(max 31\) and scale.)]TJ
+9 0 0 9 125.675 547.622 Tm
+(DBD::Ingres)Tj
+/F8 1 Tf
+10 0 0 10 180.757 547.622 Tm
+0 Tc
+0.001 Tw
+[(al)10(w)10(ays returns all numbers as Perl numbers)-83(\212)-83(inte)15(gers where possible, \215oat-)]TJ
+-5.4757 -1.3 TD
+0.002 Tw
+(ing point otherwise. It is therefore possible that some precision may be lost when fetching)Tj
+T*
+0 Tw
+(DECIMAL types with a precision greater than Perl numbers \(usually 16\).)Tj
+/F6 1 Tf
+14 0 0 14 126 492.822 Tm
+(String Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 474.822 Tm
+(Ingres and)Tj
+/F2 1 Tf
+9 0 0 9 170.102 474.822 Tm
+-0.072 Tc
+(DBD::Ingres)Tj
+/F8 1 Tf
+10 0 0 10 225.175 474.822 Tm
+0 Tc
+[(supports the follo)25(wing string data types:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 455.822 Tm
+-0.072 Tc
+(VARCHAR\(size\))Tj
+0 -1.25 TD
+(CHAR\(size\))Tj
+T*
+(TEXT\(size\))Tj
+T*
+(C\(size\))Tj
+/F8 1 Tf
+10 0 0 10 126 406.822 Tm
+0 Tc
+0.138 Tw
+[(All string types ha)20(v)15(e)15( )-15(a)15( )-15(limit of 2000 bytes. The CHAR, TEXT)74(,)-388(and C types are \214x)15(ed)]TJ
+0 -1.3 TD
+0 Tw
+(length and blank padded.)Tj
+0 -1.9 TD
+0.082 Tw
+(All string types can handle national character sets. The C type will only accept printing)Tj
+0 -1.3 TD
+0.131 Tw
+[(characters. CHAR and V)135(ARCHAR accept all character v)25(alues including embedded nul)]TJ
+T*
+0 Tw
+(characters \()Tj
+/F2 1 Tf
+9 0 0 9 172.032 348.822 Tm
+-0.072 Tc
+("\\0")Tj
+/F8 1 Tf
+10 0 0 10 191.356 348.822 Tm
+0 Tc
+(\). Unicode is not formally supported yet.)Tj
+-6.5356 -1.9 TD
+(Strings can be concatenated using the SQL)Tj
+/F2 1 Tf
+9 0 0 9 299.805 329.822 Tm
+(+)Tj
+/F8 1 Tf
+10 0 0 10 307.379 329.822 Tm
+[(operator)55(.)]TJ
+/F6 1 Tf
+14 0 0 14 126 301.022 Tm
+(Date Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 283.022 Tm
+0.054 Tw
+[(Ingres has just one date datatype: D)40(A)111(TE. Ho)25(we)25(v)15(e)0(r)40(,)40( )-41(it)-305(can contain either an absolute date)]TJ
+0 -1.3 TD
+0.155 Tw
+[(and time or a time interv)25(al. Dates and times are in second resolution between approx)]TJ
+T*
+0 Tw
+[(1-J)60(AN-1581 and 31-DEC-2382. Interv)25(als are stored to a one second resolution.)]TJ
+0 -1.9 TD
+0.134 Tw
+[(Ingres supports a v)25(ariety of date formats, depending on the setting of the en)40(vironment)]TJ
+0 -1.3 TD
+0 Tw
+[(v)25(ariable II_D)40(A)111(TE_FORMA)111(T)74(.)74( )-74(The def)10(ault output format is)]TJ
+/F2 1 Tf
+9 0 0 9 361.361 225.022 Tm
+-0.072 Tc
+(US: DD-MMM-YYYY HH:MM:SS)Tj
+/F8 1 Tf
+10 0 0 10 475.68 225.022 Tm
+0 Tc
+(.)Tj
+-34.968 -1.9 TD
+0.237 Tw
+[(Man)15(y)-487(input formats are allo)25(wed. F)15(or the def)10(ault format the follo)25(wing are accepted:)]TJ
+/F2 1 Tf
+9 0 0 9 125.675 193.022 Tm
+-0.072 Tc
+(MM/DD/YYYY)Tj
+/F8 1 Tf
+10 0 0 10 173.498 193.022 Tm
+0 Tc
+0 Tw
+(,)Tj
+/F2 1 Tf
+9 0 0 9 180.468 193.022 Tm
+-0.072 Tc
+(DD-MMM-YYYY)Tj
+/F8 1 Tf
+10 0 0 10 233.04 193.022 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 240.01 193.022 Tm
+-0.072 Tc
+(MM-DD-YYYY)Tj
+/F8 1 Tf
+10 0 0 10 287.833 193.022 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 294.802 193.022 Tm
+-0.072 Tc
+(YYYY.MM.DD)Tj
+/F8 1 Tf
+10 0 0 10 342.624 193.022 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 349.593 193.022 Tm
+-0.072 Tc
+(YYYY_MM_DD)Tj
+/F8 1 Tf
+10 0 0 10 397.416 193.022 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 404.385 193.022 Tm
+-0.072 Tc
+(MMDDYY)Tj
+/F8 1 Tf
+10 0 0 10 433.209 193.022 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 440.177 193.022 Tm
+-0.072 Tc
+(MM-DD)Tj
+/F8 1 Tf
+10 0 0 10 464.251 193.022 Tm
+0 Tc
+[(,)-479(and)]TJ
+/F2 1 Tf
+9 0 0 9 125.675 180.022 Tm
+-0.072 Tc
+(MM/DD)Tj
+/F8 1 Tf
+10 0 0 10 149.749 180.022 Tm
+0 Tc
+(.)Tj
+-2.3749 -3.022 TD
+0.17 Tw
+[(If you specify a D)40(A)111(TE)-420(v)25(alue without a time component, the def)10(ault time is 00:00:00)]TJ
+0 -1.3 TD
+0.016 Tw
+[(\(midnight\). If you specify a D)40(A)111(TE)-266(v)25(alue without a date, the def)10(ault date is the \214rst day of)]TJ
+T*
+0.043 Tw
+[(the current month. If a date format that has a tw)10(o)-293(digit year)40(,)-293(such as the)]TJ
+/F2 1 Tf
+9 0 0 9 419.764 123.802 Tm
+-0.072 Tc
+(YY)Tj
+/F8 1 Tf
+10 0 0 10 432.519 123.802 Tm
+0 Tc
+(in)Tj
+/F2 1 Tf
+9 0 0 9 442.905 123.802 Tm
+-0.072 Tc
+(DD-MON-YY)Tj
+/F8 1 Tf
+10 0 0 10 126 110.802 Tm
+0 Tc
+0 Tw
+[(\(a common def)10(ault\), then the date returned is al)10(w)10(ays in the current century)65(.)]TJ
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+15 0 obj
+<<
+/Length 4660
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+/CS1 cs 0 sc
+0 Tc
+0 Tw
+[(The follo)25(wing date-related functions are supported:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 624.622 Tm
+-0.072 Tc
+[(DATE\(string\) )-6860(-)-527(converts a string to a date)]TJ
+0 -1.25 TD
+[(DATE_TRUNC\(unit, date\))-2111(-)-527(date value truncated to the specified unit)]TJ
+T*
+[(DATE_PART\(unit, date\))-2638(-)-527(integer containing the specified part)]TJ
+T*
+[(DATE_GMT\(date\) )-5805(-)-527(converts date to string "YYYY_MM_DD HH:MM:SS GMT".)]TJ
+T*
+[(INTERVAL\(unit, interval\))-1055(-)-527(express interval as numeric count of units)]TJ
+/F8 1 Tf
+10 0 0 10 126 565.622 Tm
+0 Tc
+0.109 Tw
+(The currect date and time is returned by the)Tj
+/F2 1 Tf
+9 0 0 9 312.418 565.622 Tm
+-0.072 Tc
+(DATE\('now'\))Tj
+/F8 1 Tf
+10 0 0 10 368.585 565.622 Tm
+0 Tc
+(function. The current date is)Tj
+-24.2585 -1.3 TD
+0 Tw
+(returned by)Tj
+/F2 1 Tf
+9 0 0 9 173.992 552.622 Tm
+-0.072 Tc
+(DATE\('today'\))Tj
+/F8 1 Tf
+10 0 0 10 236.064 552.622 Tm
+0 Tc
+(.)Tj
+-11.0064 -1.9 TD
+0.335 Tw
+[(The follo)25(wing SQL e)15(xpression can be used to con)40(v)15(ert an inte)15(ger `)74(`seconds since)]TJ
+0 -1.3 TD
+0 Tw
+[(1-jan-1970 GMT')74(')-250(v)25(alue to the corresponding database date time:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 501.622 Tm
+-0.072 Tc
+(DATE\('01.01.1970 00:00 GMT'\)+DATE\(CHAR\(seconds_since_epoch\)+' seconds'\))Tj
+/F8 1 Tf
+10 0 0 10 126 482.622 Tm
+0 Tc
+[(And to do the re)25(v)15(erse:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 463.622 Tm
+-0.072 Tc
+(INT4\(INTERVAL\('seconds', DATE\('now'\)-DATE\('01.01.1970 00:00 GMT'\)\)\))Tj
+/F8 1 Tf
+10 0 0 10 126 444.622 Tm
+0 Tc
+0.064 Tw
+[(A)-314(three letter time zone name \(from a limited set\) can be appended to a date. If no time)]TJ
+T*
+0.02 Tw
+[(zone name is gi)25(v)15(en, then the current client time zone is assumed. All datetimes are stored)]TJ
+T*
+0.018 Tw
+[(in the database as GMT and are con)40(v)15(erted back to the local time of the client fetching the)]TJ
+T*
+0 Tw
+[(data. All date comparisions in the serv)15(er and done in GMT)74(.)]TJ
+/F6 1 Tf
+14 0 0 14 126 376.822 Tm
+(LONG/BLOB Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 358.822 Tm
+(Ingres supports these LONG types:)Tj
+/F2 1 Tf
+8 0 0 8 152.155 339.822 Tm
+-0.072 Tc
+[(LONG VARCHAR)-1055(-)-527(Character data of variable length upto 2GB)]TJ
+0 -1.25 TD
+[(LONG BYTE)-2638(-)-527(Raw binary data of variable length upto 2GB)]TJ
+/F8 1 Tf
+10 0 0 10 126 310.822 Tm
+0 Tc
+0.04 Tw
+[(Ho)25(we)25(v)15(e)0(r)40(,)40( the)]TJ
+/F2 1 Tf
+9 0 0 9 180.992 310.822 Tm
+-0.072 Tc
+(DBD::Ingres)Tj
+/F8 1 Tf
+10 0 0 10 236.064 310.822 Tm
+0 Tc
+0 Tw
+[(dri)25(v)15(e)0(r)-250(does not yet support these types.)]TJ
+/F6 1 Tf
+14 0 0 14 126 282.022 Tm
+(Other Data Handling issues)Tj
+/F8 1 Tf
+10 0 0 10 126 264.022 Tm
+(The)Tj
+/F2 1 Tf
+9 0 0 9 143.724 264.022 Tm
+-0.072 Tc
+(DBD::Ingres)Tj
+/F8 1 Tf
+10 0 0 10 198.797 264.022 Tm
+0 Tc
+[(dri)25(v)15(e)0(r)-250(supports the)]TJ
+/F2 1 Tf
+9 0 0 9 275.557 264.022 Tm
+-0.072 Tc
+(type_info\(\))Tj
+/F8 1 Tf
+10 0 0 10 330.63 264.022 Tm
+0 Tc
+(method.)Tj
+-20.463 -1.9 TD
+[(Ingres supports automatic con)40(v)15(ersions between data types where)25(v)15(e)0(r)-250(it')55(s)-250(reasonable.)]TJ
+/F6 1 Tf
+14 0 0 14 126 216.222 Tm
+[(T)37(ransactions, Isolation and Loc)10(king)]TJ
+/F2 1 Tf
+9 0 0 9 125.675 198.222 Tm
+-0.072 Tc
+(DBD::Ingres)Tj
+/F8 1 Tf
+10 0 0 10 182.739 198.222 Tm
+0 Tc
+0.199 Tw
+[(support transactions. The def)10(ault transaction isolation le)25(v)15(e)0(l)-449(i)0(s)-449(`)74(`Serializ-)]TJ
+-5.6739 -1.3 TD
+0.161 Tw
+[(able')74('. OpenIngres II supports `)74(`Repeatable Read')74(', `)74(`Read Commited')74(', and `)74(`Serializ-)]TJ
+T*
+[(able')74('.)]TJ
+0 -2.242 TD
+0.002 Tw
+[(The reading of a record sets a read-lock pre)25(v)15(enting writers from changing that record and,)]TJ
+0 -1.3 TD
+0.085 Tw
+[(depending on lock granularity)65(,)-335(possibly other records. Other readers are not hindered in)]TJ
+T*
+0.13 Tw
+[(their reading. Writing a record sets a lock that pre)25(v)15(ent other writers from writing, and)]TJ
+T*
+0 Tw
+(readers from reading.)Tj
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+(DBD::Ingres )Tj
+39.4998 0 TD
+(3)Tj
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+16 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+18 0 obj
+<<
+/Length 4757
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+0 Tw
+(4)Tj
+34.306 0 TD
+(DBD::Ingres)Tj
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+(The)Tj
+/F2 1 Tf
+9 0 0 9 144.522 643.622 Tm
+-0.072 Tc
+0.088 Tw
+(SET LOCKMODE)Tj
+/F8 1 Tf
+10 0 0 10 205.94 643.622 Tm
+0 Tc
+0.08 Tw
+[(statement allo)25(ws you to change the locking granularity)65(.)-330(I)0(t)-330(can be set)]TJ
+-7.994 -1.3 TD
+(to:)Tj
+/F2 1 Tf
+8 0 0 8 152.155 611.622 Tm
+-0.072 Tc
+0 Tw
+[(ROW )-1583(-)-527(lock only the affected rows \(OpenIngres II only\))]TJ
+0 -1.25 TD
+[(PAGE )-1055(-)-527(lock the page that contains the affected row)]TJ
+T*
+[(TABLE )-527(-)-527(lock the entire table)]TJ
+/F8 1 Tf
+10 0 0 10 126 572.622 Tm
+0 Tc
+0.116 Tw
+[(W)40(ith the statement)]TJ
+/F2 1 Tf
+9 0 0 9 206.8 572.622 Tm
+-0.072 Tc
+0.129 Tw
+(SET LOCKMODE SESSION WHERE READLOCK=NOLOCK)Tj
+/F8 1 Tf
+10 0 0 10 414.916 572.622 Tm
+0 Tc
+0.116 Tw
+[(it is possible, b)20(u)0(t)]TJ
+-28.8916 -1.3 TD
+(de\214nitely)Tj
+/F4 1 Tf
+4.0278 0 TD
+(not)Tj
+/F8 1 Tf
+1.5279 0 TD
+0 Tw
+[(recommended, to set the isolation le)25(v)15(e)0(l)-250(t)0(o)-250(`)74(`Read Uncommited')74('.)]TJ
+/F6 1 Tf
+14 0 0 14 126 530.822 Tm
+[(No-T)92(able Expression Select Syntax)]TJ
+/F8 1 Tf
+10 0 0 10 126 512.822 Tm
+0.152 Tw
+[(T)80(o)80( )-80(select a constant e)15(xpression, that is an e)15(xpression that doesn')18(t)-402(i)0(n)40(v)40( )382(olv)15(e)-402(data from a)]TJ
+0 -1.3 TD
+0 Tw
+[(database table or vie)25(w)65(,)65( )-65(you can just select the e)15(xpression. F)15(or e)15(xample:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 480.822 Tm
+-0.072 Tc
+(SELECT DATE\('now'\))Tj
+/F6 1 Tf
+14 0 0 14 126 452.022 Tm
+0 Tc
+[(T)92(able J)40(oin Syntax)]TJ
+/F8 1 Tf
+10 0 0 10 126 434.022 Tm
+0.19 Tw
+(OpenIngres support outer joins in ANSI SQL-92 syntax. Ingres 6.4 does not support)Tj
+T*
+0 Tw
+(outer joins.)Tj
+/F6 1 Tf
+14 0 0 14 126 392.222 Tm
+[(T)92(able and Column Names)]TJ
+/F8 1 Tf
+10 0 0 10 126 374.222 Tm
+0.012 Tw
+[(The names of indenti\214ers cannot e)15(xceed 32 characters. The \214rst character must be a letter)]TJ
+T*
+(or an underscore \()Tj
+/F2 1 Tf
+9 0 0 9 198.495 361.222 Tm
+0 Tw
+(_)Tj
+/F8 1 Tf
+10 0 0 10 203.569 361.222 Tm
+0.012 Tw
+[(\), b)20(ut the rest can be an)15(y)-262(combination of letters, numerals, dollar signs)]TJ
+-7.7569 -1.3 TD
+0 Tw
+(\()Tj
+/F2 1 Tf
+9 0 0 9 129.005 348.222 Tm
+($)Tj
+/F8 1 Tf
+10 0 0 10 134.08 348.222 Tm
+(\), pound signs \()Tj
+/F2 1 Tf
+9 0 0 9 195.971 348.222 Tm
+(#)Tj
+/F8 1 Tf
+10 0 0 10 201.046 348.222 Tm
+(\), and at signs \()Tj
+/F2 1 Tf
+9 0 0 9 262.097 348.222 Tm
+(@)Tj
+/F8 1 Tf
+10 0 0 10 267.172 348.222 Tm
+(\).)Tj
+-14.1172 -1.9 TD
+0.122 Tw
+[(Ho)25(we)25(v)15(e)0(r)40(,)40( )-40(if)-372(an)-372(identi\214er is enclosed by double quotation marks \()]TJ
+/F2 1 Tf
+9 0 0 9 397.039 329.222 Tm
+0 Tw
+(")Tj
+/F8 1 Tf
+10 0 0 10 402.114 329.222 Tm
+0.122 Tw
+[(\), it can contain an)15(y)]TJ
+-27.6114 -1.3 TD
+0.063 Tw
+[(combination of le)15(gal)-313(characters, including spaces b)20(ut e)15(xcluding quotation marks. This is)]TJ
+T*
+0 Tw
+(not supported in Ingres 6.4.)Tj
+0 -1.9 TD
+0.131 Tw
+(Case signi\214cance is determined by the settings for the Ingres installation as set by the)Tj
+0 -1.3 TD
+0 Tw
+(administrator when Ingres is installed.)Tj
+0 -1.9 TD
+(National character sets can be used in identi\214ers, if enclosed in double quotation marks.)Tj
+/F6 1 Tf
+14 0 0 14 126 223.422 Tm
+(Case Sensitivity of LIKE Operator)Tj
+/F8 1 Tf
+10 0 0 10 126 205.422 Tm
+[(The LIKE operator is case sensiti)25(v)15(e)0(.)]TJ
+T*
+(The)Tj
+/F2 1 Tf
+9 0 0 9 145.046 186.422 Tm
+-0.072 Tc
+(UPPERCASE)Tj
+/F8 1 Tf
+10 0 0 10 191.941 186.422 Tm
+0 Tc
+(\(or)Tj
+/F2 1 Tf
+9 0 0 9 207.097 186.422 Tm
+-0.072 Tc
+(LOWERCASE)Tj
+/F8 1 Tf
+10 0 0 10 250.17 186.422 Tm
+0 Tc
+0.132 Tw
+[(\))-382(function can be used to force a case insensiti)25(v)15(e)15( )-15(match,)]TJ
+/F4 1 Tf
+-12.417 -1.3 TD
+-0.015 Tc
+[(e.)-15(g.)]TJ
+/F8 1 Tf
+1.4139 0 TD
+0 Tc
+0 Tw
+(,)Tj
+/F2 1 Tf
+9 0 0 9 145.444 173.422 Tm
+-0.072 Tc
+0.07 Tw
+(UPPERCASE\(name\) LIKE 'TOM%')Tj
+/F8 1 Tf
+10 0 0 10 278.403 173.422 Tm
+0 Tc
+0.063 Tw
+[(although that does pre)25(v)15(ent Ingres from making use)]TJ
+-15.2403 -1.3 TD
+0 Tw
+[(of an)15(y)-250(inde)15(x)-250(o)0(n)-250(the name column to speed up the query)65(.)]TJ
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+19 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+21 0 obj
+<<
+/Length 3641
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F6 1 Tf
+14 0 0 14 126 640.622 Tm
+/CS1 cs 0 sc
+0 Tc
+[(Ro)25(w)-250(I)0(D)]TJ
+/F8 1 Tf
+10 0 0 10 126 622.622 Tm
+0.061 Tw
+[(The Ingres `)74(`ro)25(w)-311(ID')74(')-311(pseudocolumn is called tid. It is an inte)15(ger)55(.)-311(I)0(t)-311(can be used without)]TJ
+0 -1.3 TD
+0 Tw
+[(special handling. F)15(or e)15(xample:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 590.622 Tm
+-0.072 Tc
+(SELECT * FROM table WHERE tid=1029;)Tj
+/F6 1 Tf
+14 0 0 14 126 561.822 Tm
+0 Tc
+[(A)30(utomatic K)25(ey or Sequence Generation)]TJ
+/F8 1 Tf
+10 0 0 10 126 543.822 Tm
+0.062 Tw
+[(OpenIngres II supports `)74(`logical k)10(e)15(y')74(')74( )-74(columns. The)15(y)-312(are de\214ned by using a special data)]TJ
+T*
+(type:)Tj
+/F2 1 Tf
+9 0 0 9 149.322 530.822 Tm
+-0.072 Tc
+0.127 Tw
+(TABLE_KEY WITH SYSTEM MAINTAINED)Tj
+/F8 1 Tf
+10 0 0 10 305.084 530.822 Tm
+0 Tc
+0.115 Tw
+[(.)-365(Ingres 6.4 required an e)15(xtra-cost option to)]TJ
+-17.9084 -1.3 TD
+0 Tw
+(support that.)Tj
+0 -1.9 TD
+0.232 Tw
+[(A)-482(column can be de\214ned as either T)93(ABLE_KEY or OBJECT_KEY)129(.)-482(T)80(able_k)10(e)15(y)0(s)-482(are)]TJ
+0 -1.3 TD
+0 Tw
+[(unique in the table, whereas object_k)10(e)15(y)0(s)-250(are unique in the entire database.)]TJ
+/F2 1 Tf
+9 0 0 9 125.675 466.822 Tm
+-0.072 Tc
+(DBD::Ingres)Tj
+/F8 1 Tf
+10 0 0 10 181.869 466.822 Tm
+0 Tc
+0.112 Tw
+[(can')18(t)-362(currently \214nd the v)25(alue of the last automatic k)10(e)15(y)15( )-15(inserted, though it)]TJ
+-5.5869 -1.3 TD
+0 Tw
+[(may do so in the future if enough people ask nicely)65(,)-250(o)0(r)-250(someone contrib)20(utes the code.)]TJ
+/F6 1 Tf
+14 0 0 14 126 425.022 Tm
+[(A)30(utomatic Ro)25(w)-250(Numbering and Ro)25(w)-250(Count Limiting)]TJ
+/F8 1 Tf
+10 0 0 10 126 407.022 Tm
+0.167 Tw
+[(There is no simple w)10(ay to select a pseudocolumn that sequentially numbers the ro)25(ws)]TJ
+T*
+0 Tw
+(fetched by a select statement.)Tj
+/F6 1 Tf
+14 0 0 14 126 365.222 Tm
+[(P)40(arameter Binding)]TJ
+/F8 1 Tf
+10 0 0 10 126 347.222 Tm
+0.081 Tw
+[(P)15(arameter binding is directly suported by Ingres. Only the def)10(ault)]TJ
+/F2 1 Tf
+9 0 0 9 398.76 347.222 Tm
+0 Tw
+(?)Tj
+/F8 1 Tf
+10 0 0 10 407.147 347.222 Tm
+0.081 Tw
+(placeholder style is)Tj
+-28.1147 -1.3 TD
+(supported.)Tj
+0 -1.9 TD
+0.053 Tw
+(When using the)Tj
+/F2 1 Tf
+9 0 0 9 192.542 315.222 Tm
+-0.072 Tc
+(bind_param\(\))Tj
+/F8 1 Tf
+10 0 0 10 252.898 315.222 Tm
+0 Tc
+[(method, the common inte)15(ger)40(,)-303(\215oat, and char types can be)]TJ
+-12.6898 -1.3 TD
+0.101 Tw
+[(de\214ned using the TYPE attrib)20(ute. Unsupported v)25(alues of the TYPE attrib)20(ute generate a)]TJ
+T*
+[(w)10(arning.)]TJ
+/F6 1 Tf
+14 0 0 14 126 260.422 Tm
+0 Tw
+(Stored Procedures)Tj
+/F8 1 Tf
+10 0 0 10 126 242.422 Tm
+[(Calling a stored procedure is done by the `)74(`)0(e)15(x)15(ecute procedure')74(')-250(statement. F)15(or e)15(xample:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 223.422 Tm
+-0.072 Tc
+($dbh->do\("execute procedure my_proc\(param1='value'\)"\);)Tj
+/F8 1 Tf
+10 0 0 10 126 204.422 Tm
+0 Tc
+(It is not yet possible to get results.)Tj
+/F6 1 Tf
+14 0 0 14 126 134.002 Tm
+[(T)92(able Metadata)]TJ
+9 0 0 9 126 672.75 Tm
+(DBD::Ingres )Tj
+39.4998 0 TD
+(5)Tj
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+22 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+24 0 obj
+<<
+/Length 4604
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+0 Tw
+(6)Tj
+34.306 0 TD
+(DBD::Ingres)Tj
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F2 1 Tf
+9 0 0 9 125.675 643.622 Tm
+-0.072 Tc
+(DBD::Ingres)Tj
+/F8 1 Tf
+10 0 0 10 180.748 643.622 Tm
+0 Tc
+[(v)15(ersion 0.20 supports the)]TJ
+/F2 1 Tf
+9 0 0 9 283.316 643.622 Tm
+-0.072 Tc
+(table_info\(\))Tj
+/F8 1 Tf
+10 0 0 10 343.139 643.622 Tm
+0 Tc
+(method.)Tj
+-21.7139 -1.9 TD
+(The IICOLUMNS catalog contains information about all columns of a table.)Tj
+T*
+0.064 Tw
+[(The IIINDEXES catalog contains detailed information about all inde)15(x)15(e)0(s)-314(i)0(n)-314(the database,)]TJ
+0 -1.3 TD
+0.168 Tw
+[(one ro)25(w)-418(per inde)15(x. The IIINDEX_COLUMNS catalog contains information about the)]TJ
+T*
+0 Tw
+[(columns that mak)10(e)-250(u)0(p)-250(each inde)15(x.)]TJ
+0 -1.9 TD
+[(Primary k)10(e)15(ys)-250(are indicated in the)]TJ
+/F2 1 Tf
+9 0 0 9 259.837 560.622 Tm
+-0.072 Tc
+(key_sequence)Tj
+/F8 1 Tf
+10 0 0 10 319.659 560.622 Tm
+0 Tc
+(\214eld of the IICOLUMNS catalog.)Tj
+/F6 1 Tf
+14 0 0 14 126 531.822 Tm
+[(Driv)15(er-specific Attrib)20(utes and Methods)]TJ
+/F2 1 Tf
+9 0 0 9 125.675 513.822 Tm
+-0.072 Tc
+(DBD::Ingres)Tj
+/F8 1 Tf
+10 0 0 10 180.996 513.822 Tm
+0 Tc
+0.025 Tw
+[(has no dri)25(v)15(e)0(r)20(-speci\214c database handle attrib)20(utes. Ho)25(we)25(v)15(e)0(r)40(,)40( )-40(it)-275(does support a)]TJ
+-5.4996 -1.3 TD
+0.028 Tw
+[(number of statement handle attrib)20(utes. Each returns a reference to an array of v)25(alues, one)]TJ
+T*
+0 Tw
+(for each column of the select results.)Tj
+/F4 1 Tf
+0 -2.3 TD
+(ing_type)Tj
+/F2 1 Tf
+9 0 0 9 143.675 447.822 Tm
+-0.072 Tc
+('i')Tj
+/F8 1 Tf
+10 0 0 10 160.749 447.822 Tm
+0 Tc
+[(for inte)15(ger columns,)]TJ
+/F2 1 Tf
+9 0 0 9 243.589 447.822 Tm
+-0.072 Tc
+('f')Tj
+/F8 1 Tf
+10 0 0 10 260.664 447.822 Tm
+0 Tc
+(for \215oat and)Tj
+/F2 1 Tf
+9 0 0 9 311.716 447.822 Tm
+-0.072 Tc
+('s')Tj
+/F8 1 Tf
+10 0 0 10 328.79 447.822 Tm
+0 Tc
+(for strings)Tj
+/F4 1 Tf
+-20.279 -1.7 TD
+(ing_ingtype)Tj
+/F8 1 Tf
+1.8 -1.7 TD
+(The numeric Ingres type of the columns)Tj
+/F4 1 Tf
+-1.8 -1.7 TD
+(ing_length)Tj
+/F8 1 Tf
+1.8 -1.7 TD
+(The Ingres length of the columns \(as used in the database\))Tj
+/F2 1 Tf
+9 0 0 9 125.675 360.822 Tm
+-0.072 Tc
+(DBD::Ingres)Tj
+/F8 1 Tf
+10 0 0 10 180.748 360.822 Tm
+0 Tc
+[(supports just one pri)25(v)25(ate method:)]TJ
+/F4 1 Tf
+-5.4748 -2.3 TD
+[(g)10(et_dbe)15(vent\(\))]TJ
+/F8 1 Tf
+1.8 -1.7 TD
+0.236 Tw
+[(This pri)25(v)25(ate method calls)]TJ
+/F2 1 Tf
+9 0 0 9 256.505 320.822 Tm
+-0.072 Tc
+0.262 Tw
+(GET DBEVENT)Tj
+/F8 1 Tf
+10 0 0 10 316.305 320.822 Tm
+0 Tc
+(and)Tj
+/F2 1 Tf
+9 0 0 9 335.283 320.822 Tm
+-0.072 Tc
+(INQUIRE_INGRES)Tj
+/F8 1 Tf
+10 0 0 10 406.968 320.822 Tm
+0 Tc
+0.236 Tw
+(to fetch a pending)Tj
+-26.2968 -1.3 TD
+0.018 Tw
+[(database e)25(v)15(ent. If called without an ar)18(gument, a blocking)]TJ
+/F2 1 Tf
+9 0 0 9 376.024 307.822 Tm
+-0.072 Tc
+0.02 Tw
+(GET DBEVENT WITH WAIT)Tj
+/F8 1 Tf
+10 0 0 10 479.31 307.822 Tm
+0 Tc
+(is)Tj
+-33.531 -1.3 TD
+0 Tw
+[(called. A numeric ar)18(gument results in a call to)]TJ
+/F2 1 Tf
+9 0 0 9 330.674 294.822 Tm
+-0.072 Tc
+(GET DBEVENT WITH WAIT= :seconds)Tj
+/F8 1 Tf
+10 0 0 10 478.242 294.822 Tm
+0 Tc
+(.)Tj
+/F6 1 Tf
+14 0 0 14 126 266.022 Tm
+[(P)55(ositioned updates and deletes)]TJ
+/F8 1 Tf
+10 0 0 10 126 248.022 Tm
+0.229 Tw
+(Positioned updates and deletes are supported in)Tj
+/F2 1 Tf
+9 0 0 9 333.591 248.022 Tm
+-0.072 Tc
+(DBD::Ingres)Tj
+/F8 1 Tf
+10 0 0 10 390.95 248.022 Tm
+0 Tc
+[(v)15(ersion 0.20 using the)]TJ
+/F2 1 Tf
+9 0 0 9 125.675 235.022 Tm
+-0.072 Tc
+0 Tw
+(WHERE CURRENT OF)Tj
+/F8 1 Tf
+10 0 0 10 204.496 235.022 Tm
+0 Tc
+[(syntax. F)15(or e)15(xample:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 216.022 Tm
+-0.072 Tc
+($dbh->do\("UPDATE ... WHERE CURRENT OF $sth->{CursorName}"\);)Tj
+/F8 1 Tf
+10 0 0 10 126 197.022 Tm
+0 Tc
+(The CursorName is automatically de\214ned by)Tj
+/F2 1 Tf
+9 0 0 9 307.864 197.022 Tm
+-0.072 Tc
+(DBD::Ingres)Tj
+/F8 1 Tf
+10 0 0 10 362.937 197.022 Tm
+0 Tc
+(for each prepared statement.)Tj
+/F6 1 Tf
+14 0 0 14 126 134.002 Tm
+[(Dif)18(f)10(erences from the DBI Specification)]TJ
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+25 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+27 0 obj
+<<
+/Length 1543
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+/CS1 cs 0 sc
+0 Tc
+0.606 Tw
+[(Prepared statements do not w)10(ork across transactions because commit/rollback)]TJ
+0 -1.3 TD
+0 Tw
+[(close/in)40(v)25(alidate are all prepared statements. W)80(ork is underw)10(ay to \214x this.)]TJ
+/F6 1 Tf
+14 0 0 14 126 601.822 Tm
+[(URLs to More Database/Driv)15(er Specific Inf)10(ormation)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 586.822 Tm
+-0.072 Tc
+(http://www.cai.com/products/ingres.htm)Tj
+/F6 1 Tf
+14 0 0 14 126 558.022 Tm
+0 Tc
+(Concurrent use of Multiple Handles)Tj
+/F2 1 Tf
+9 0 0 9 125.675 540.022 Tm
+-0.072 Tc
+(DBD::Ingres)Tj
+/F8 1 Tf
+10 0 0 10 181.129 540.022 Tm
+0 Tc
+0.038 Tw
+(supports an unlimited number of concurrent database connections to one or)Tj
+-5.5129 -1.3 TD
+0 Tw
+(more databases.)Tj
+0 -1.9 TD
+0.024 Tw
+[(It also supports the preparation and e)15(x)15(ecution of a ne)25(w)-274(statement handle while still fetch-)]TJ
+0 -1.3 TD
+0 Tw
+(ing data from another statment handle associated with the same database handle.)Tj
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+(DBD::Ingres )Tj
+39.4998 0 TD
+(7)Tj
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+29 0 obj
+<<
+/Type /Halftone
+/HalftoneType 1
+/HalftoneName (Default)
+/Frequency 60
+/Angle 45
+/SpotFunction /Round
+>>
+endobj
+8 0 obj
+<<
+/Type /ExtGState
+/SA false
+/OP false
+/BG /Identity
+/UCR /Identity
+/HT /Default
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F2
+/Encoding 30 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F4
+/Encoding 30 0 R
+/BaseFont /Times-Italic
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F6
+/Encoding 30 0 R
+/BaseFont /Times-BoldItalic
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F8
+/Encoding 30 0 R
+/BaseFont /Times-Roman
+>>
+endobj
+30 0 obj
+<<
+/Type /Encoding
+/Differences [ 0/asciicircum/asciitilde/Scaron/Zcaron/scaron/zcaron/Ydieresis/trademark
+/quotesingle 94/circumflex 126/tilde 128/quotesinglbase/guillemotleft/guillemotright/bullet/florin
+/fraction/perthousand/dagger/daggerdbl/endash/emdash/ff/fi
+/fl/ffi/ffl/dotlessi/dotlessj/grave/hungarumlaut/dotaccent
+/breve/caron/ring/ogonek/quotedblleft/quotedblright/oe/lslash
+/quotedblbase/OE/Lslash 164/currency 166/brokenbar 168/dieresis/copyright/ordfeminine
+/guilsinglleft/logicalnot/minus/registered/macron/degree/plusminus/twosuperior
+/threesuperior/acute/mu 183/periodcentered/cedilla/onesuperior/ordmasculine/guilsinglright
+/onequarter/onehalf/threequarters 192/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave
+/Iacute/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex
+/Otilde/Odieresis/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis
+/Yacute/Thorn/germandbls/agrave/aacute/acircumflex/atilde/adieresis
+/aring/ae/ccedilla/egrave/eacute/ecircumflex/edieresis/igrave
+/iacute/icircumflex/idieresis/eth/ntilde/ograve/oacute/ocircumflex
+/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex/udieresis
+/yacute/thorn/ydieresis
+]
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 16 0 R
+/Contents 15 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 19 0 R
+/Contents 18 0 R
+>>
+endobj
+20 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 22 0 R
+/Contents 21 0 R
+>>
+endobj
+23 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 25 0 R
+/Contents 24 0 R
+>>
+endobj
+26 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 28 0 R
+/Contents 27 0 R
+>>
+endobj
+10 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 11 0 R 14 0 R 17 0 R 20 0 R 23 0 R 26 0 R]
+/Count 7
+/MediaBox [0 0 595 841]
+>>
+endobj
+31 0 obj
+<<
+/Type /Catalog
+/Pages 10 0 R
+>>
+endobj
+32 0 obj
+<<
+/CreationDate (D:19990519120151)
+/Producer (\376\377\000A\000c\000r\000o\000b\000a\000t\000 \000D\000i\000s\000t\000i\000l\000l\000e\000r\000 \0003\000.\0000\0001\000 \000f\000o\000r\000 \000W\000i\000n\000d\000o\000w\000s)
+/Creator (groff version 1.11)
+>>
+endobj
+xref
+0 33
+0000000000 65535 f
+0000031142 00000 n
+0000000017 00000 n
+0000002790 00000 n
+0000029453 00000 n
+0000029557 00000 n
+0000029666 00000 n
+0000029779 00000 n
+0000029343 00000 n
+0000002960 00000 n
+0000031783 00000 n
+0000031231 00000 n
+0000003039 00000 n
+0000008728 00000 n
+0000031323 00000 n
+0000008888 00000 n
+0000013607 00000 n
+0000031415 00000 n
+0000013767 00000 n
+0000018583 00000 n
+0000031507 00000 n
+0000018754 00000 n
+0000022454 00000 n
+0000031599 00000 n
+0000022614 00000 n
+0000027277 00000 n
+0000031691 00000 n
+0000027448 00000 n
+0000029050 00000 n
+0000029210 00000 n
+0000029887 00000 n
+0000031915 00000 n
+0000031972 00000 n
+trailer
+<<
+/Size 33
+/Root 31 0 R
+/Info 32 0 R
+/ID [<48c00763712793c003121eace61567a9><48c00763712793c003121eace61567a9>]
+>>
+startxref
+32255
+%%EOF

@@ -1,0 +1,13 @@
+=begin docbook
+<!DOCTYPE book PUBLIC "-//Davenport//DTD DocBook V2.4.1//EN" "/opt/texmf/gmat/sgml/Davenport/dtds/2.4.1/docbook.dtd">
+<!-- -->
+<!-- $Id$ -->
+<!-- Copyright (c)1997-1999 Tim Bunce <Tim.Bunce@pobox.com> -->
+<!-- Copyright (c)1997-1999 Alligator Descartes <descarte@symbolstone.org> -->
+<!-- $Log$ -->
+<!-- -->
+<!-- General reminders: -->
+<book>
+
+=end docbook
+

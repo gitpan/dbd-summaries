@@ -1,0 +1,3701 @@
+%PDF-1.1
+%‚„œ”
+2 0 obj
+<<
+/Length 2850
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+54.03 706.95 m
+79.23 706.95 l
+90.03 717.75 m
+90.03 742.95 l
+522.03 742.95 m
+522.03 717.75 l
+532.83 706.95 m
+558.03 706.95 l
+S
+BT
+/F8 1 Tf
+96 0 0 96 438 589.55 Tm
+/CS1 cs 0 sc
+0 Tc
+0 Tw
+(1)Tj
+/F6 1 Tf
+24 0 0 24 182.016 535.55 Tm
+(DBD::mysql and DBD::mSQL)Tj
+14 0 0 14 126 483.25 Tm
+[(V)111(ersion)]TJ
+/F8 1 Tf
+10 0 0 10 126 465.25 Tm
+[(V)111(ersions 1.20xx and 1.21_xx.)]TJ
+0 -1.9 TD
+0.154 Tw
+[(V)111(ersion 1.20xx \( e)25(v)15(en)-404(numbers \) are the stable line, which is maintained for b)20(ug and)]TJ
+0 -1.3 TD
+0.124 Tw
+[(portability \214x)15(es only)65(.)-374(V)111(ersion 1.21_xx \( odd numbers \) is used for de)25(v)15(elopment of the)]TJ
+T*
+0.044 Tw
+[(dri)25(v)15(er: All ne)25(w)-294(features or interf)10(ace modi\214cations will be done in this line until it \214nally)]TJ
+T*
+0 Tw
+(becomes 1.22xx.)Tj
+/F6 1 Tf
+14 0 0 14 126 378.45 Tm
+[(A)30(uthor and Contact Details)]TJ
+/F8 1 Tf
+10 0 0 10 126 360.45 Tm
+0.115 Tw
+[(The dri)25(v)15(e)0(r)-365(author is Jochen W)40(iedmann. He can be contacted via the mailing list)]TJ
+/F4 1 Tf
+33.6651 0 TD
+(Msql-)Tj
+-33.6651 -1.3 TD
+(Mysql-modules@tcx.se)Tj
+/F8 1 Tf
+9.2784 0 TD
+0 Tw
+(.)Tj
+-9.2784 -1.9 TD
+0.071 Tw
+[(The dri)25(v)15(ers include modules that emulate the old Msql and Mysql Perl e)15(xtensions using)]TJ
+0 -1.3 TD
+0 Tw
+(the DBI and DBD modules.)Tj
+/F6 1 Tf
+14 0 0 14 126 286.65 Tm
+[(Supported Database V)111(ersions and Options)]TJ
+/F8 1 Tf
+10 0 0 10 126 268.65 Tm
+0.068 Tw
+[(MySQL and mSQL are freely a)20(v)25(ailable lightweight database serv)15(ers. MySQL has a rich)]TJ
+T*
+0 Tw
+[(feature set while mSQL is v)15(ery minimalist.)]TJ
+0 -1.9 TD
+(The)Tj
+/F2 1 Tf
+9 0 0 9 145.974 236.65 Tm
+-0.072 Tc
+(DBD::mysql)Tj
+/F8 1 Tf
+10 0 0 10 198.547 236.65 Tm
+0 Tc
+0.225 Tw
+[(dri)25(v)15(e)0(r)-475(1.20xx supports all MySQL v)15(ersions since around 3.20. The)]TJ
+/F2 1 Tf
+9 0 0 9 125.675 223.65 Tm
+-0.072 Tc
+(DBD::mysql)Tj
+/F8 1 Tf
+10 0 0 10 176.851 223.65 Tm
+0 Tc
+0.085 Tw
+[(dri)25(v)15(e)0(r)-335(1.21_xx supports MySQL 3.22 or later)55(.)-335(Support for more recent v)15(e)0(r)20(-)]TJ
+-5.0851 -1.3 TD
+0 Tw
+(sions may or may not be added at a later time.)Tj
+0 -1.9 TD
+(The)Tj
+/F2 1 Tf
+9 0 0 9 143.728 191.65 Tm
+-0.072 Tc
+(DBD::mSQL)Tj
+/F8 1 Tf
+10 0 0 10 189.305 191.65 Tm
+0 Tc
+[(dri)25(v)15(ers 1.20xx and 1.21_xx support all mSQL v)15(ersions upto and including)]TJ
+-6.3305 -1.3 TD
+(mSQL 2.0.x.)Tj
+/F6 1 Tf
+14 0 0 14 126 134.002 Tm
+(Connect Syntax)Tj
+9 0 0 9 481.5 79.25 Tm
+(1)Tj
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+3 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+9 0 obj
+[/CalGray <<
+/Gamma 1.8
+/WhitePoint [0.951 1 1.089]
+>>
+]
+endobj
+12 0 obj
+<<
+/Length 4619
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+0 Tw
+[(2)-26584(DBD::mysql and DBD::mSQL)]TJ
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+(The)Tj
+/F2 1 Tf
+9 0 0 9 143.724 643.622 Tm
+-0.072 Tc
+(DBI->connect\(\))Tj
+/F8 1 Tf
+10 0 0 10 213.046 643.622 Tm
+0 Tc
+(Data Source Name, or)Tj
+/F4 1 Tf
+9.1355 0 TD
+(DSN)Tj
+/F8 1 Tf
+1.8889 0 TD
+[(,)-250(can be one of the follo)25(wing:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 624.622 Tm
+-0.072 Tc
+(DBI:mysql:database=$db)Tj
+0 -1.25 TD
+(DBI:mysql:database=$db;<attrs>)Tj
+0 -2.375 TD
+(DBI:mSQL:database=$db)Tj
+0 -1.25 TD
+(DBI:mSQL:database=$db;<attrs>)Tj
+/F8 1 Tf
+10 0 0 10 126 566.622 Tm
+0 Tc
+0.203 Tw
+[(The optional attrib)20(utes are speci\214ed as a semicolon separated list of k)10(e)15(y/v)25(alue pairs.)]TJ
+0 -1.3 TD
+0 Tw
+[(Some signi\214cant attrib)20(utes include:)]TJ
+/F4 1 Tf
+0 -2.3 TD
+(host=$host)Tj
+/F8 1 Tf
+1.8 -1.7 TD
+[(The host name you w)10(ant to connect to, by def)10(ault)]TJ
+/F4 1 Tf
+20.0038 0 TD
+(localhost)Tj
+/F8 1 Tf
+3.6668 0 TD
+(.)Tj
+/F4 1 Tf
+-25.4706 -1.7 TD
+(msql_con\214g\214le=$\214le)Tj
+/F8 1 Tf
+1.8 -1.7 TD
+0.112 Tw
+[(Load dri)25(v)15(e)0(r)-362(speci\214c settings from the gi)25(v)15(e)0(n)-362(\214le, by def)10(ault)]TJ
+/F4 1 Tf
+24.7802 0 TD
+(InstDir/msql.conf)Tj
+/F8 1 Tf
+7.0276 0 TD
+[(.)-362(This)]TJ
+-31.8078 -1.3 TD
+0 Tw
+[(path is \214x)15(ed at compile time.)]TJ
+/F4 1 Tf
+-1.8 -1.7 TD
+[(mysql_compr)37(ession=1)]TJ
+/F8 1 Tf
+1.8 -1.7 TD
+0.046 Tw
+[(F)15(o)0(r)-296(slo)25(w)-296(connections, you may wish to compress the traf)25(\214c between your client and)]TJ
+0 -1.3 TD
+0.217 Tw
+(the engine. If the MySQL engine supports it, this can be enabled by using this)Tj
+T*
+0 Tw
+[(attrib)20(ute. Def)10(ault is of)25(f.)]TJ
+-1.8 -1.9 TD
+[(There are no dri)25(v)15(e)0(r)-250(speci\214c attrib)20(utes applicable to the)]TJ
+/F2 1 Tf
+9 0 0 9 345.842 387.622 Tm
+-0.072 Tc
+(connect\(\))Tj
+/F8 1 Tf
+10 0 0 10 391.415 387.622 Tm
+0 Tc
+(method.)Tj
+/F6 1 Tf
+14 0 0 14 126 358.822 Tm
+(Numeric Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 340.822 Tm
+0.074 Tw
+[(MySQL has \214v)15(e)-324(sizes of inte)15(ger data type, each of which can be signed \(the def)10(ault\) or)]TJ
+0 -1.3 TD
+0 Tw
+[(unsigned \(by adding the w)10(ord UNSIGNED after the type name\).)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 308.822 Tm
+-0.072 Tc
+2.638 Tw
+[(Name Bits Signed)-527(Range )-1584(Unsigned)-527(Range)]TJ
+0 -1.25 TD
+0 Tw
+[(--------- ---- -----------------------)-1583(-----------------------)]TJ
+T*
+2.111 Tw
+[(TINYINT 8)-4749(-128..127 )-2638(0..255)]TJ
+T*
+1.055 Tw
+[(SMALLINT 16)-3694(-32768..32767 )-2639(0..65535)]TJ
+T*
+0.527 Tw
+[(MEDIUMINT 24)-2638(-8388608..8388607 )-2111(0..16777215)]TJ
+T*
+1.583 Tw
+[(INTEGER 32)-1055(-2147483648..2147483647 )528(0..4294967295)]TJ
+T*
+2.111 Tw
+[(BIGINT 64)-3166(-\(2*63\)..\(2**63-1\) )528(0..\(2**64\))]TJ
+/F8 1 Tf
+10 0 0 10 126 229.822 Tm
+0 Tc
+0.496 Tw
+(The type INT can be used as an alias for INTEGER. Other aliases include)Tj
+0 -1.3 TD
+-0.213 Tw
+[(FLO)35(A)111(T4=FLO)35(A)111(T)111( ,)-1747(FLO)35(A)111(T8=DOUBLE, )-1710(INT1=TINYINT)74(,)-1747(INT2=SMALLINT)74(,)]TJ
+T*
+[(INT3=MEDIUMINT)74(,)-250(INT4=INT)74(,)-250(INT8=BIGINT)74(,)-250(MIDDLEINT=MEDIUMINT)74(.)]TJ
+0 -1.9 TD
+0.263 Tw
+[(Note that all arithmetic is done using signed BIGINT or DOUBLE v)25(alues, so you)]TJ
+0 -1.3 TD
+0.027 Tw
+[(shouldn')18(t)-277(use unsigned big inte)15(gers lar)18(ger than the lar)18(gest signed big inte)15(ger \(e)15(xcept with)]TJ
+T*
+0.015 Tw
+(bit functions\). Note that)Tj
+/F2 1 Tf
+9 0 0 9 224.335 158.822 Tm
+0 Tw
+(-)Tj
+/F8 1 Tf
+10 0 0 10 229.41 158.822 Tm
+(,)Tj
+/F4 1 Tf
+0.5154 0 TD
+(+)Tj
+/F8 1 Tf
+0.675 0 TD
+[(,)-265(and)]TJ
+/F2 1 Tf
+9 0 0 9 263.235 158.822 Tm
+(*)Tj
+/F8 1 Tf
+10 0 0 10 270.964 158.822 Tm
+0.015 Tw
+[(will use BIGINT arithmetic when both ar)18(guments are)]TJ
+-14.4964 -1.3 TD
+0.205 Tw
+[(INTEGER v)25(alues. This means that if you multiply tw)10(o)-455(big inte)15(gers \(or multiply the)]TJ
+T*
+0.02 Tw
+[(results from functions that return inte)15(gers\), you may get une)15(xpected results if the result is)]TJ
+T*
+0 Tw
+(bigger than 9223372036854775807.)Tj
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+13 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+15 0 obj
+<<
+/Length 5249
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+/CS1 cs 0 sc
+0 Tc
+0.125 Tw
+(MySQL has three main types of)Tj
+/F4 1 Tf
+13.8014 0 TD
+[(non-inte)40(g)10(e)0(r)]TJ
+/F8 1 Tf
+4.9905 0 TD
+[(data type: FLO)35(A)111(T)111( )338(,)-375(DOUBLE, and DECI-)]TJ
+-18.7919 -1.3 TD
+(MAL.)Tj
+0 -1.9 TD
+0.178 Tw
+[(In what follo)25(ws, the letter)]TJ
+/F2 1 Tf
+9 0 0 9 239.844 611.622 Tm
+0 Tw
+(M)Tj
+/F8 1 Tf
+10 0 0 10 249.195 611.622 Tm
+0.178 Tw
+(is used for the)Tj
+/F4 1 Tf
+6.5985 0 TD
+(maximum display size)Tj
+/F8 1 Tf
+9.5593 0 TD
+(or)Tj
+/F4 1 Tf
+1.2606 0 TD
+(PRECISION)Tj
+/F8 1 Tf
+5.4823 0 TD
+(in)Tj
+-35.2201 -1.3 TD
+0.006 Tw
+[(ODBC and DBI terminology)65(.)-256(The letter)]TJ
+/F2 1 Tf
+9 0 0 9 287.281 598.622 Tm
+0 Tw
+(D)Tj
+/F8 1 Tf
+10 0 0 10 294.912 598.622 Tm
+0.006 Tw
+[(is used for the number of digits that may follo)25(w)]TJ
+-16.8912 -1.3 TD
+0 Tw
+(the decimal point. \()Tj
+/F4 1 Tf
+7.7765 0 TD
+(SCALE)Tj
+/F8 1 Tf
+3.1948 0 TD
+(in ODBC or DBI terminology\).)Tj
+-10.9713 -1.9 TD
+0.109 Tw
+(Maximum display size \(PRECISION\) and number of fraction digits \(SCALE\) are typi-)Tj
+0 -1.3 TD
+0.075 Tw
+[(cally not required. F)15(or e)15(xample, if you use just `)74(`DOUBLE')74(')-325(then def)10(ault v)25(alues will be)]TJ
+T*
+0 Tw
+(silently inserted.)Tj
+/F4 1 Tf
+0 -2.3 TD
+(DOUBLE\(M,D\))Tj
+/F8 1 Tf
+1.8 -1.7 TD
+0.435 Tw
+[(A)-685(normal-size \(double-precision\) \215oating-point number)55(.)-685(Allo)25(w)10(able v)25(alues are)]TJ
+0 -1.3 TD
+1.736 Tw
+(-1.7976931348623157E+308 to -2.2250738585072014E-308, 0 and)Tj
+T*
+0 Tw
+(2.2250738585072014E-308 to 1.7976931348623157E+308.)Tj
+0 -1.7 TD
+(REAL and DOUBLE PRECISION can be used as aliases for DOUBLE.)Tj
+/F4 1 Tf
+-1.8 -1.7 TD
+[(FLO)55(A)37(T\(M,D\))]TJ
+/F8 1 Tf
+1.8 -1.7 TD
+0.847 Tw
+[(A)-1097(small \(single-precision\) \215oating-point number)55(.)-1097(Allo)25(w)10(able v)25(alues are)]TJ
+0 -1.3 TD
+1.023 Tw
+(-3.402823466E+38 to -1.175494351E-38, 0 and -1.175494351E-38 to)Tj
+T*
+(3.402823466E+38.)Tj
+/F4 1 Tf
+-1.8 -1.7 TD
+[(FLO)55(A)37(T\(M\))]TJ
+/F8 1 Tf
+1.8 -1.7 TD
+0.027 Tw
+[(A)-277(\215oating-point number)55(.)-277(Precision \()]TJ
+/F4 1 Tf
+14.5783 0 TD
+0 Tw
+(M)Tj
+/F8 1 Tf
+0.833 0 TD
+0.027 Tw
+[(\))-277(can be 4 or 8.)]TJ
+/F2 1 Tf
+9 0 0 9 364.371 363.622 Tm
+-0.072 Tc
+(FLOAT\(4\))Tj
+/F8 1 Tf
+10 0 0 10 405.462 363.622 Tm
+0 Tc
+(is a single-precision)Tj
+-26.1462 -1.3 TD
+0.026 Tw
+(number and)Tj
+/F2 1 Tf
+9 0 0 9 194.18 350.622 Tm
+-0.072 Tc
+(FLOAT\(8\))Tj
+/F8 1 Tf
+10 0 0 10 235.262 350.622 Tm
+0 Tc
+[(is a double-precision number)55(.)-276(These types are lik)10(e)-276(the FLO)35(A)111(T)]TJ
+-9.1262 -1.3 TD
+0.056 Tw
+[(and DOUBLE types described abo)15(v)15(e)0(.)]TJ
+/F2 1 Tf
+9 0 0 9 299.466 337.622 Tm
+-0.072 Tc
+(FLOAT\(4\))Tj
+/F8 1 Tf
+10 0 0 10 340.849 337.622 Tm
+0 Tc
+(and)Tj
+/F2 1 Tf
+9 0 0 9 358.023 337.622 Tm
+-0.072 Tc
+(FLOAT\(8\))Tj
+/F8 1 Tf
+10 0 0 10 399.406 337.622 Tm
+0 Tc
+[(ha)20(v)15(e)15( )-15(the same ranges)]TJ
+-25.5406 -1.3 TD
+0.038 Tw
+[(as the corresponding FLO)35(A)111(T)111( )-111(and DOUBLE types, b)20(ut their display size and number)]TJ
+T*
+0 Tw
+[(of decimals is unde\214ned. This syntax is pro)15(vided for ODBC compatibility)65(.)]TJ
+/F4 1 Tf
+-1.8 -1.7 TD
+(DECIMAL\(M,D\))Tj
+/F8 1 Tf
+1.8 -1.7 TD
+0.135 Tw
+[(The DECIMAL type is an unpack)10(ed \215oating-point number type. NUMERIC is an)]TJ
+0 -1.3 TD
+0.059 Tw
+[(alias for DECIMAL. It beha)20(v)15(e)0(s)-310(lik)10(e)-310(a)-310(CHAR column; `)74(`unpack)10(ed')74(')-310(means the num-)]TJ
+T*
+0.067 Tw
+[(ber is stored as a string, using one character for each digit of the v)25(alue, the decimal)]TJ
+T*
+0.072 Tw
+[(point, and, for ne)15(gati)25(v)15(e)15( )-15(numbers, the)]TJ
+/F2 1 Tf
+9 0 0 9 297.095 238.622 Tm
+0 Tw
+(-)Tj
+/F8 1 Tf
+10 0 0 10 305.392 238.622 Tm
+0.072 Tw
+(sign\). If)Tj
+/F4 1 Tf
+3.5602 0 TD
+0 Tw
+(D)Tj
+/F8 1 Tf
+1.0442 0 TD
+0.072 Tw
+[(is 0, v)25(alues will ha)20(v)15(e)15( )-15(no)-322(decimal)]TJ
+-20.7435 -1.3 TD
+0.034 Tw
+[(point or fractional part. The maximum range of DECIMAL v)25(alues is the same as for)]TJ
+T*
+0.098 Tw
+[(DOUBLE, b)20(ut the actual range for a gi)25(v)15(e)0(n)-349(DECIMAL column may be constrained)]TJ
+T*
+0 Tw
+(by the choice of)Tj
+/F4 1 Tf
+6.6646 0 TD
+(M)Tj
+/F8 1 Tf
+1.083 0 TD
+(and)Tj
+/F4 1 Tf
+1.6939 0 TD
+(D)Tj
+/F8 1 Tf
+0.722 0 TD
+(.)Tj
+-10.1634 -1.7 TD
+(NUMERIC can be used as an alias for DECIMAL.)Tj
+-1.8 -1.9 TD
+(The numeric data types supported by mSQL are much more restricted:)Tj
+/F2 1 Tf
+8 0 0 8 152.155 127.072 Tm
+-0.072 Tc
+(INTEGER - corresponds to MySQL's INTEGER type.)Tj
+0 -1.25 TD
+[(UINT )-1583(-)-527(corresponds to MySQL's INTEGER UNSIGNED type.)]TJ
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+0 Tc
+[(DBD::mysql and DBD::mSQL)-26834(3)]TJ
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+16 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+18 0 obj
+<<
+/Length 4391
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+0 Tw
+[(4)-26584(DBD::mysql and DBD::mSQL)]TJ
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F2 1 Tf
+8 0 0 8 152.155 646.622 Tm
+-0.072 Tc
+[(REAL )-1583(-)-527(corresponds to MySQL's REAL type.)]TJ
+/F8 1 Tf
+10 0 0 10 126 627.622 Tm
+0 Tc
+0.041 Tw
+[(The dri)25(v)15(e)0(r)-291(returns all data types, including numbers, as strings. It thus puts no restriction)]TJ
+0 -1.3 TD
+0 Tw
+(on size of PRECISION or SCALE.)Tj
+/F6 1 Tf
+14 0 0 14 126 585.822 Tm
+(String Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 567.822 Tm
+0.118 Tw
+[(The follo)25(wing string types are supported by MySQL, quoted from)]TJ
+/F4 1 Tf
+27.8473 0 TD
+(mysql.info)Tj
+/F8 1 Tf
+4.5069 0 TD
+(where)Tj
+/F4 1 Tf
+2.8111 0 TD
+0 Tw
+(M)Tj
+/F8 1 Tf
+-35.1653 -1.3 TD
+(denotes the maximum display size or PRECISION:)Tj
+/F4 1 Tf
+0 -2.3 TD
+(CHAR\(M\))Tj
+/F8 1 Tf
+1.8 -1.7 TD
+0.055 Tw
+[(A)-305(\214)0(x)15(ed-length string that is al)10(w)10(ays right-padded with spaces to the speci\214ed length.)]TJ
+0 -1.3 TD
+0 Tw
+(The range of)Tj
+/F4 1 Tf
+5.3587 0 TD
+(M)Tj
+/F8 1 Tf
+1.0829 0 TD
+(is 1 to 255 characters.)Tj
+/F4 1 Tf
+-8.2416 -1.7 TD
+[(V)60(ARCHAR\(M\))]TJ
+/F8 1 Tf
+1.8 -1.7 TD
+0.086 Tw
+[(A)-336(v)25(ariable-length string. NO)40(TE: T)35(railing spaces are remo)15(v)15(e)0(d)-336(b)0(y)-336(the database when)]TJ
+0 -1.3 TD
+0.015 Tw
+[(the v)25(alue is stored \(this dif)25(fers from the ANSI SQL speci\214cation\).)-515(The range of)]TJ
+/F4 1 Tf
+32.4329 0 TD
+0 Tw
+(M)Tj
+/F8 1 Tf
+1.0982 0 TD
+(is)Tj
+-33.531 -1.3 TD
+[(1)-250(t)0(o)-250(255 characters.)]TJ
+/F4 1 Tf
+-1.8 -1.7 TD
+-0.05 Tw
+[(ENUM\(')10(value1',)140(')10(value2', . . . \))]TJ
+/F8 1 Tf
+1.8 -1.7 TD
+0.007 Tw
+[(An enumeration. A string object that can ha)20(v)15(e)15( )-15(only one v)25(alue, chosen from the speci-)]TJ
+0 -1.3 TD
+0.108 Tw
+[(\214ed list of v)25(alues \(or NULL\). An ENUM can ha)20(v)15(e)15( )-15(a)15( )-15(maxiumum of 65535 distinct)]TJ
+T*
+[(v)25(alues.)]TJ
+/F4 1 Tf
+-1.8 -1.7 TD
+-0.05 Tw
+[(SET\(')10(value1',)140(')10(value2', . . . \))]TJ
+/F8 1 Tf
+1.8 -1.7 TD
+0.03 Tw
+[(A)-280(set. A string object that can ha)20(v)15(e)15( )-15(zero or more v)25(alues, each of which must be cho-)]TJ
+0 -1.3 TD
+0 Tw
+[(sen from the speci\214ed list of v)25(alues. A SET can ha)20(v)15(e)15( )-15(a)15( )-15(maximum of 64 members.)]TJ
+-1.8 -1.9 TD
+0.058 Tw
+[(CHAR and V)135(ARCHAR types ha)20(v)15(e)15( )-15(a)15( )-15(limit of 255 bytes. Binary characters, including the)]TJ
+0 -1.3 TD
+0.087 Tw
+(NUL byte, are supported by all string types. \(Use the)Tj
+/F2 1 Tf
+9 0 0 9 348.802 302.822 Tm
+-0.072 Tc
+($dbh->quote\(\))Tj
+/F8 1 Tf
+10 0 0 10 414.247 302.822 Tm
+0 Tc
+(method for literal)Tj
+-28.8247 -1.3 TD
+(strings\).)Tj
+0 -1.9 TD
+0 Tw
+(These aliases are also supported:)Tj
+/F2 1 Tf
+8 0 0 8 152.155 251.822 Tm
+-0.072 Tc
+2.638 Tw
+[(BINARY\(num\) CHAR\(num\))-527(BINARY)]TJ
+0 -1.25 TD
+0 Tw
+[(CHAR VARYING)-2638(VARCHAR)]TJ
+T*
+[(LONG VARBINARY)-1583(BLOB)]TJ
+T*
+[(LONG VARCHAR)-2638(TEXT)]TJ
+T*
+1.055 Tw
+[(VARBINARY\(num\) VARCHAR\(num\))-527(BINARY)]TJ
+/F8 1 Tf
+10 0 0 10 126 192.822 Tm
+0 Tc
+[(W)40(ith)]TJ
+/F2 1 Tf
+9 0 0 9 150.197 192.822 Tm
+-0.072 Tc
+(DBD::mysql)Tj
+/F8 1 Tf
+10 0 0 10 198.02 192.822 Tm
+0 Tc
+[(,)-492(the)]TJ
+/F4 1 Tf
+2.4565 0 TD
+(ChopBlanks)Tj
+/F8 1 Tf
+5.381 0 TD
+0.242 Tw
+[(attrib)20(ute is al)10(w)10(ays on: The MySQL engine itself)]TJ
+-15.0395 -1.3 TD
+0.139 Tw
+[(remo)15(v)15(e)0(s)-389(spaces from the strings right end. As f)10(ar as I kno)25(w)65(,)65( )-65(this `)74(`feature')74(')-389(cannot be)]TJ
+T*
+0.104 Tw
+[(turned of)25(f. Another `)74(`feature')74(')-354(i)0(s)-354(that CHAR and V)135(ARCHAR columns are al)10(w)10(ays case-)]TJ
+T*
+0.106 Tw
+[(insensiti)25(v)15(e)15( )-15(in)-356(comparisons and sort operations, unless you use the)]TJ
+/F4 1 Tf
+27.5462 0 TD
+[(BIN)27(AR)18(Y)]TJ
+/F8 1 Tf
+3.7 0 TD
+[(attrib)20(ute, as)]TJ
+-31.2462 -1.3 TD
+(in:)Tj
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+6 0 0 6 57 16.25 Tm
+0 Tw
+(19 May 1999)Tj
+ET
+endstream
+endobj
+19 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+21 0 obj
+<<
+/Length 6998
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F2 1 Tf
+8 0 0 8 152.155 646.622 Tm
+/CS1 cs 0 sc
+-0.072 Tc
+0 Tw
+(CREATE TABLE foo \(A VARCHAR\(10\) BINARY\))Tj
+/F8 1 Tf
+10 0 0 10 126 627.622 Tm
+0 Tc
+0.141 Tw
+[(W)40(ith v)15(ersions of MySQL after 3.23, you can perform a case-insensitv)15(e)-391(comparison of)]TJ
+0 -1.3 TD
+0 Tw
+[(strings with the BIN)35(AR)65(Y)-250(operator modi\214er:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 595.622 Tm
+-0.072 Tc
+(SELECT * FROM table WHERE BINARY column = "A")Tj
+/F8 1 Tf
+10 0 0 10 126 576.622 Tm
+0 Tc
+0.159 Tw
+[(National language characters are handled in comparisons follo)25(wing the coding system)]TJ
+T*
+0.027 Tw
+[(that w)10(as speci\214ed at compile-time, by def)10(ault ISO-8859-1. Non-ISO coding systems, and)]TJ
+T*
+0 Tw
+(in particular UTF-16, are not supported.)Tj
+0 -1.9 TD
+(Strings can be concatenated using the)Tj
+/F2 1 Tf
+9 0 0 9 278.416 531.622 Tm
+-0.072 Tc
+(CONCAT\(s1, s2,)Tj
+8.1163 0 TD
+0.128 Tc
+(...\))Tj
+/F8 1 Tf
+10 0 0 10 378.687 531.622 Tm
+0 Tc
+(SQL function.)Tj
+-25.2687 -1.9 TD
+0.135 Tw
+(The mSQL engine \(and hence the)Tj
+/F2 1 Tf
+9 0 0 9 270.939 512.622 Tm
+-0.072 Tc
+(DBD::mSQL)Tj
+/F8 1 Tf
+10 0 0 10 317.86 512.622 Tm
+0 Tc
+[(dri)25(v)15(er\) only supports the)]TJ
+/F2 1 Tf
+9 0 0 9 423.621 512.622 Tm
+-0.072 Tc
+(CHAR\()Tj
+/F4 1 Tf
+10 0 0 10 447.695 512.622 Tm
+0 Tc
+0 Tw
+(M)Tj
+/F8 1 Tf
+0.833 0 TD
+[(\))-385(string)]TJ
+-33.0024 -1.3 TD
+0.035 Tw
+[(type, which corresponds to the MySQL)92(')55(s)]TJ
+/F2 1 Tf
+9 0 0 9 293.75 499.622 Tm
+-0.072 Tc
+(VARCHAR\()Tj
+/F4 1 Tf
+10 0 0 10 332.073 499.622 Tm
+0 Tc
+0 Tw
+(M)Tj
+/F8 1 Tf
+0.833 0 TD
+0.034 Tw
+[(\))-284(type, and a)]TJ
+/F2 1 Tf
+9 0 0 9 393.385 499.622 Tm
+-0.072 Tc
+(TEXT\()Tj
+/F4 1 Tf
+10 0 0 10 417.459 499.622 Tm
+0 Tc
+0 Tw
+(M)Tj
+/F8 1 Tf
+0.8329 0 TD
+0.034 Tw
+[(\))-284(type which is)]TJ
+-29.9788 -1.3 TD
+0 Tw
+[(a)-250(cross between a CHAR and a BLOB. Also, mSQL has no w)10(ay to concatenate strings.)]TJ
+/F6 1 Tf
+14 0 0 14 126 457.822 Tm
+(Date Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 439.822 Tm
+[(The follo)25(wing date and time types are supported by MySQL, quoted from)]TJ
+/F4 1 Tf
+29.7752 0 TD
+(mysql.info)Tj
+/F8 1 Tf
+4.1387 0 TD
+(:)Tj
+/F4 1 Tf
+-33.9139 -2.3 TD
+-0.036 Tc
+[(DAT)-36(E)]TJ
+/F8 1 Tf
+1.8 -1.7 TD
+0 Tc
+0.083 Tw
+[(A)-333(date. The supported range is)]TJ
+/F2 1 Tf
+9 0 0 9 273.898 399.822 Tm
+-0.072 Tc
+(0000-01-01)Tj
+/F8 1 Tf
+10 0 0 10 325.05 399.822 Tm
+0 Tc
+(to)Tj
+/F2 1 Tf
+9 0 0 9 335.835 399.822 Tm
+-0.072 Tc
+(9999-12-31)Tj
+/F8 1 Tf
+10 0 0 10 383.658 399.822 Tm
+0 Tc
+[(.)-333(MySQL displays)]TJ
+/F4 1 Tf
+7.8046 0 TD
+-0.036 Tc
+[(DAT)-36(E)]TJ
+/F8 1 Tf
+-31.7703 -1.3 TD
+0 Tc
+0.005 Tw
+[(v)25(alues in)]TJ
+/F2 1 Tf
+9 0 0 9 181.849 386.822 Tm
+-0.072 Tc
+(YYYY-MM-DD)Tj
+/F8 1 Tf
+10 0 0 10 232.22 386.822 Tm
+0 Tc
+[(format, b)20(ut allo)25(ws you to assign v)25(alues to)]TJ
+/F4 1 Tf
+16.8832 0 TD
+-0.036 Tc
+[(DAT)-36(E)]TJ
+/F8 1 Tf
+2.6825 0 TD
+0 Tc
+(columns using)Tj
+-28.3877 -1.3 TD
+0 Tw
+(these formats:)Tj
+/F2 1 Tf
+8 0 0 8 170.155 367.822 Tm
+-0.072 Tc
+(YYMMDD)Tj
+0 -1.25 TD
+(YYYYMMDD)Tj
+T*
+(YY.MM.DD)Tj
+T*
+(YYYY.MM.DD)Tj
+/F8 1 Tf
+10 0 0 10 144 320.822 Tm
+0 Tc
+(Where)Tj
+/F2 1 Tf
+9 0 0 9 173.457 320.822 Tm
+(.)Tj
+/F8 1 Tf
+10 0 0 10 181.666 320.822 Tm
+0.063 Tw
+[(may be an)15(y)-313(non-numerical separator and a tw)10(o)-313(digit year is assumed to be)]TJ
+-3.7666 -1.3 TD
+(20)Tj
+/F4 1 Tf
+0.9999 0 TD
+(YY)Tj
+/F8 1 Tf
+1.3619 0 TD
+(if)Tj
+/F4 1 Tf
+0.861 0 TD
+(YY)Tj
+/F8 1 Tf
+1.3619 0 TD
+0 Tw
+(is less than 70.)Tj
+/F4 1 Tf
+-6.3848 -1.7 TD
+[(D)35(A)37(TETIME)]TJ
+/F8 1 Tf
+1.8 -1.7 TD
+0.241 Tw
+[(A)-491(date and time combination. The supported range is)]TJ
+/F2 1 Tf
+9 0 0 9 380.314 273.822 Tm
+-0.072 Tc
+0.267 Tw
+(0000-01-01 00:00:00)Tj
+/F8 1 Tf
+10 0 0 10 478.203 273.822 Tm
+0 Tc
+(to)Tj
+/F2 1 Tf
+9 0 0 9 143.675 260.822 Tm
+-0.072 Tc
+0.456 Tw
+(9999-12-31 23:59:59)Tj
+/F8 1 Tf
+10 0 0 10 238.351 260.822 Tm
+0 Tc
+0.411 Tw
+[(.)-660(MySQL displays)]TJ
+/F4 1 Tf
+8.7873 0 TD
+[(D)35(A)37(TETIME)]TJ
+/F8 1 Tf
+5.4213 0 TD
+[(v)25(alues in)]TJ
+/F4 1 Tf
+4.629 0 TD
+[(YYYY)74(-MM-DD)]TJ
+-28.2726 -1.3 TD
+(HH:MM:SS)Tj
+/F8 1 Tf
+5.029 0 TD
+0.003 Tw
+[(format, b)20(ut allo)25(ws you to assign v)25(alues to)]TJ
+/F4 1 Tf
+16.8712 0 TD
+[(D)35(A)37(TETIME)]TJ
+/F8 1 Tf
+5.0139 0 TD
+(columns using the)Tj
+-26.9141 -1.3 TD
+0 Tw
+[(formats sho)25(wn for D)40(A)111(TE)-250(ab)]TJ
+11.2653 0 TD
+-0.016 Tc
+0.031 Tw
+[(ove bu)-16(t)-16( )]TJ
+3.1718 0 TD
+0 Tc
+0 Tw
+[(with `)74(`)-250(HH:MM:SS')74(')-250(appended.)]TJ
+/F4 1 Tf
+-16.2371 -1.7 TD
+[(TIMEST)50(AMP\(M\))]TJ
+/F8 1 Tf
+1.8 -1.7 TD
+0.114 Tw
+[(A)-364(timestamp. The range is)]TJ
+/F4 1 Tf
+11.4014 0 TD
+(1970-01-01 00:00:00)Tj
+/F8 1 Tf
+9.0595 0 TD
+(to sometime in the year 2032 \(or)Tj
+-20.4608 -1.3 TD
+0.018 Tw
+(2106, depending on the OS speci\214c type)Tj
+/F4 1 Tf
+16.5658 0 TD
+(time_t)Tj
+/F8 1 Tf
+2.4998 0 TD
+(\). MySQL displays)Tj
+/F4 1 Tf
+7.9413 0 TD
+[(TIMEST)50(AMP)]TJ
+/F8 1 Tf
+5.6613 0 TD
+[(v)25(al-)]TJ
+-32.6683 -1.3 TD
+0.13 Tw
+(ues in)Tj
+/F2 1 Tf
+9 0 0 9 172.392 174.822 Tm
+-0.072 Tc
+(YYYYMMDDHHMMSS)Tj
+/F8 1 Tf
+10 0 0 10 239.213 174.822 Tm
+0 Tc
+0 Tw
+(,)Tj
+/F2 1 Tf
+9 0 0 9 245.192 174.822 Tm
+-0.072 Tc
+(YYMMDDHHMMSS)Tj
+/F8 1 Tf
+10 0 0 10 302.515 174.822 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 308.493 174.822 Tm
+-0.072 Tc
+(YYYYMMDD)Tj
+/F8 1 Tf
+10 0 0 10 346.817 174.822 Tm
+0.38 Tc
+[(,o)380(r)]TJ
+/F2 1 Tf
+9 0 0 9 364.93 174.822 Tm
+-0.072 Tc
+(YYMMDD)Tj
+/F8 1 Tf
+10 0 0 10 397.559 174.822 Tm
+0 Tc
+0.13 Tw
+(format, depending on)Tj
+-25.3559 -1.3 TD
+(whether)Tj
+/F4 1 Tf
+3.743 0 TD
+0 Tw
+(M)Tj
+/F8 1 Tf
+1.3551 0 TD
+0.272 Tw
+[(is 14 \(or missing\), 12, 8 or 6, b)20(ut allo)25(ws you to assign v)25(alues to)]TJ
+/F4 1 Tf
+-5.0982 -1.3 TD
+[(TIMEST)50(AMP)]TJ
+/F8 1 Tf
+5.7237 0 TD
+0.08 Tw
+[(columns using either strings or numbers. This output format beha)20(vior)]TJ
+-5.7237 -1.3 TD
+0 Tw
+[(disagrees with the manual, so check your v)15(ersion because the beha)20(vior may change.)]TJ
+T*
+(A)Tj
+/F4 1 Tf
+1.0548 0 TD
+[(TIMEST)50(AMP)]TJ
+/F8 1 Tf
+5.7265 0 TD
+0.083 Tw
+(column is useful for recording the time of an)Tj
+/F4 1 Tf
+18.88 0 TD
+(INSERT)Tj
+/F8 1 Tf
+3.6105 0 TD
+(or)Tj
+/F4 1 Tf
+1.1656 0 TD
+[(UPD)35(A)37(T)0(E)]TJ
+/F8 1 Tf
+-30.4374 -1.3 TD
+0.035 Tw
+[(operation because it is automatically set to the time of the last operation if you don')18(t)]TJ
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+0 Tw
+[(DBD::mysql and DBD::mSQL)-26834(5)]TJ
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+22 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+24 0 obj
+<<
+/Length 6853
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+0 Tw
+[(6)-26584(DBD::mysql and DBD::mSQL)]TJ
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 144 643.622 Tm
+0.052 Tw
+[(gi)25(v)15(e)15( )-15(it)-302(an)-302(v)25(alue yourself. Y)110(ou can also set it to the current time by gi)25(ving it a)]TJ
+/F4 1 Tf
+31.6975 0 TD
+(NULL)Tj
+/F8 1 Tf
+-31.6975 -1.3 TD
+[(v)25(alue.)]TJ
+/F4 1 Tf
+-1.8 -1.7 TD
+(TIME)Tj
+/F8 1 Tf
+1.8 -1.7 TD
+0.195 Tw
+[(A)-445(time. The range is -838:59:59 to 838:59:59. MySQL displays)]TJ
+/F4 1 Tf
+27.6676 0 TD
+(TIME)Tj
+/F8 1 Tf
+2.7777 0 TD
+[(v)25(alues in)]TJ
+/F2 1 Tf
+9 0 0 9 143.675 583.622 Tm
+-0.072 Tc
+(HH:MM:SS)Tj
+/F8 1 Tf
+10 0 0 10 186.155 583.622 Tm
+0 Tc
+0.166 Tw
+[(format, b)20(ut allo)25(ws you to assign v)25(alues to)]TJ
+/F4 1 Tf
+18.1699 0 TD
+(TIME)Tj
+/F8 1 Tf
+2.7485 0 TD
+[(columns using an)15(y)-416(o)0(f)]TJ
+-25.1339 -1.3 TD
+0 Tw
+(these formats:)Tj
+/F2 1 Tf
+9 0 0 9 202.552 570.622 Tm
+-0.072 Tc
+(HH:MM:SS)Tj
+/F8 1 Tf
+10 0 0 10 240.875 570.622 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 245.55 570.622 Tm
+-0.072 Tc
+(HHMMSS)Tj
+/F8 1 Tf
+10 0 0 10 274.373 570.622 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 279.048 570.622 Tm
+-0.072 Tc
+(HHMM)Tj
+/F8 1 Tf
+10 0 0 10 298.372 570.622 Tm
+0.25 Tc
+[(,o)250(r)]TJ
+/F2 1 Tf
+9 0 0 9 313.877 570.622 Tm
+-0.072 Tc
+('HH')Tj
+/F8 1 Tf
+10 0 0 10 333.201 570.622 Tm
+0 Tc
+(.)Tj
+/F4 1 Tf
+-20.7201 -1.7 TD
+(YEAR)Tj
+/F8 1 Tf
+1.8 -1.7 TD
+0.114 Tw
+[(A)-364(year)55(.)-364(The allo)25(w)10(able v)25(alues are 1901 to 2155, and 0000. MySQL displays)]TJ
+/F4 1 Tf
+31.8092 0 TD
+(YEAR)Tj
+/F8 1 Tf
+-31.8092 -1.3 TD
+0.048 Tw
+[(v)25(alues in)]TJ
+/F2 1 Tf
+9 0 0 9 182.721 523.622 Tm
+-0.072 Tc
+(YYYY)Tj
+/F8 1 Tf
+10 0 0 10 205.029 523.622 Tm
+0 Tc
+(format. On input, 2 digits years in the range 00-69 are assumed to be)Tj
+-6.1029 -1.3 TD
+0 Tw
+(2000-2069. \()Tj
+/F4 1 Tf
+5.1657 0 TD
+(YEAR)Tj
+/F8 1 Tf
+2.6389 0 TD
+[(is a ne)25(w)-250(type for MySQL 3.22.\))]TJ
+-9.6045 -1.9 TD
+0.082 Tw
+[(If you are using tw)10(o-digit-years as in)]TJ
+/F2 1 Tf
+9 0 0 9 281.543 491.622 Tm
+-0.072 Tc
+(YY-MM-DD)Tj
+/F8 1 Tf
+10 0 0 10 323.185 491.622 Tm
+0 Tc
+(\(dates\) or)Tj
+/F2 1 Tf
+9 0 0 9 365.036 491.622 Tm
+-0.072 Tc
+(YY)Tj
+/F8 1 Tf
+10 0 0 10 378.179 491.622 Tm
+0 Tc
+[(\(years\), then the)15(y)-332(are con-)]TJ
+-25.2179 -1.3 TD
+0.079 Tw
+[(v)15(erted into 2000-2069 and 1970-1999, repecti)25(v)15(ely)65(.)-329(Thus, MySQL has no Y2K problem,)]TJ
+T*
+0 Tw
+[(b)20(u)0(t)-250(a)-250(Y2070 problem!)]TJ
+0 -1.9 TD
+0.017 Tw
+[(In MySQL 3.23 this will be changed to 2000-2068 and 1969-1999, follo)25(wing the X/Open)]TJ
+0 -1.3 TD
+0 Tw
+(Unix standard*.)Tj
+/F2 1 Tf
+8 0 0 8 160.599 414.622 Tm
+-0.072 Tc
+[(*)-527(See:)]TJ
+2.111 -2.375 TD
+(http://www.unix-systems.org/version2/whatsnew/year2000.html>)Tj
+/F8 1 Tf
+10 0 0 10 126 376.622 Tm
+0 Tc
+(The)Tj
+/F2 1 Tf
+9 0 0 9 143.931 376.622 Tm
+-0.072 Tc
+(NOW\(\))Tj
+/F8 1 Tf
+10 0 0 10 170.712 376.622 Tm
+0 Tc
+0.021 Tw
+[(function, and it')55(s)-271(alias)]TJ
+/F2 1 Tf
+9 0 0 9 262.038 376.622 Tm
+-0.072 Tc
+(SYSDATE)Tj
+/F8 1 Tf
+10 0 0 10 295.611 376.622 Tm
+0 Tc
+[(,)-271(allo)25(w)-271(you to refer to the current date and time)]TJ
+-16.9611 -1.3 TD
+0 Tw
+(in SQL.)Tj
+0 -1.9 TD
+(The)Tj
+/F2 1 Tf
+9 0 0 9 144.94 344.622 Tm
+-0.072 Tc
+0.135 Tw
+(DATE_FORMAT\(date, format\))Tj
+/F8 1 Tf
+10 0 0 10 268.942 344.622 Tm
+0 Tc
+0.122 Tw
+[(function can be used to format date and time v)25(alues)]TJ
+-14.2942 -1.3 TD
+(using)Tj
+/F2 1 Tf
+9 0 0 9 149.844 331.622 Tm
+-0.072 Tc
+(printf)Tj
+/F8 1 Tf
+10 0 0 10 178.667 331.622 Tm
+0 Tc
+0 Tw
+[(-lik)10(e)-250(format strings.)]TJ
+-5.2667 -1.9 TD
+0.316 Tw
+(MySQL has a rich set of functions operating on dates and times, including)Tj
+/F2 1 Tf
+9 0 0 9 466.655 312.622 Tm
+-0.072 Tc
+(DAY-)Tj
+-37.8867 -1.4444 TD
+(OFWEEK\(date\))Tj
+/F8 1 Tf
+10 0 0 10 186.398 299.622 Tm
+0 Tc
+0.09 Tw
+[(\(1 = Sunday)65(,)]TJ
+5.802 0 TD
+0.2 Tc
+-0.31 Tw
+(..., 7 = )Tj
+3.6841 0 TD
+0 Tc
+(Saturday\),)Tj
+/F2 1 Tf
+9 0 0 9 325.713 299.622 Tm
+-0.072 Tc
+(WEEKDAY\(date\))Tj
+/F8 1 Tf
+10 0 0 10 391.187 299.622 Tm
+0 Tc
+0.09 Tw
+[(\(0 = Monday)65(,)]TJ
+6.1353 0 TD
+0.2 Tc
+-0.31 Tw
+(..., 6 =)Tj
+-32.654 -1.3 TD
+0 Tc
+(Sunday\),)Tj
+/F2 1 Tf
+9 0 0 9 166.387 286.622 Tm
+-0.072 Tc
+(DAYOFMONTH\(date\))Tj
+/F8 1 Tf
+10 0 0 10 242.708 286.622 Tm
+0 Tc
+0 Tw
+(,)Tj
+/F2 1 Tf
+9 0 0 9 249.767 286.622 Tm
+-0.072 Tc
+(DAYOFYEAR\(date\))Tj
+/F8 1 Tf
+10 0 0 10 321.339 286.622 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 328.398 286.622 Tm
+-0.072 Tc
+(MONTH\(date\))Tj
+/F8 1 Tf
+10 0 0 10 380.97 286.622 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 388.029 286.622 Tm
+-0.072 Tc
+(DAYNAME\(date\))Tj
+/F8 1 Tf
+10 0 0 10 450.101 286.622 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 457.16 286.622 Tm
+-0.072 Tc
+(MONTH-)Tj
+-36.8317 -1.4444 TD
+(NAME\(date\))Tj
+/F8 1 Tf
+10 0 0 10 173.498 273.622 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 183.873 273.622 Tm
+-0.072 Tc
+(WEEK\(date\))Tj
+/F8 1 Tf
+10 0 0 10 231.695 273.622 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 242.07 273.622 Tm
+-0.072 Tc
+(YEAR\(date\))Tj
+/F8 1 Tf
+10 0 0 10 289.893 273.622 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 300.268 273.622 Tm
+-0.072 Tc
+(HOUR\(time\))Tj
+/F8 1 Tf
+10 0 0 10 348.091 273.622 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 358.466 273.622 Tm
+-0.072 Tc
+(MINUTE\(time\))Tj
+/F8 1 Tf
+10 0 0 10 415.788 273.622 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 426.163 273.622 Tm
+-0.072 Tc
+(SECOND\(time\))Tj
+/F8 1 Tf
+10 0 0 10 483.485 273.622 Tm
+0 Tc
+(,)Tj
+/F2 1 Tf
+9 0 0 9 125.675 260.622 Tm
+-0.072 Tc
+0.615 Tw
+(DATE_ADD\(date, interval\))Tj
+/F8 1 Tf
+10 0 0 10 253.563 260.622 Tm
+0 Tc
+0 Tw
+(\()Tj
+/F4 1 Tf
+0.333 0 TD
+(interval)Tj
+/F8 1 Tf
+3.9142 0 TD
+0.553 Tw
+[(being something lik)10(e)-803(`)74(`2 HOURS')74('\), and)]TJ
+/F2 1 Tf
+9 0 0 9 125.675 247.622 Tm
+-0.072 Tc
+0 Tw
+(DATE_SUB\(date, interval\))Tj
+/F8 1 Tf
+10 0 0 10 239.995 247.622 Tm
+0 Tc
+(.)Tj
+-11.3995 -1.9 TD
+0.335 Tw
+[(The follo)25(wing SQL e)15(xpression can be used to con)40(v)15(ert an inte)15(ger `)74(`seconds since)]TJ
+0 -1.3 TD
+0 Tw
+[(1-jan-1970 GMT')74(')-250(v)25(alue to the corresponding database date time:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 196.622 Tm
+-0.072 Tc
+(FROM_UNIXTIME\(seconds_since_epoch\))Tj
+/F8 1 Tf
+10 0 0 10 126 177.622 Tm
+0 Tc
+[(and the re)25(v)15(erse:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 132.252 Tm
+-0.072 Tc
+(UNIX_TIMESTAMP\(timestamp\))Tj
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+0 Tc
+(19 May 1999)Tj
+ET
+endstream
+endobj
+25 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+27 0 obj
+<<
+/Length 4508
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+/CS1 cs 0 sc
+0 Tc
+0 Tw
+(MySQL does no automatic time zone adjustments.)Tj
+0 -1.9 TD
+(The mSQL database supports these date/time types:)Tj
+/F2 1 Tf
+8 0 0 8 152.155 605.622 Tm
+-0.072 Tc
+[(DATE )-527(-)-527(corresponds to MySQL's DATE type)]TJ
+0 -1.25 TD
+[(TIME )-527(-)-527(corresponds to MySQL's TIME type)]TJ
+/F8 1 Tf
+10 0 0 10 126 576.622 Tm
+0 Tc
+0.027 Tw
+(The only date format supported by mSQL is)Tj
+/F2 1 Tf
+9 0 0 9 307.293 576.622 Tm
+-0.072 Tc
+(DD-MMM-YYYY)Tj
+/F8 1 Tf
+10 0 0 10 359.866 576.622 Tm
+0 Tc
+[(,)-277(where)]TJ
+/F2 1 Tf
+9 0 0 9 392.017 576.622 Tm
+-0.072 Tc
+(MMM)Tj
+/F8 1 Tf
+10 0 0 10 409.365 576.622 Tm
+0 Tc
+(is the three charac-)Tj
+-28.3366 -1.3 TD
+0 Tw
+[(ter English abbre)25(viation for the month name. The only time format supported by mSQL is)]TJ
+/F2 1 Tf
+9 0 0 9 125.675 550.622 Tm
+-0.072 Tc
+(HH:MM:SS)Tj
+/F8 1 Tf
+10 0 0 10 163.998 550.622 Tm
+0 Tc
+(.)Tj
+/F6 1 Tf
+14 0 0 14 126 521.822 Tm
+(LONG/BLOB Data Handling)Tj
+/F8 1 Tf
+10 0 0 10 126 503.822 Tm
+[(These are MySQL)92(')55(s)55( )-55(BLOB types, quoted from)]TJ
+/F4 1 Tf
+18.9049 0 TD
+(mysql.info)Tj
+/F8 1 Tf
+4.1387 0 TD
+(:)Tj
+/F2 1 Tf
+8 0 0 8 152.155 484.822 Tm
+-0.072 Tc
+[(TINYBLOB )-1055(/)-527(TINYTEXT )-1583(maximum)-527(length of 255 \(2^8 - 1\))]TJ
+0 -1.25 TD
+[(BLOB )-3166(/)-527(TEXT )-3694(maximum)-527(length of 65535 \(2^16 - 1\))]TJ
+T*
+[(MEDIUMBLOB / MEDIUMTEXT)-1055(maximum length of 16777215 \(2^24 - 1\))]TJ
+T*
+[(LONGBLOB )-1055(/)-527(LONGTEXT )-1583(maximum)-527(length of 4294967295 \(2^32 - 1\))]TJ
+/F8 1 Tf
+10 0 0 10 126 435.822 Tm
+0 Tc
+0.039 Tw
+[(Binary characters in all BLOB types are allo)25(wed. None of the types are passed as strings)]TJ
+0 -1.3 TD
+0 Tw
+[(of he)15(x)-250(digits. The)]TJ
+/F4 1 Tf
+7.2896 0 TD
+(LongReadLen)Tj
+/F8 1 Tf
+5.8607 0 TD
+(and)Tj
+/F4 1 Tf
+1.6939 0 TD
+[(LongT)55(runcOk)]TJ
+/F8 1 Tf
+5.8057 0 TD
+(types are not supported.)Tj
+-20.6498 -1.9 TD
+0.022 Tw
+(The maximum length of)Tj
+/F2 1 Tf
+9 0 0 9 226.01 403.822 Tm
+-0.072 Tc
+(bind_param\(\))Tj
+/F8 1 Tf
+10 0 0 10 286.058 403.822 Tm
+0 Tc
+0.023 Tw
+[(parameter v)25(alues is only limited by the maximum)]TJ
+-16.0058 -1.3 TD
+0.144 Tw
+[(length of an SQL statement. By def)10(ault that')55(s)-394(1MB b)20(ut can be e)15(xtended to just under)]TJ
+T*
+0 Tw
+(24MB by changing the)Tj
+/F4 1 Tf
+9.4434 0 TD
+(mysqld)Tj
+/F8 1 Tf
+3.0828 0 TD
+[(v)25(ariable)]TJ
+/F2 1 Tf
+9 0 0 9 285.396 377.822 Tm
+-0.072 Tc
+(max_allowed_packet)Tj
+/F8 1 Tf
+10 0 0 10 371.217 377.822 Tm
+0 Tc
+(.)Tj
+-24.5217 -1.9 TD
+[(No TYPE or other attrib)20(utes need to be gi)25(v)15(e)0(n)-250(t)0(o)]TJ
+/F2 1 Tf
+9 0 0 9 319.483 358.822 Tm
+-0.072 Tc
+(bind_param\(\))Tj
+/F8 1 Tf
+10 0 0 10 379.306 358.822 Tm
+0 Tc
+(when binding these types.)Tj
+-25.3306 -1.9 TD
+0.105 Tw
+[(The only blob type supported by mSQL is TEXT)74(.)-355(This is a cross between a traditional)]TJ
+0 -1.3 TD
+0.042 Tw
+[(V)135(ARCHAR type and a BLOB. An)]TJ
+/F4 1 Tf
+14.2524 0 TD
+[(aver)15(a)10(g)10(e)]TJ
+/F8 1 Tf
+3.4775 0 TD
+(width is speci\214ed, and data longer than)Tj
+/F4 1 Tf
+16.1779 0 TD
+[(aver)20(-)]TJ
+-33.9078 -1.3 TD
+-0.01 Tc
+(age)Tj
+/F8 1 Tf
+1.6739 0 TD
+0 Tc
+0 Tw
+[(is automatically stored in an o)15(v)15(er\215o)25(w)-250(area in the table.)]TJ
+/F6 1 Tf
+14 0 0 14 126 285.022 Tm
+(Other Data Handling issues)Tj
+/F8 1 Tf
+10 0 0 10 126 267.022 Tm
+0.314 Tw
+[(The dri)25(v)15(e)0(r)-564(v)15(ersions 1.21_xx do support the)]TJ
+/F2 1 Tf
+9 0 0 9 322.061 267.022 Tm
+-0.072 Tc
+(type_info\(\))Tj
+/F8 1 Tf
+10 0 0 10 380.271 267.022 Tm
+0 Tc
+[(methods. V)111(ersion 1.20xx)]TJ
+-25.4271 -1.3 TD
+[(doesn')18(t.)]TJ
+0 -1.9 TD
+0.209 Tw
+[(MySQL supports automatic con)40(v)15(ersions between data types where)25(v)15(e)0(r)-459(it')55(s)-459(reasonable.)]TJ
+0 -1.3 TD
+0 Tw
+(mSQL, on the other hand, supports none.)Tj
+/F6 1 Tf
+14 0 0 14 126 134.002 Tm
+[(T)37(ransactions, Isolation and Loc)10(king)]TJ
+9 0 0 9 126 672.75 Tm
+[(DBD::mysql and DBD::mSQL)-26834(7)]TJ
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+28 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+30 0 obj
+<<
+/Length 3324
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+0 Tw
+[(8)-26584(DBD::mysql and DBD::mSQL)]TJ
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+(Both engines do not support transactions.)Tj
+0 -1.9 TD
+[(Since both mSQL and MySQL currently e)15(x)15(ecute statements from multiple clients one at a)]TJ
+0 -1.3 TD
+0.011 Tw
+[(time \(atomic\), and don')18(t)-261(support transactions, there')55(s)-261(n)0(o)-261(need for a def)10(ault locking beha)20(v-)]TJ
+T*
+0 Tw
+(ior to protect transaction isolation.)Tj
+0 -1.9 TD
+[(W)40(ith MySQL locks can be e)15(xplicitly obtained on tables. F)15(or e)15(xample:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 560.622 Tm
+-0.072 Tc
+(LOCK TABLES $table1 READ, $table2 WRITE)Tj
+/F8 1 Tf
+10 0 0 10 126 541.622 Tm
+0 Tc
+0.09 Tw
+[(Locks are released with an)15(y)-340(subsequent LOCK T)93(ABLES statement, by dropping a con-)]TJ
+0 -1.3 TD
+0 Tw
+[(nection or with an e)15(xplicit)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 509.622 Tm
+-0.072 Tc
+(UNLOCK TABLES)Tj
+/F8 1 Tf
+10 0 0 10 126 490.622 Tm
+0 Tc
+0.223 Tw
+(There are also user de\214ned locks that can be manipulated with the)Tj
+/F2 1 Tf
+9 0 0 9 418.993 490.622 Tm
+-0.072 Tc
+(GET_LOCK\(\))Tj
+/F8 1 Tf
+10 0 0 10 471.542 490.622 Tm
+0 Tc
+(and)Tj
+/F2 1 Tf
+9 0 0 9 125.675 477.622 Tm
+-0.072 Tc
+(RELEASE_LOCK\(\))Tj
+/F8 1 Tf
+10 0 0 10 195.003 477.622 Tm
+0 Tc
+0.001 Tw
+[(SQL functions. Y)110(ou can')18(t)-251(automatically lock ro)25(ws or tables during select)]TJ
+-6.9003 -1.3 TD
+0 Tw
+[(statements; you ha)20(v)15(e)15( )-15(to)-250(do)-250(it)-250(e)15(xplicitly)65(.)]TJ
+0 -1.9 TD
+[(And, as you might guess, mSQL doesn')18(t)-250(support an)15(y)-250(kind of locking at the moment.)]TJ
+/F6 1 Tf
+14 0 0 14 126 416.822 Tm
+[(No-T)92(able Expression Select Syntax)]TJ
+/F8 1 Tf
+10 0 0 10 126 398.822 Tm
+[(W)40(ith MySQL you can select constant e)15(xpressions without naming a table. F)15(or e)15(xample:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 379.822 Tm
+-0.072 Tc
+(SELECT NOW\(\))Tj
+/F8 1 Tf
+10 0 0 10 126 360.822 Tm
+0 Tc
+[(Y)110(o)0(u)-250(can')18(t)-250(d)0(o)-250(s)0(o)-250(with mSQL.)]TJ
+/F6 1 Tf
+14 0 0 14 126 332.022 Tm
+[(T)92(able J)40(oin Syntax)]TJ
+/F8 1 Tf
+10 0 0 10 126 314.022 Tm
+(Joins are supported with the usual syntax:)Tj
+/F2 1 Tf
+8 0 0 8 152.155 295.022 Tm
+-0.072 Tc
+(SELECT * FROM a,b WHERE a.field = b.field)Tj
+/F8 1 Tf
+10 0 0 10 126 276.022 Tm
+0 Tc
+[(or)40(,)-250(alternati)25(v)15(ely:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 257.022 Tm
+-0.072 Tc
+(SELECT * FROM a JOIN b USING field)Tj
+/F8 1 Tf
+10 0 0 10 126 238.022 Tm
+0 Tc
+(Outer joins are supported by MySQL, not mSQL, with)Tj
+/F2 1 Tf
+8 0 0 8 152.155 219.022 Tm
+-0.072 Tc
+(SELECT * FROM a LEFT OUTER JOIN b ON condition)Tj
+/F8 1 Tf
+10 0 0 10 126 200.022 Tm
+0 Tc
+[(Outer joins in MySQL are al)10(w)10(ays left outer joins.)]TJ
+/F6 1 Tf
+14 0 0 14 126 134.002 Tm
+[(T)92(able and Column Names)]TJ
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+31 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+33 0 obj
+<<
+/Length 4470
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+/CS1 cs 0 sc
+0 Tc
+0.08 Tw
+[(MySQL table and column names may ha)20(v)15(e)15( )-15(at)-330(most 64 characters. mSQL table and col-)]TJ
+0 -1.3 TD
+0 Tw
+(umn names are limited to 35 characters.)Tj
+0 -1.9 TD
+0.071 Tw
+(MySQL can use all alphanumeric characters de\214ned in the current character set as table)Tj
+0 -1.3 TD
+0.106 Tw
+[(and column names. MySQL also allo)25(ws you to use the)]TJ
+/F2 1 Tf
+9 0 0 9 356.802 598.622 Tm
+0 Tw
+(_)Tj
+/F8 1 Tf
+10 0 0 10 365.433 598.622 Tm
+(and)Tj
+/F2 1 Tf
+9 0 0 9 383.105 598.622 Tm
+($)Tj
+/F8 1 Tf
+10 0 0 10 391.736 598.622 Tm
+0.106 Tw
+(characters in names. A)Tj
+-26.5736 -1.3 TD
+0.046 Tw
+[(table name can')18(t)-296(start with a number)55(.)-296(I)0(t)-296(i)0(s)-297(unkno)25(wn whether non-alphanumeric table and)]TJ
+T*
+0 Tw
+(column names can be used with mSQL.)Tj
+0 -1.9 TD
+(Neither mSQL nor MySQL support putting quotes around table or column names.)Tj
+T*
+0.053 Tw
+[(T)80(able names are limited by the f)10(act that tables are stored in \214les and the table names are)]TJ
+0 -1.3 TD
+0.001 Tw
+[(really \214le names. In particular)40(,)-251(the case sensiti)25(vity of table names depends on the underly-)]TJ
+T*
+0 Tw
+(ing \214le system.)Tj
+0 -1.9 TD
+0.196 Tw
+[(Column names are case insensiti)25(v)15(e)15( )-15(with MySQL and sensiti)25(v)15(e)15( )-15(with mSQL, b)20(ut both)]TJ
+0 -1.3 TD
+0 Tw
+[(engines store them without case con)40(v)15(ersions.)]TJ
+0 -1.9 TD
+0.026 Tw
+[(Names can include national character set characters \( with the 8th bit set \) in MySQL b)20(u)0(t)]TJ
+0 -1.3 TD
+0 Tw
+(not mSQL.)Tj
+/F6 1 Tf
+14 0 0 14 126 415.822 Tm
+(Case Sensitivity of LIKE Operator)Tj
+/F8 1 Tf
+10 0 0 10 126 397.822 Tm
+0.171 Tw
+[(W)40(ith MySQL, case sensiti)25(vity of)]TJ
+/F4 1 Tf
+14.2327 0 TD
+(all)Tj
+/F8 1 Tf
+1.4768 0 TD
+(character comparison operators, including LIKE,)Tj
+-15.7095 -1.3 TD
+0.036 Tw
+[(requires on the presence of the BIN)35(AR)65(Y)-286(attrib)20(ute on at least one of the \214elds)-83(\212)-83(either on)]TJ
+T*
+0.075 Tw
+[(the \214eld type in the CREA)111(TE T)93(ABLE statement or on the \214eld name in the comparison)]TJ
+T*
+0 Tw
+[(operator)55(.)-250(H)0(o)25(w)0(e)25(v)25( )240(er)40(,)40( )-40(you can al)10(w)10(ays force case insensiti)25(vity using the)]TJ
+/F2 1 Tf
+9 0 0 9 400.768 358.822 Tm
+-0.072 Tc
+(TOLOWER)Tj
+/F8 1 Tf
+10 0 0 10 436.842 358.822 Tm
+0 Tc
+(function.)Tj
+-31.0842 -1.9 TD
+0.064 Tw
+[(mSQL has three LIKE operators: LIKE is case sensiti)25(v)15(e)0(,)-314(CLIKE is case insensiti)25(v)15(e)0(,)-314(and)]TJ
+0 -1.3 TD
+0 Tw
+[(RLIKE uses UNIX style re)15(gular e)15(xpressions.)]TJ
+/F6 1 Tf
+14 0 0 14 126 298.022 Tm
+[(Ro)25(w)-250(I)0(D)]TJ
+/F8 1 Tf
+10 0 0 10 126 280.022 Tm
+[(MySQL doesn')18(t)-250(h)0(a)20(v)20( )245(e)-250(r)0(o)25(w)-250(ID')55(s. mSQL has a pseudo column)]TJ
+/F2 1 Tf
+9 0 0 9 369.021 280.022 Tm
+-0.072 Tc
+(_rowid)Tj
+/F8 1 Tf
+10 0 0 10 397.844 280.022 Tm
+0 Tc
+(.)Tj
+-27.1844 -1.9 TD
+0.023 Tw
+(The mSQL)Tj
+/F2 1 Tf
+9 0 0 9 173.36 261.022 Tm
+-0.072 Tc
+(_rowid)Tj
+/F8 1 Tf
+10 0 0 10 204.918 261.022 Tm
+0 Tc
+[(column v)25(alue is numeric and, since mSQL doesn')18(t)-273(automatically con-)]TJ
+-7.8918 -1.3 TD
+0.072 Tw
+[(v)15(ert strings to numbers, you must tak)10(e)-322(care not to quote the v)25(alue when using it in later)]TJ
+T*
+0 Tw
+(select statements.)Tj
+0 -1.9 TD
+0.117 Tw
+[(Note that there')55(s)-367(a)-367(risk that the ro)25(w)-367(identi\214ed by a)]TJ
+/F2 1 Tf
+9 0 0 9 341.309 216.022 Tm
+-0.072 Tc
+(_rowid)Tj
+/F8 1 Tf
+10 0 0 10 373.802 216.022 Tm
+0 Tc
+[(v)25(alue you just fetched may)]TJ
+-24.7802 -1.3 TD
+0.077 Tw
+[(ha)20(v)15(e)15( )-15(been deleted and possibly replaced by a dif)25(ferent ro)25(w)-327(b)0(y)-327(the time you use the ro)25(w)]TJ
+T*
+0 Tw
+[(ID v)25(alue moments later)55(.)]TJ
+/F6 1 Tf
+14 0 0 14 126 134.002 Tm
+[(A)30(utomatic K)25(ey or Sequence Generation)]TJ
+9 0 0 9 126 672.75 Tm
+[(DBD::mysql and DBD::mSQL)-26834(9)]TJ
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+34 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+36 0 obj
+<<
+/Length 3792
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+25.834 Tw
+[(10 DBD::mysql)-250(and )25834(DBD::mSQL)]TJ
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+0 Tw
+[(All MySQL inte)15(gers can ha)20(v)15(e)15( )-15(an)-250(A)55(U)0(T)18(O_INCREMENT attrib)20(ute. That is, gi)25(v)15(e)0(n)-250(a)-250(table:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 624.622 Tm
+-0.072 Tc
+(CREATE TABLE a \()Tj
+1.0555 -1.25 TD
+(id INTEGER AUTO_INCREMENT NOT NULL PRIMARY KEY,)Tj
+T*
+(...\))Tj
+/F8 1 Tf
+10 0 0 10 126 585.622 Tm
+0 Tc
+(and a statement:)Tj
+/F2 1 Tf
+8 0 0 8 152.155 566.622 Tm
+-0.072 Tc
+(INSERT INTO a \(id, ...\) VALUES \(NULL, ...\))Tj
+/F8 1 Tf
+10 0 0 10 126 547.622 Tm
+0 Tc
+0.065 Tw
+[(a)-315(unique ID will be generated automatically \(similarly if the ID \214eld had not been men-)]TJ
+0 -1.3 TD
+0 Tw
+[(tioned in the insert statement at all\). The generated ID can later be retrie)25(v)15(e)0(d)-250(with)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 515.622 Tm
+-0.072 Tc
+7.916 Tw
+($sth->{mysql_insertid} \(1.21_xx\))Tj
+0 -1.25 TD
+11.082 Tw
+($sth->{insertid} \(1.20xx\))Tj
+/F8 1 Tf
+10 0 0 10 126 486.622 Tm
+0 Tc
+0.015 Tw
+[(or)40(,)-250(i)0(f)-250(you')50(v)15(e)15( used)]TJ
+/F2 1 Tf
+9 0 0 9 197.661 486.622 Tm
+-0.072 Tc
+($dbh->do)Tj
+/F8 1 Tf
+10 0 0 10 238.484 486.622 Tm
+0 Tc
+0 Tw
+[(and not prepare/e)15(x)15(ecute, then use:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 467.622 Tm
+-0.072 Tc
+7.916 Tw
+($dbh->{mysql_insertid} \(1.21_xx\))Tj
+T*
+0 Tw
+[($dbh->do\("SELECT LAST_INSERT_ID\(\)"\);)-1055(\(1.20_xx\))]TJ
+/F8 1 Tf
+10 0 0 10 126 438.622 Tm
+0 Tc
+0.085 Tw
+[(MySQL does not support sequence generators directly)65(,)-335(b)20(ut the)15(y)-335(can be emulated with a)]TJ
+0 -1.3 TD
+0.044 Tw
+(little care using)Tj
+/F2 1 Tf
+9 0 0 9 191.142 425.622 Tm
+-0.072 Tc
+0.048 Tw
+(UPDATE seq SET id=last_insert_id\(id+1\))Tj
+/F8 1 Tf
+10 0 0 10 373.267 425.622 Tm
+0 Tc
+0.044 Tw
+[(.)-294(Refer to the MySQL man-)]TJ
+-24.7267 -1.3 TD
+0 Tw
+(ual for details.)Tj
+0 -1.9 TD
+[(The mSQL database supports sequence generators, b)20(ut just one per table. After e)15(x)15(ecuting:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 374.622 Tm
+-0.072 Tc
+(CREATE SEQUENCE on A)Tj
+/F8 1 Tf
+10 0 0 10 126 355.622 Tm
+0 Tc
+(you can later do:)Tj
+/F2 1 Tf
+8 0 0 8 152.155 336.622 Tm
+-0.072 Tc
+(SELECT _seq FROM A)Tj
+/F8 1 Tf
+10 0 0 10 126 317.622 Tm
+0 Tc
+0.192 Tw
+[(to fetch the v)25(alue. Y)110(ou can')18(t)-442(refer directly to the sequence from an insert statement;)]TJ
+0 -1.3 TD
+0.066 Tw
+[(instead, you ha)20(v)15(e)15( )-15(to)-316(fetch the sequence v)25(alue and then e)15(x)15(ecute an insert with that v)25(alue.)]TJ
+T*
+0.267 Tw
+[(There seems to be no protection against someone inserting ro)25(ws without using the)]TJ
+T*
+(sequence.)Tj
+/F6 1 Tf
+14 0 0 14 126 249.822 Tm
+0 Tw
+[(A)30(utomatic Ro)25(w)-250(Numbering and Ro)25(w)-250(Count Limiting)]TJ
+/F8 1 Tf
+10 0 0 10 126 231.822 Tm
+[(Neither engine supports automatic ro)25(w)-250(numbering of select statement results.)]TJ
+0 -1.9 TD
+[(MySQL does support ro)25(w)-250(count limitations with:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 193.822 Tm
+-0.072 Tc
+(SELECT * FROM A LIMIT 10)Tj
+/F8 1 Tf
+10 0 0 10 126 174.822 Tm
+0 Tc
+[(to retrie)25(v)15(e)15( )-15(the \214rst 10 ro)25(ws only)65(,)-250(and:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 132.252 Tm
+-0.072 Tc
+(SELECT * FROM A LIMIT 20, 10)Tj
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+0 Tc
+(19 May 1999)Tj
+ET
+endstream
+endobj
+37 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+39 0 obj
+<<
+/Length 4135
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+/CS1 cs 0 sc
+0 Tc
+0 Tw
+[(to retrie)25(v)15(e)15( )-15(ro)25(ws)-250(20-29, with the count starting at 0.)]TJ
+/F6 1 Tf
+14 0 0 14 126 614.822 Tm
+[(P)40(arameter Binding)]TJ
+/F8 1 Tf
+10 0 0 10 126 596.822 Tm
+0.042 Tw
+[(Neither engine supports placeholders, b)20(ut the)]TJ
+/F2 1 Tf
+9 0 0 9 311.54 596.822 Tm
+-0.072 Tc
+(DBD::mysql)Tj
+/F8 1 Tf
+10 0 0 10 362.279 596.822 Tm
+0 Tc
+(and)Tj
+/F2 1 Tf
+9 0 0 9 379.309 596.822 Tm
+-0.072 Tc
+(DBD::mSQL)Tj
+/F8 1 Tf
+10 0 0 10 425.298 596.822 Tm
+0 Tc
+[(dri)25(v)15(ers pro)15(vide)]TJ
+-29.9298 -1.3 TD
+0 Tw
+(full emulation. Question marks are used as placeholders, as in:)Tj
+/F2 1 Tf
+8 0 0 8 152.155 564.822 Tm
+-0.072 Tc
+($dbh->do\("INSERT INTO A VALUES \(?, ?\)", undef, $id, $name\);)Tj
+/F8 1 Tf
+10 0 0 10 126 545.822 Tm
+0 Tc
+(The)Tj
+/F2 1 Tf
+9 0 0 9 143.724 545.822 Tm
+-0.072 Tc
+(:1)Tj
+/F8 1 Tf
+10 0 0 10 156.049 545.822 Tm
+0 Tc
+(placeholder style is not supported.)Tj
+-3.0049 -1.9 TD
+0.016 Tw
+(In the ab)Tj
+3.5316 0 TD
+-0.015 Tc
+0.046 Tw
+(ove e)Tj
+2.1093 0 TD
+0 Tc
+0.016 Tw
+[(xample, the dri)25(v)15(e)0(r)-266(attempts to guess the inserted columns datatype by look-)]TJ
+-5.6409 -1.3 TD
+0.081 Tw
+[(ing at Perl')55(s)-331(datatype. This is \214ne with MySQL, because MySQL can deal with e)15(xpres-)]TJ
+T*
+0 Tw
+[(sions lik)10(e:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 481.822 Tm
+-0.072 Tc
+(INSERT INTO A \(id\) VALUES \('2'\))Tj
+/F8 1 Tf
+10 0 0 10 126 462.822 Tm
+0 Tc
+(if)Tj
+/F4 1 Tf
+0.9959 0 TD
+(id)Tj
+/F8 1 Tf
+1.1629 0 TD
+0.135 Tw
+[(is a numeric column. But this doesn')18(t)-385(apply to mSQL so you sometimes need to)]TJ
+-2.1587 -1.3 TD
+0 Tw
+(force a datatype, either by using:)Tj
+/F2 1 Tf
+8 0 0 8 152.155 430.822 Tm
+-0.072 Tc
+($dbh->do\("INSERT INTO A VALUES \(?, ?\)", undef, int\($id\), $name\);)Tj
+/F8 1 Tf
+10 0 0 10 126 411.822 Tm
+0 Tc
+[(or by using the TYPE attrib)20(ute of the)]TJ
+/F2 1 Tf
+9 0 0 9 276.566 411.822 Tm
+-0.072 Tc
+(bind_param\(\))Tj
+/F8 1 Tf
+10 0 0 10 336.388 411.822 Tm
+0 Tc
+(method:)Tj
+/F2 1 Tf
+8 0 0 8 152.155 392.822 Tm
+-0.072 Tc
+(use DBI qw\(:sql_types\);)Tj
+0 -1.25 TD
+($sth = $dbh->prepare\("INSERT INTO A VALUES \(?, ?\)"\);)Tj
+T*
+[($sth->bind_param\(1, $id,)-1583(SQL_INTEGER\);)]TJ
+T*
+($sth->bind_param\(2, $name, SQL_VARCHAR\);)Tj
+T*
+($sth->execute;)Tj
+/F8 1 Tf
+10 0 0 10 126 333.822 Tm
+0 Tc
+[(Unsupported v)25(alues of the TYPE attrib)20(ute do not currently generate a w)10(arning.)]TJ
+/F6 1 Tf
+14 0 0 14 126 305.022 Tm
+(Stored Procedures)Tj
+/F8 1 Tf
+10 0 0 10 126 287.022 Tm
+[(Neither mSQL nor MySQL ha)20(v)15(e)15( )-15(a)15( )-15(concept of stored procedures.)]TJ
+/F6 1 Tf
+14 0 0 14 126 258.222 Tm
+[(T)92(able Metadata)]TJ
+/F8 1 Tf
+10 0 0 10 126 240.222 Tm
+0.105 Tw
+[(The 1.21_xx v)15(ersion of the dri)25(v)15(ers to support the)]TJ
+/F4 1 Tf
+20.7244 0 TD
+(table_info\(\))Tj
+/F8 1 Tf
+5.0773 0 TD
+0.106 Tw
+[(method. The 1.20xx v)15(e)0(r)20(-)]TJ
+-25.8017 -1.3 TD
+0 Tw
+[(sions don')18(t.)]TJ
+0 -1.9 TD
+[(T)80(o)80( )-80(obtain information on a generic table, you can use the query)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 189.222 Tm
+-0.072 Tc
+(LISTFIELDS $table)Tj
+/F8 1 Tf
+10 0 0 10 126 170.222 Tm
+0 Tc
+0.023 Tw
+[(This will return a statement handle without result ro)25(ws. The)]TJ
+/F4 1 Tf
+24.3983 0 TD
+(TYPE)Tj
+/F8 1 Tf
+2.3339 0 TD
+0 Tw
+(,)Tj
+/F4 1 Tf
+0.5232 0 TD
+[(N)27(AME)]TJ
+/F8 1 Tf
+2.6948 0 TD
+0.2 Tc
+[(,)-273(... )]TJ
+2.3463 0 TD
+0 Tc
+[(attrib)20(utes)]TJ
+-32.2965 -1.3 TD
+(are describing the table.)Tj
+0 -2.497 TD
+[(W)40(ith MySQL you can use:)]TJ
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+[(DBD::mysql and DBD::mSQL)-26334(11)]TJ
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+40 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+44 0 obj
+<<
+/Length 3831
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+25.834 Tw
+[(12 DBD::mysql)-250(and )25834(DBD::mSQL)]TJ
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F2 1 Tf
+8 0 0 8 152.155 646.622 Tm
+-0.072 Tc
+0 Tw
+(SHOW INDEX FROM $table)Tj
+/F8 1 Tf
+10 0 0 10 126 627.622 Tm
+0 Tc
+0.062 Tw
+[(to retrie)25(v)15(e)15( )-15(information on a table')55(s)-312(inde)15(x)15(es, in particular a primary k)10(e)15(y)65(.)-312(The information)]TJ
+0 -1.3 TD
+0 Tw
+[(will be returned in ro)25(ws. The)]TJ
+/F2 1 Tf
+9 0 0 9 244.008 614.622 Tm
+-0.072 Tc
+(DBD::mSQL)Tj
+/F8 1 Tf
+10 0 0 10 289.581 614.622 Tm
+0 Tc
+[(dri)25(v)15(e)0(r)-250(does support a similar thing)]TJ
+/F4 1 Tf
+13.9582 0 TD
+(via)Tj
+/F2 1 Tf
+8 0 0 8 152.155 595.622 Tm
+-0.072 Tc
+(LISTINDEX I<$table> I<$index>)Tj
+/F8 1 Tf
+10 0 0 10 126 576.622 Tm
+0 Tc
+(with)Tj
+/F4 1 Tf
+2.0279 0 TD
+[($inde)20(x)]TJ
+/F8 1 Tf
+2.8958 0 TD
+[(being the name of a gi)25(v)15(e)0(n)-250(inde)15(x.)]TJ
+/F6 1 Tf
+14 0 0 14 126 547.822 Tm
+[(Driv)15(er-specific Attrib)20(utes and Methods)]TJ
+/F8 1 Tf
+10 0 0 10 126 529.822 Tm
+[(The follo)25(wing dri)25(v)15(e)0(r)-250(speci\214c database handle attrib)20(utes are supported:)]TJ
+/F4 1 Tf
+0 -2.3 TD
+(mysql_info)Tj
+0 -1.7 TD
+[(mysql_thr)37(ead_id)]TJ
+T*
+(mysql_insertid)Tj
+/F8 1 Tf
+1.8 -1.7 TD
+0.267 Tw
+(These are corresponding to the C calls)Tj
+/F2 1 Tf
+9 0 0 9 318.142 455.822 Tm
+-0.072 Tc
+(mysql_info\(\))Tj
+/F8 1 Tf
+10 0 0 10 375.464 455.822 Tm
+0 Tc
+0 Tw
+(,)Tj
+/F2 1 Tf
+9 0 0 9 382.806 455.822 Tm
+-0.072 Tc
+(mysql_thread_id\(\))Tj
+/F8 1 Tf
+10 0 0 10 463.877 455.822 Tm
+0 Tc
+[(,)-517(and)]TJ
+/F2 1 Tf
+9 0 0 9 143.675 442.822 Tm
+-0.072 Tc
+(mysql_insertid\(\))Tj
+/F8 1 Tf
+10 0 0 10 219.996 442.822 Tm
+0 Tc
+[(,)-250(repecti)25(v)15(ely)65(.)]TJ
+-9.3996 -1.9 TD
+[(The follo)25(wing dri)25(v)15(e)0(r)-250(speci\214c statement handle attrib)20(utes are supported:)]TJ
+/F4 1 Tf
+0 -2.3 TD
+[(mysql_use_r)37(esult)]TJ
+0 -1.7 TD
+[(mysql_stor)37(e_r)37(esult)]TJ
+/F8 1 Tf
+1.8 -1.7 TD
+[(W)40(ith)]TJ
+/F2 1 Tf
+9 0 0 9 167.555 366.822 Tm
+-0.072 Tc
+(DBD::mysql)Tj
+/F8 1 Tf
+10 0 0 10 219.659 366.822 Tm
+0 Tc
+0.178 Tw
+[(there are tw)10(o)-428(dif)25(ferent w)10(ays the dri)25(v)15(e)0(r)-428(fetches results from the)]TJ
+-7.5659 -1.3 TD
+[(serv)15(er)55(.)-535(W)40(ith)]TJ
+/F4 1 Tf
+5.4021 0 TD
+[(mysql_stor)37(e_r)37(esult)]TJ
+/F8 1 Tf
+7.8212 0 TD
+0.035 Tw
+[(enabled, it fetches all ro)25(ws at once, creating a result)]TJ
+-13.2233 -1.3 TD
+0 Tw
+[(table in memory and returns it to the caller \(a 100% ro)25(w)-250(cache\).)]TJ
+0 -1.7 TD
+[(W)40(ith)]TJ
+/F4 1 Tf
+2.2666 0 TD
+[(mysql_use_r)37(esult)]TJ
+/F8 1 Tf
+6.9066 0 TD
+0.057 Tw
+[(,)-307(i)0(t)-307(returns ro)25(ws to the application as the)15(y)-307(are fetched. This is)]TJ
+-9.1732 -1.3 TD
+0.01 Tw
+[(less memory consuming on the client side, b)20(ut should not be used in situations where)]TJ
+T*
+0.218 Tw
+(multiple people can query the database, because it can block other applications.)Tj
+T*
+0 Tw
+[(\(Don')18(t)-250(confuse that with locking!\))]TJ
+/F4 1 Tf
+-1.8 -1.7 TD
+(mysql_insertid)Tj
+/F8 1 Tf
+1.8 -1.7 TD
+[(A)-250(pre)25(viously generated)]TJ
+/F4 1 Tf
+9.5554 0 TD
+[(auto_incr)37(ement)]TJ
+/F8 1 Tf
+6.4896 0 TD
+[(column v)25(alue, if an)15(y)65(.)]TJ
+/F4 1 Tf
+-17.8451 -1.7 TD
+(mysql_is_blob)Tj
+T*
+[(mysql_is_k)10(e)30(y)]TJ
+T*
+(msql_is_num)Tj
+0 -6.757 TD
+(mysql_is_num)Tj
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+45 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+47 0 obj
+<<
+/Length 4123
+>>
+stream
+/CS1 CS 0 SC
+1 J 1 j 0.4 w 10 M []0 d
+BX /GS1 gs EX
+1 i 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F4 1 Tf
+10 0 0 10 126 643.622 Tm
+/CS1 cs 0 sc
+0 Tc
+[(msql_is_pri_k)10(e)30(y)]TJ
+0 -1.7 TD
+[(mysql_is_pri_k)10(e)30(y)]TJ
+/F8 1 Tf
+1.8 -1.7 TD
+0.079 Tw
+[(These are returning a array ref with the gi)25(v)15(e)0(n)-329(\215ags set for an)15(y)-329(column of the result)]TJ
+0 -1.3 TD
+0.003 Tw
+(set. Note you may use these with the LISTFIELDS query to obtain information about)Tj
+T*
+0 Tw
+(the columns of a table.)Tj
+/F4 1 Tf
+-1.8 -1.7 TD
+(mysql_max_length)Tj
+/F8 1 Tf
+1.8 -1.7 TD
+[(Unlik)10(e)-304(the)]TJ
+/F4 1 Tf
+4.5422 0 TD
+(PRECISION)Tj
+/F8 1 Tf
+5.3589 0 TD
+0.054 Tw
+[(attrib)20(ute, this returns the true actual maximum length of the)]TJ
+-9.9011 -1.3 TD
+0.081 Tw
+[(particular data in the current result set. This can be helpful, for e)15(xample, when dis-)]TJ
+T*
+0 Tw
+(playing ASCII tables.)Tj
+0 -1.7 TD
+0.077 Tw
+[(This attrib)20(ute doesn')18(t)-327(w)10(ork with)]TJ
+/F4 1 Tf
+13.4757 0 TD
+[(mysql_use_r)37(esult)]TJ
+/F8 1 Tf
+7.2339 0 TD
+(enabled, since it needs to look at)Tj
+-20.7096 -1.3 TD
+0 Tw
+(all the data.)Tj
+/F4 1 Tf
+-1.8 -1.7 TD
+(msql_table)Tj
+T*
+(mysql_table)Tj
+/F8 1 Tf
+1.8 -1.7 TD
+(Similar to)Tj
+/F4 1 Tf
+4.2228 0 TD
+[(N)27(AME)]TJ
+/F8 1 Tf
+2.6948 0 TD
+[(,)-250(b)20(ut the table names and not the column names are returned.)]TJ
+/F4 1 Tf
+-8.7176 -1.7 TD
+(msql_type)Tj
+T*
+(mysql_type)Tj
+/F8 1 Tf
+1.8 -1.7 TD
+0.047 Tw
+(These are similar to the)Tj
+/F4 1 Tf
+9.8739 0 TD
+(TYPE)Tj
+/F8 1 Tf
+2.6314 0 TD
+[(attrib)20(ute, b)20(ut the)15(y)-298(return the respecti)25(v)15(e)15( )-16(engines nati)25(v)15(e)]TJ
+-12.5053 -1.3 TD
+0 Tw
+[(type, lik)10(e)]TJ
+/F2 1 Tf
+9 0 0 9 183.293 378.622 Tm
+-0.072 Tc
+(DBD::mysql)Tj
+/F4 1 Tf
+10 0 0 10 231.116 378.622 Tm
+0 Tc
+(::FIELD_TYPE_ENUM\(\))Tj
+/F8 1 Tf
+10.5814 0 TD
+(or)Tj
+/F2 1 Tf
+9 0 0 9 347.434 378.622 Tm
+-0.072 Tc
+(DBD::mSQL)Tj
+/F4 1 Tf
+10 0 0 10 390.507 378.622 Tm
+0 Tc
+(::IDX_TYPE\(\))Tj
+/F8 1 Tf
+5.8316 0 TD
+(.)Tj
+/F4 1 Tf
+-32.2823 -1.7 TD
+(msql_type_name)Tj
+T*
+(mysql_type_name)Tj
+/F8 1 Tf
+1.8 -1.7 TD
+0.102 Tw
+(Similar to)Tj
+/F4 1 Tf
+4.427 0 TD
+(msql_type)Tj
+/F8 1 Tf
+4.4069 0 TD
+(and)Tj
+/F4 1 Tf
+1.796 0 TD
+(mysql_type)Tj
+/F8 1 Tf
+4.4987 0 TD
+[(,)-352(b)20(ut column names are returned, that you can)]TJ
+-15.1285 -1.3 TD
+0 Tw
+[(use in a CREA)111(TE T)93(ABLE statement.)]TJ
+-1.8 -1.9 TD
+0.002 Tw
+[(A)-252(single pri)25(v)25(ate method called)]TJ
+/F2 1 Tf
+9 0 0 9 250.512 295.622 Tm
+-0.072 Tc
+(admin\(\))Tj
+/F8 1 Tf
+10 0 0 10 286.602 295.622 Tm
+0 Tc
+[(is supported. It pro)15(vides a range of administration)]TJ
+-16.0602 -1.3 TD
+(functions:)Tj
+/F2 1 Tf
+8 0 0 8 152.155 263.622 Tm
+-0.072 Tc
+0 Tw
+($rc = $drh->func\('createdb', $db, $host, $user, $password, 'admin'\);)Tj
+0 -1.25 TD
+[($rc = $drh->func\('dropdb',)-1583($db, $host, $user, $password, 'admin'\);)]TJ
+T*
+[($rc = $drh->func\('shutdown',)-3166($host, $user, $password, 'admin'\);)]TJ
+T*
+[($rc = $drh->func\('reload',)-4222($host, $user, $password, 'admin'\);)]TJ
+0 -2.375 TD
+($rc = $dbh->func\('createdb', $database, 'admin'\);)Tj
+0 -1.25 TD
+[($rc = $dbh->func\('dropdb',)-1583($database, 'admin'\);)]TJ
+T*
+[($rc = $dbh->func\('shutdown',)-6333('admin'\);)]TJ
+T*
+[($rc = $dbh->func\('reload',)-7388('admin'\);)]TJ
+/F8 1 Tf
+10 0 0 10 126 165.622 Tm
+0 Tc
+[(These correspond to the respecti)25(v)15(e)15( )-15(commands of)]TJ
+/F4 1 Tf
+19.7598 0 TD
+(mysqladmin)Tj
+/F8 1 Tf
+5.0827 0 TD
+(and)Tj
+/F4 1 Tf
+1.6939 0 TD
+(msqladmin)Tj
+/F8 1 Tf
+4.3887 0 TD
+(.)Tj
+/F6 1 Tf
+14 0 0 14 126 134.002 Tm
+[(P)55(ositioned updates and deletes)]TJ
+9 0 0 9 126 672.75 Tm
+[(DBD::mysql and DBD::mSQL)-26334(13)]TJ
+ET
+0.3 w 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+/F8 1 Tf
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+48 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+50 0 obj
+<<
+/Length 2999
+>>
+stream
+BT
+/F6 1 Tf
+9 0 0 9 126 672.75 Tm
+/CS1 cs 0 sc
+BX /GS1 gs EX
+0 Tc
+25.834 Tw
+[(14 DBD::mysql)-250(and )25834(DBD::mSQL)]TJ
+ET
+/CS1 CS 0 SC
+1 J 1 j 0.3 w 10 M []0 d
+1 i 
+126.03 668.79 m
+486.03 668.79 l
+S
+0.4 w 
+18.03 713.79 m
+43.23 713.79 l
+54.03 724.59 m
+54.03 749.79 l
+558.03 749.79 m
+558.03 724.59 l
+568.83 713.79 m
+594.03 713.79 l
+S
+BT
+/F8 1 Tf
+10 0 0 10 126 643.622 Tm
+0 Tw
+(Neither positioned updates nor deletes are supported by MySQL or mSQL.)Tj
+/F6 1 Tf
+14 0 0 14 126 614.822 Tm
+[(Dif)18(f)10(erences from the DBI Specification)]TJ
+/F8 1 Tf
+10 0 0 10 126 596.822 Tm
+(The)Tj
+/F2 1 Tf
+9 0 0 9 145.247 596.822 Tm
+-0.072 Tc
+(DBD::mysql)Tj
+/F8 1 Tf
+10 0 0 10 197.093 596.822 Tm
+0 Tc
+0.152 Tw
+[(dri)25(v)15(e)0(r)-402(cannot turn of)25(f)-402(the)]TJ
+/F4 1 Tf
+10.9989 0 TD
+(ChopBlanks)Tj
+/F8 1 Tf
+5.291 0 TD
+[(attrib)20(ute, because the database)]TJ
+-23.3992 -1.3 TD
+0 Tw
+[(serv)15(er al)10(w)10(ays chops trailing blanks.)]TJ
+0 -1.9 TD
+(Both)Tj
+/F2 1 Tf
+9 0 0 9 147.757 564.822 Tm
+-0.072 Tc
+(DBD::mysql)Tj
+/F8 1 Tf
+10 0 0 10 198.213 564.822 Tm
+0 Tc
+(and)Tj
+/F2 1 Tf
+9 0 0 9 214.96 564.822 Tm
+-0.072 Tc
+(DBD::mSQL)Tj
+/F8 1 Tf
+10 0 0 10 260.666 564.822 Tm
+0 Tc
+0.013 Tw
+[(do not fully parse the statement until it')55(s)-263(e)15(x)15(ecuted. Thus)]TJ
+-13.4666 -1.3 TD
+0.001 Tw
+[(attrib)20(utes lik)10(e)]TJ
+/F4 1 Tf
+5.6935 0 TD
+($sth-)Tj
+/F8 1 Tf
+1.9999 0 TD
+[({NUM_OF_FIELDS}> are not a)20(v)25(ailable until after)]TJ
+/F2 1 Tf
+9 0 0 9 410.19 551.822 Tm
+-0.072 Tc
+($sth-)Tj
+/F8 1 Tf
+10 0 0 10 434.264 551.822 Tm
+0 Tc
+[(e)15(x)15(ecute> has)]TJ
+-30.8264 -1.3 TD
+0.125 Tw
+[(been called. This is v)25(alid beha)20(viour b)20(ut is important to note when porting applications)]TJ
+T*
+0 Tw
+[(written originaly for other dri)25(v)15(ers.)]TJ
+0 -1.9 TD
+0.046 Tw
+[(Also note that man)15(y)-296(statement attrib)20(utes cease to be a)20(v)25(ailable after fetching all the result)]TJ
+0 -1.3 TD
+0 Tw
+[(ro)25(ws or calling the)]TJ
+/F2 1 Tf
+9 0 0 9 202.63 493.822 Tm
+-0.072 Tc
+(finish\(\))Tj
+/F8 1 Tf
+10 0 0 10 243.454 493.822 Tm
+0 Tc
+(method.)Tj
+/F6 1 Tf
+14 0 0 14 126 465.022 Tm
+[(URLs to More Database/Driv)15(er Specific Inf)10(ormation)]TJ
+/F8 1 Tf
+10 0 0 10 126 447.022 Tm
+[(F)15(o)0(r)-250(MySQL:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 428.022 Tm
+-0.072 Tc
+(http://www.mysql.com/)Tj
+/F8 1 Tf
+10 0 0 10 126 409.022 Tm
+0 Tc
+[(F)15(o)0(r)-250(mSQL:)]TJ
+/F2 1 Tf
+8 0 0 8 152.155 390.022 Tm
+-0.072 Tc
+(http://www.hughes.com.au/)Tj
+/F6 1 Tf
+14 0 0 14 126 361.222 Tm
+0 Tc
+(Concurrent use of Multiple Handles)Tj
+/F8 1 Tf
+10 0 0 10 126 343.222 Tm
+0.067 Tw
+[(The number of database and statement handles is limited by memory only)65(.)-317(There are no)]TJ
+T*
+0 Tw
+(restrictions on their concurrent use.)Tj
+ET
+18.03 52.23 m
+43.23 52.23 l
+54.03 41.43 m
+54.03 16.23 l
+558.03 16.23 m
+558.03 41.43 l
+568.83 52.23 m
+594.03 52.23 l
+S
+BT
+6 0 0 6 57 16.25 Tm
+(19 May 1999)Tj
+ET
+endstream
+endobj
+51 0 obj
+<<
+/ProcSet [/PDF /Text ]
+/Font <<
+/F2 4 0 R
+/F4 5 0 R
+/F6 6 0 R
+/F8 7 0 R
+>>
+/ExtGState <<
+/GS1 8 0 R
+>>
+/ColorSpace <<
+/CS1 9 0 R
+>>
+>>
+endobj
+52 0 obj
+<<
+/Type /Halftone
+/HalftoneType 1
+/HalftoneName (Default)
+/Frequency 60
+/Angle 45
+/SpotFunction /Round
+>>
+endobj
+8 0 obj
+<<
+/Type /ExtGState
+/SA false
+/OP false
+/BG /Identity
+/UCR /Identity
+/HT /Default
+>>
+endobj
+4 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F2
+/Encoding 53 0 R
+/BaseFont /Courier
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F4
+/Encoding 53 0 R
+/BaseFont /Times-Italic
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F6
+/Encoding 53 0 R
+/BaseFont /Times-BoldItalic
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/Name /F8
+/Encoding 53 0 R
+/BaseFont /Times-Roman
+>>
+endobj
+53 0 obj
+<<
+/Type /Encoding
+/Differences [ 0/asciicircum/asciitilde/Scaron/Zcaron/scaron/zcaron/Ydieresis/trademark
+/quotesingle 94/circumflex 126/tilde 128/quotesinglbase/guillemotleft/guillemotright/bullet/florin
+/fraction/perthousand/dagger/daggerdbl/endash/emdash/ff/fi
+/fl/ffi/ffl/dotlessi/dotlessj/grave/hungarumlaut/dotaccent
+/breve/caron/ring/ogonek/quotedblleft/quotedblright/oe/lslash
+/quotedblbase/OE/Lslash 164/currency 166/brokenbar 168/dieresis/copyright/ordfeminine
+/guilsinglleft/logicalnot/minus/registered/macron/degree/plusminus/twosuperior
+/threesuperior/acute/mu 183/periodcentered/cedilla/onesuperior/ordmasculine/guilsinglright
+/onequarter/onehalf/threequarters 192/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave
+/Iacute/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex
+/Otilde/Odieresis/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis
+/Yacute/Thorn/germandbls/agrave/aacute/acircumflex/atilde/adieresis
+/aring/ae/ccedilla/egrave/eacute/ecircumflex/edieresis/igrave
+/iacute/icircumflex/idieresis/eth/ntilde/ograve/oacute/ocircumflex
+/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex/udieresis
+/yacute/thorn/ydieresis
+]
+>>
+endobj
+1 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 3 0 R
+/Contents 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 13 0 R
+/Contents 12 0 R
+>>
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 16 0 R
+/Contents 15 0 R
+>>
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 19 0 R
+/Contents 18 0 R
+>>
+endobj
+20 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 22 0 R
+/Contents 21 0 R
+>>
+endobj
+23 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 25 0 R
+/Contents 24 0 R
+>>
+endobj
+26 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 28 0 R
+/Contents 27 0 R
+>>
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 31 0 R
+/Contents 30 0 R
+>>
+endobj
+32 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 34 0 R
+/Contents 33 0 R
+>>
+endobj
+35 0 obj
+<<
+/Type /Page
+/Parent 10 0 R
+/Resources 37 0 R
+/Contents 36 0 R
+>>
+endobj
+38 0 obj
+<<
+/Type /Page
+/Parent 42 0 R
+/Resources 40 0 R
+/Contents 39 0 R
+>>
+endobj
+43 0 obj
+<<
+/Type /Page
+/Parent 42 0 R
+/Resources 45 0 R
+/Contents 44 0 R
+>>
+endobj
+46 0 obj
+<<
+/Type /Page
+/Parent 42 0 R
+/Resources 48 0 R
+/Contents 47 0 R
+>>
+endobj
+49 0 obj
+<<
+/Type /Page
+/Parent 42 0 R
+/Resources 51 0 R
+/Contents 50 0 R
+>>
+endobj
+10 0 obj
+<<
+/Type /Pages
+/Kids [1 0 R 11 0 R 14 0 R 17 0 R 20 0 R 23 0 R 26 0 R 29 0 R 32 0 R 35 0 R]
+/Count 10
+/Parent 41 0 R
+>>
+endobj
+42 0 obj
+<<
+/Type /Pages
+/Kids [38 0 R 43 0 R 46 0 R 49 0 R]
+/Count 4
+/Parent 41 0 R
+>>
+endobj
+41 0 obj
+<<
+/Type /Pages
+/Kids [10 0 R 42 0 R ]
+/Count 14
+/MediaBox [0 0 595 841]
+>>
+endobj
+54 0 obj
+<<
+/Type /Catalog
+/Pages 41 0 R
+>>
+endobj
+55 0 obj
+<<
+/CreationDate (D:19990519120154)
+/Producer (\376\377\000A\000c\000r\000o\000b\000a\000t\000 \000D\000i\000s\000t\000i\000l\000l\000e\000r\000 \0003\000.\0000\0001\000 \000f\000o\000r\000 \000W\000i\000n\000d\000o\000w\000s)
+/Creator (groff version 1.11)
+>>
+endobj
+xref
+0 56
+0000000000 65535 f
+0000067366 00000 n
+0000000017 00000 n
+0000002925 00000 n
+0000065677 00000 n
+0000065781 00000 n
+0000065890 00000 n
+0000066003 00000 n
+0000065567 00000 n
+0000003095 00000 n
+0000068651 00000 n
+0000067455 00000 n
+0000003174 00000 n
+0000007852 00000 n
+0000067547 00000 n
+0000008023 00000 n
+0000013331 00000 n
+0000067639 00000 n
+0000013502 00000 n
+0000017952 00000 n
+0000067731 00000 n
+0000018123 00000 n
+0000025180 00000 n
+0000067823 00000 n
+0000025351 00000 n
+0000032263 00000 n
+0000067915 00000 n
+0000032434 00000 n
+0000037001 00000 n
+0000068007 00000 n
+0000037172 00000 n
+0000040555 00000 n
+0000068099 00000 n
+0000040715 00000 n
+0000045244 00000 n
+0000068191 00000 n
+0000045415 00000 n
+0000049266 00000 n
+0000068283 00000 n
+0000049426 00000 n
+0000053620 00000 n
+0000068899 00000 n
+0000068796 00000 n
+0000068375 00000 n
+0000053791 00000 n
+0000057681 00000 n
+0000068467 00000 n
+0000057852 00000 n
+0000062034 00000 n
+0000068559 00000 n
+0000062205 00000 n
+0000065263 00000 n
+0000065434 00000 n
+0000066111 00000 n
+0000068999 00000 n
+0000069056 00000 n
+trailer
+<<
+/Size 56
+/Root 54 0 R
+/Info 55 0 R
+/ID [<a1afc3ec6c81b3ad7f79cef799021f48><a1afc3ec6c81b3ad7f79cef799021f48>]
+>>
+startxref
+69339
+%%EOF
